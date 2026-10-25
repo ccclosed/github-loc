@@ -1,0 +1,32 @@
+# pallets/flask
+  OK  total            оракул=34632                        движок=34632
+  OK  files            оракул=228                          движок=228
+  OK  bytes            оракул=1165864                      движок=1165864
+  OK  truncated        оракул=False                        движок=False
+  OK  skipped          оракул=60                           движок=60
+  OK  entries          оракул=288                          движок=288
+  инфо skippedReasons  оракул={'ignored': 1, 'binary': 0, 'tooLarge': 0, 'nonFile': 52, 'unknown': 7}
+                        движок={'ignored': 1, 'binary': 5, 'tooLarge': 0, 'nonFile': 52, 'unknown': 2}
+  perLanguage (lines / files):
+    OK  Python             оракул=18333/83  движок=18333/83
+    OK  reStructuredText   оракул=14648/79  движок=14648/79
+    OK  TOML               оракул=379/5  движок=379/5
+    OK  HTML               оракул=362/20  движок=362/20
+    OK  YAML               оракул=248/8  движок=248/8
+    РАЗН Other              оракул=155/10  движок=None/None
+    OK  Markdown           оракул=153/6  движок=153/6
+    OK  CSS                оракул=135/2  движок=135/2
+    OK  SVG                оракул=55/3  движок=55/3
+    OK  Ignore List        оракул=36/3  движок=36/3
+    OK  Batchfile          оракул=35/1  движок=35/1
+    OK  SQL                оракул=28/2  движок=28/2
+    OK  JSON               оракул=21/2  движок=21/2
+    OK  Makefile           оракул=20/1  движок=20/1
+    OK  EditorConfig       оракул=13/1  движок=13/1
+    OK  Shell              оракул=7/1  движок=7/1
+    OK  Dotenv             оракул=4/1  движок=4/1
+    РАЗН Text               оракул=None/None  движок=155/10
+  инфо только у оракула: ['Other']
+  инфо только у движка:  ['Text']
+  РАСХОЖДЕНИЯ по языкам: ['Other', 'Text']
+

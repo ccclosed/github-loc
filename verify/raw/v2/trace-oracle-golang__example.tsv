@@ -1,0 +1,104 @@
+path	type	size	lang	decision	reason	lines	code	blank	comment	bytes
+	dir	0		skipped	nonFile					
+LICENSE	file	1453		skipped	unknown					
+PATENTS	file	1303		skipped	unknown					
+README.md	file	3214	Markdown	counted		100	73	27	0	3214
+appengine-hello	dir	0		skipped	nonFile					
+appengine-hello/README.md	file	432	Markdown	counted		11	8	3	0	432
+appengine-hello/app.go	file	611	Go	counted		22	11	4	7	611
+appengine-hello/app.yaml	file	460	YAML	counted		23	15	5	3	460
+appengine-hello/static	dir	0		skipped	nonFile					
+appengine-hello/static/favicon.ico	file	1150		skipped	unknown					
+appengine-hello/static/index.html	file	495	HTML	counted		24	17	6	1	495
+appengine-hello/static/script.js	file	378	JavaScript	counted		14	12	2	0	378
+appengine-hello/static/style.css	file	185	CSS	counted		9	8	1	0	185
+go.mod	file	195	Go	counted		13	10	3	0	195
+go.sum	file	992		skipped	ignored					
+gotypes	dir	0		skipped	nonFile					
+gotypes/Makefile	file	349	Makefile	counted		13	7	4	2	349
+gotypes/README.md	file	82695	Markdown	counted		2660	1890	770	0	82695
+gotypes/defsuses	dir	0		skipped	nonFile					
+gotypes/defsuses/main.go	file	1331	Go	counted		68	54	9	5	1331
+gotypes/doc	dir	0		skipped	nonFile					
+gotypes/doc/main.go	file	2701	Go	counted		89	62	11	16	2701
+gotypes/gen.go	file	105	Go	counted		3	1	1	1	105
+gotypes/go-types.md	file	68558	Markdown	counted		2149	1426	723	0	68558
+gotypes/hello	dir	0		skipped	nonFile					
+gotypes/hello/hello.go	file	86	Go	counted		10	5	3	2	86
+gotypes/hugeparam	dir	0		skipped	nonFile					
+gotypes/hugeparam/main.go	file	2240	Go	counted		82	61	9	12	2240
+gotypes/implements	dir	0		skipped	nonFile					
+gotypes/implements/main.go	file	1515	Go	counted		77	57	10	10	1515
+gotypes/lookup	dir	0		skipped	nonFile					
+gotypes/lookup/lookup.go	file	1504	Go	counted		77	53	10	14	1504
+gotypes/nilfunc	dir	0		skipped	nonFile					
+gotypes/nilfunc/main.go	file	2174	Go	counted		104	78	15	11	2174
+gotypes/pkginfo	dir	0		skipped	nonFile					
+gotypes/pkginfo/main.go	file	1321	Go	counted		64	41	11	12	1321
+gotypes/skeleton	dir	0		skipped	nonFile					
+gotypes/skeleton/main.go	file	3063	Go	counted		117	85	11	21	3063
+gotypes/typeandvalue	dir	0		skipped	nonFile					
+gotypes/typeandvalue/main.go	file	3338	Go	counted		134	113	12	9	3338
+hello	dir	0		skipped	nonFile					
+hello/go.mod	file	44	Go	counted		4	2	2	0	44
+hello/hello.go	file	1425	Go	counted		72	39	9	24	1425
+hello/reverse	dir	0		skipped	nonFile					
+hello/reverse/example_test.go	file	321	Go	counted		16	8	4	4	321
+hello/reverse/reverse.go	file	464	Go	counted		15	8	2	5	464
+hello/reverse/reverse_test.go	file	482	Go	counted		22	16	3	3	482
+helloserver	dir	0		skipped	nonFile					
+helloserver/go.mod	file	50	Go	counted		4	2	2	0	50
+helloserver/server.go	file	1718	Go	counted		75	49	12	14	1718
+internal	dir	0		skipped	nonFile					
+internal/cmd	dir	0		skipped	nonFile					
+internal/cmd/weave	dir	0		skipped	nonFile					
+internal/cmd/weave/weave.go	file	6784	Go	counted		283	222	21	40	6784
+outyet	dir	0		skipped	nonFile					
+outyet/go.mod	file	45	Go	counted		4	2	2	0	45
+outyet/main.go	file	3036	Go	counted		129	96	14	19	3036
+outyet/main_test.go	file	2128	Go	counted		87	56	18	13	2128
+ragserver	dir	0		skipped	nonFile					
+ragserver/README.md	file	2214	Markdown	counted		58	42	16	0	2214
+ragserver/ragserver-genkit	dir	0		skipped	nonFile					
+ragserver/ragserver-genkit/go.mod	file	3612	Go	counted		72	69	3	0	3612
+ragserver/ragserver-genkit/go.sum	file	33242		skipped	ignored					
+ragserver/ragserver-genkit/json.go	file	1142	Go	counted		41	29	5	7	1142
+ragserver/ragserver-genkit/main.go	file	5098	Go	counted		183	140	26	17	5098
+ragserver/ragserver-langchaingo	dir	0		skipped	nonFile					
+ragserver/ragserver-langchaingo/go.mod	file	3398	Go	counted		70	67	3	0	3398
+ragserver/ragserver-langchaingo/go.sum	file	43922		skipped	ignored					
+ragserver/ragserver-langchaingo/json.go	file	1142	Go	counted		41	29	5	7	1142
+ragserver/ragserver-langchaingo/main.go	file	4582	Go	counted		160	121	23	16	4582
+ragserver/ragserver	dir	0		skipped	nonFile					
+ragserver/ragserver/go.mod	file	2876	Go	counted		63	60	3	0	2876
+ragserver/ragserver/go.sum	file	31047		skipped	ignored					
+ragserver/ragserver/json.go	file	1142	Go	counted		41	29	5	7	1142
+ragserver/ragserver/main.go	file	7224	Go	counted		246	192	30	24	7224
+ragserver/ragserver/weaviate.go	file	1700	Go	counted		63	46	8	9	1700
+ragserver/tests	dir	0		skipped	nonFile					
+ragserver/tests/add-documents.sh	file	690	Shell	counted		19	14	3	2	690
+ragserver/tests/docker-compose.yml	file	450	YAML	counted		22	22	0	0	450
+ragserver/tests/query.sh	file	462	Shell	counted		24	13	6	5	462
+ragserver/tests/weaviate-delete-objects.sh	file	87	Shell	counted		7	4	2	1	87
+ragserver/tests/weaviate-show-all.sh	file	242	Shell	counted		17	14	2	1	242
+slog-handler-guide	dir	0		skipped	nonFile					
+slog-handler-guide/Makefile	file	343	Makefile	counted		13	7	4	2	343
+slog-handler-guide/README.md	file	36502	Markdown	counted		1026	826	200	0	36502
+slog-handler-guide/guide.md	file	28700	Markdown	counted		724	530	194	0	28700
+slog-handler-guide/indenthandler1	dir	0		skipped	nonFile					
+slog-handler-guide/indenthandler1/indent_handler.go	file	2971	Go	counted		126	88	14	24	2971
+slog-handler-guide/indenthandler1/indent_handler_test.go	file	664	Go	counted		40	34	5	1	664
+slog-handler-guide/indenthandler2	dir	0		skipped	nonFile					
+slog-handler-guide/indenthandler2/indent_handler.go	file	3911	Go	counted		164	122	17	25	3911
+slog-handler-guide/indenthandler2/indent_handler_test.go	file	2674	Go	counted		157	143	10	4	2674
+slog-handler-guide/indenthandler3	dir	0		skipped	nonFile					
+slog-handler-guide/indenthandler3/indent_handler.go	file	4291	Go	counted		162	120	15	27	4291
+slog-handler-guide/indenthandler3/indent_handler_test.go	file	1770	Go	counted		107	92	10	5	1770
+slog-handler-guide/indenthandler4	dir	0		skipped	nonFile					
+slog-handler-guide/indenthandler4/indent_handler.go	file	5141	Go	counted		208	156	21	31	5141
+slog-handler-guide/indenthandler4/indent_handler_norace_test.go	file	1043	Go	counted		46	41	4	1	1043
+slog-handler-guide/indenthandler4/indent_handler_test.go	file	1770	Go	counted		107	92	10	5	1770
+template	dir	0		skipped	nonFile					
+template/image.tmpl	file	162	Other	counted		9	8	1	0	162
+template/index.tmpl	file	703	Other	counted		41	39	2	0	703
+template/main.go	file	2456	Go	counted		85	55	11	19	2456

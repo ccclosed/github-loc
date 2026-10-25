@@ -1,0 +1,41 @@
+===== rust-lang__rustlings =====
+  CARD '' o=[('nonFile', '-', 'dir', '0', '')] e=[('nonFile', 'empty-rel', 'file', '13', ''), ('nonFile', 'empty-rel', 'file', '21', ''), ('nonFile', 'type=dir', 'dir', '0', '')]
+  PATH oracle=1 engine=0: 'tests/test_exercises/exercises/compilation_failure.rs' o=[('counted', 'Rust', 'file', '21', '3')] e=[]
+  PATH oracle=1 engine=0: 'tests/test_exercises/exercises/compilation_success.rs' o=[('counted', 'Rust', 'file', '13', '1')] e=[]
+  → различий решений: 1, различий наличия путей: 2
+
+===== pallets__flask =====
+  CARD '' o=[('nonFile', '-', 'dir', '0', '')] e=[('nonFile', 'empty-rel', 'file', '11', ''), ('nonFile', 'empty-rel', 'file', '18', ''), ('nonFile', 'empty-rel', 'file', '21', ''), ('nonFile', 'empty-rel', 'file', '24', ''), ('nonFile', 'empty-rel', 'file', '327', ''), ('nonFile', 'type=dir', 'dir', '0', ''), ('nonFile', 'type=dir', 'dir', '0', ''), ('nonFile', 'type=dir', 'dir', '0', '')]
+  DEC  'docs/_static/debugger.png': oracle=unknown/lang=- | engine=binary/lang=null
+  DEC  'docs/_static/pycharm-run-config.png': oracle=unknown/lang=- | engine=binary/lang=null
+  DEC  'docs/tutorial/flaskr_edit.png': oracle=unknown/lang=- | engine=binary/lang=null
+  DEC  'docs/tutorial/flaskr_index.png': oracle=unknown/lang=- | engine=binary/lang=null
+  DEC  'docs/tutorial/flaskr_login.png': oracle=unknown/lang=- | engine=binary/lang=null
+  PATH oracle=1 engine=0: 'tests/test_apps/blueprintapp/apps/admin/static/css/test.css' o=[('counted', 'CSS', 'file', '18', '1')] e=[]
+  PATH oracle=1 engine=0: 'tests/test_apps/blueprintapp/apps/admin/static/test.txt' o=[('counted', 'Other', 'file', '11', '1')] e=[]
+  PATH oracle=1 engine=0: 'tests/test_apps/blueprintapp/apps/admin/templates/admin' o=[('nonFile', '-', 'dir', '0', '')] e=[]
+  PATH oracle=1 engine=0: 'tests/test_apps/blueprintapp/apps/admin/templates/admin/index.html' o=[('counted', 'HTML', 'file', '21', '1')] e=[]
+  PATH oracle=1 engine=0: 'tests/test_apps/blueprintapp/apps/frontend/__init__.py' o=[('counted', 'Python', 'file', '327', '14')] e=[]
+  PATH oracle=1 engine=0: 'tests/test_apps/blueprintapp/apps/frontend/templates/frontend' o=[('nonFile', '-', 'dir', '0', '')] e=[]
+  PATH oracle=1 engine=0: 'tests/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html' o=[('counted', 'HTML', 'file', '24', '1')] e=[]
+  → различий решений: 6, различий наличия путей: 7
+
+===== golang__example =====
+  CARD '' o=[('nonFile', '-', 'dir', '0', '')] e=[('nonFile', 'empty-rel', 'file', '1043', ''), ('nonFile', 'empty-rel', 'file', '1770', ''), ('nonFile', 'empty-rel', 'file', '1770', ''), ('nonFile', 'empty-rel', 'file', '2674', ''), ('nonFile', 'empty-rel', 'file', '664', ''), ('nonFile', 'type=dir', 'dir', '0', '')]
+  DEC  'appengine-hello/static/favicon.ico': oracle=unknown/lang=- | engine=binary/lang=null
+  DEC  'go.mod': oracle=counted/lang=Go | engine=unknown/ext=.mod
+  DEC  'hello/go.mod': oracle=counted/lang=Go | engine=unknown/ext=.mod
+  DEC  'helloserver/go.mod': oracle=counted/lang=Go | engine=unknown/ext=.mod
+  DEC  'outyet/go.mod': oracle=counted/lang=Go | engine=unknown/ext=.mod
+  DEC  'ragserver/ragserver-genkit/go.mod': oracle=counted/lang=Go | engine=unknown/ext=.mod
+  DEC  'ragserver/ragserver-langchaingo/go.mod': oracle=counted/lang=Go | engine=unknown/ext=.mod
+  DEC  'ragserver/ragserver/go.mod': oracle=counted/lang=Go | engine=unknown/ext=.mod
+  PATH oracle=1 engine=0: 'slog-handler-guide/indenthandler1/indent_handler_test.go' o=[('counted', 'Go', 'file', '664', '40')] e=[]
+  PATH oracle=1 engine=0: 'slog-handler-guide/indenthandler2/indent_handler_test.go' o=[('counted', 'Go', 'file', '2674', '157')] e=[]
+  PATH oracle=1 engine=0: 'slog-handler-guide/indenthandler3/indent_handler_test.go' o=[('counted', 'Go', 'file', '1770', '107')] e=[]
+  PATH oracle=1 engine=0: 'slog-handler-guide/indenthandler4/indent_handler_norace_test.go' o=[('counted', 'Go', 'file', '1043', '46')] e=[]
+  PATH oracle=1 engine=0: 'slog-handler-guide/indenthandler4/indent_handler_test.go' o=[('counted', 'Go', 'file', '1770', '107')] e=[]
+  DEC  'template/image.tmpl': oracle=counted/lang=Other | engine=unknown/ext=.tmpl
+  DEC  'template/index.tmpl': oracle=counted/lang=Other | engine=unknown/ext=.tmpl
+  → различий решений: 11, различий наличия путей: 5
+

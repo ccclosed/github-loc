@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>GitHub LOC</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="head">
+      <img src="icons/icon32.png" alt="" width="20" height="20" />
+      <h1>GitHub LOC</h1>
+    </header>
+
+    <p class="hint">
+      Откройте страницу репозитория на github.com — под списком языков появится число строк кода.
+    </p>
+
+    <button id="count" class="btn btn-primary" type="button">Посчитать на этой вкладке</button>
+
+    <section class="block">
+      <label class="check">
+        <input type="checkbox" id="autoEstimate" />
+        <span>Оценка сразу при открытии страницы</span>
+      </label>
+      <label class="check">
+        <input type="checkbox" id="showPerLanguage" />
+        <span>Показывать строки рядом с каждым языком</span>
+      </label>
+      <label class="check">
+        <input type="checkbox" id="countBlankLines" />
+        <span>Считать пустые строки</span>
+      </label>
+      <label class="check">
+        <input type="checkbox" id="countCommentLines" />
+        <span>Считать строки-комментарии</span>
+      </label>
+    </section>
+
+    <section class="block">
+      <label class="field">
+        <span>Лимит архива, МБ</span>
+        <input type="number" id="maxArchiveMB" min="1" max="4096" step="10" />
+      </label>
+      <label class="field">
+        <span>Пропускать файлы больше, МБ</span>
+        <input type="number" id="maxFileMB" min="0.1" max="64" step="0.5" />
+      </label>
+      <label class="field">
+        <span>Токен GitHub (приватные репо и лимиты)</span>
+        <input type="password" id="token" placeholder="необязательно: ghp_…" autocomplete="off" spellcheck="false" />
+      </label>
+      <p class="hint small">
+        Токен хранится локально в браузере и отправляется только на api.github.com.
+      </p>
+    </section>
+
+    <section class="block">
+      <label class="check">
+        <input type="checkbox" id="autoAuth" />
+        <span>Входить на GitHub автоматически (без токена)</span>
+      </label>
+      <p class="hint small" id="authStatus">Проверяю вход на GitHub…</p>
+      <p class="hint small">
+        Используется ваша текущая сессия github.com: расширение не читает cookies,
+        а лишь отправляет их на api.github.com вместе с запросом.
+      </p>
+    </section>
+
+    <section class="block stats" id="stats">
+      <span>Кэш: —</span>
+    </section>
+
+    <footer class="foot">
+      <button id="clear" class="btn" type="button">Очистить кэш</button>
+      <span id="status" class="status" role="status"></span>
+    </footer>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

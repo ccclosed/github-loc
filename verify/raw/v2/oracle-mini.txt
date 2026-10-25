@@ -1,0 +1,91 @@
+### oracle --file fixtures/mini.tar.gz --max-file-bytes 2048
+file://<repo>/verify/fixtures/mini.tar.gz: 19 строк в 7 файлах (0.0 МиБ полезной нагрузки), пропущено 16, записей 23, распаковано 0.0 МиБ (сжатых 0.0 МиБ), 0 мс
+    Python                       10 строк       4 файлов          56 Б
+    JavaScript                    4 строк       1 файлов          40 Б
+    Rust                          4 строк       1 файлов          52 Б
+    TypeScript                    1 строк       1 файлов          24 Б
+    skipped: ignored=6 binary=1 tooLarge=1 nonFile=5 unknown=3 {'(none)': 1, '.png': 1, '.xyz': 1}
+{
+  "total": 19,
+  "files": 7,
+  "bytes": 172,
+  "perLanguage": {
+    "Python": {
+      "lines": 10,
+      "code": 6,
+      "blank": 3,
+      "comment": 1,
+      "files": 4,
+      "bytes": 56
+    },
+    "JavaScript": {
+      "lines": 4,
+      "code": 3,
+      "blank": 0,
+      "comment": 1,
+      "files": 1,
+      "bytes": 40
+    },
+    "Rust": {
+      "lines": 4,
+      "code": 1,
+      "blank": 1,
+      "comment": 2,
+      "files": 1,
+      "bytes": 52
+    },
+    "TypeScript": {
+      "lines": 1,
+      "code": 1,
+      "blank": 0,
+      "comment": 0,
+      "files": 1,
+      "bytes": 24
+    }
+  },
+  "skipped": 16,
+  "skippedReasons": {
+    "ignored": 6,
+    "binary": 1,
+    "tooLarge": 1,
+    "nonFile": 5,
+    "unknown": 3
+  },
+  "entries": 23,
+  "archiveBytes": 30720,
+  "truncated": false,
+  "ms": 0,
+  "oracle": {
+    "version": "1.0.0",
+    "unknownFiles": 3,
+    "unknownByExt": {
+      "(none)": 1,
+      ".png": 1,
+      ".xyz": 1
+    },
+    "unknownBinaryExtFiles": 1,
+    "compressedBytes": 906,
+    "archiveBytesNoPax": 26624,
+    "tarballRoot": "mini-repo-abc123",
+    "entriesOutsideRoot": 0,
+    "ignoreProfile": "spec",
+    "skipPrecedence": "ignored > nonFile > tooLarge > unknown > binary; binary = язык определён, но в первых 8192 Б есть NUL",
+    "options": {
+      "countBlankLines": true,
+      "countCommentLines": true,
+      "maxFileBytes": 2048,
+      "maxArchiveBytes": 125829120
+    },
+    "truncError": null,
+    "mode": "file",
+    "repo": null,
+    "ref": null,
+    "commit": null,
+    "tarballUrl": "file://<repo>/verify/fixtures/mini.tar.gz",
+    "ghRepo": null,
+    "ghLanguages": null,
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}
+rc=0

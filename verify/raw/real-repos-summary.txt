@@ -1,0 +1,29 @@
+repo                       commit       total  files payload_B   skip entries ref
+octocat__Spoon-Knife       d0dd1f61b       46      3      1391      1      4 main
+rust-lang__rustlings       bc8e51115    15734    290    515444     81    371 main
+pallets__flask             d086db856    34632    228   1165864     60    288 main
+
+Сверка байтов по языкам с GitHub GET /repos/{o}/{r}/languages (независимый источник):
+  octocat__Spoon-Knife
+    HTML           API      355 Б | оракул      355 Б  == совпало
+    CSS            API      256 Б | оракул      256 Б  == совпало
+    языки, которых нет в API (linguist не показывает их в виджете): Markdown
+    пропущено: {'ignored': 0, 'binary': 0, 'tooLarge': 0, 'nonFile': 1, 'unknown': 0}; без языка: {}
+    archiveBytes=10240 (распаковано), compressed=1075, noPax=5120
+  rust-lang__rustlings
+    Rust           API   341440 Б | оракул   341440 Б  == совпало
+    HTML           API     6461 Б | оракул     6461 Б  == совпало
+    CSS            API     1004 Б | оракул     1004 Б  == совпало
+    Shell          API      242 Б | оракул      242 Б  == совпало
+    Just           API       93 Б | оракул       93 Б  == совпало
+    языки, которых нет в API (linguist не показывает их в виджете): Ignore List, JSON, Markdown, Other, SVG, TOML, YAML
+    пропущено: {'ignored': 1, 'binary': 0, 'tooLarge': 0, 'nonFile': 79, 'unknown': 1}; без языка: {'(none)': 1}
+    archiveBytes=808960 (распаковано), compressed=157323, noPax=806912
+  pallets__flask
+    Python         API   565106 Б | оракул   588784 Б  ОТЛИЧАЕТСЯ на +23678 Б
+    HTML           API      405 Б | оракул    10474 Б  ОТЛИЧАЕТСЯ на +10069 Б
+    Shell          API      193 Б | оракул      165 Б  ОТЛИЧАЕТСЯ на -28 Б
+    CSS            API       18 Б | оракул     1714 Б  ОТЛИЧАЕТСЯ на +1696 Б
+    языки, которых нет в API (linguist не показывает их в виджете): Batchfile, Dotenv, EditorConfig, Ignore List, JSON, Makefile, Markdown, Other, SQL, SVG, TOML, YAML, reStructuredText
+    пропущено: {'ignored': 1, 'binary': 0, 'tooLarge': 0, 'nonFile': 52, 'unknown': 7}; без языка: {'.png': 5, '.typed': 1, '.flaskenv': 1}
+    archiveBytes=2007040 (распаковано), compressed=739975, noPax=1996800

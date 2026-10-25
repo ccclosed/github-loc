@@ -1,0 +1,371 @@
+	dir	0	nonFile	type=dir
+.cargo/	dir	0	nonFile	type=dir
+.cargo/config.toml	file	35	counted	lang=TOML bytes=35
+.github/	dir	0	nonFile	type=dir
+.github/workflows/	dir	0	nonFile	type=dir
+.github/workflows/rust.yml	file	1214	counted	lang=YAML bytes=1214
+.github/workflows/website.yml	file	1426	counted	lang=YAML bytes=1426
+.gitignore	file	174	counted	lang=Ignore List bytes=174
+.rumdl.toml	file	168	counted	lang=TOML bytes=168
+.typos.toml	file	130	counted	lang=TOML bytes=130
+CHANGELOG.md	file	57349	counted	lang=Markdown bytes=57349
+CONTRIBUTING.md	file	2659	counted	lang=Markdown bytes=2659
+Cargo.lock	file	20995	ignored	
+Cargo.toml	file	2191	counted	lang=TOML bytes=2191
+LICENSE	file	1095	unknown	ext=(none)
+README.md	file	390	counted	lang=Markdown bytes=390
+build.rs	file	176	counted	lang=Rust bytes=176
+clippy.toml	file	648	counted	lang=TOML bytes=648
+dev-Cargo.toml	symlink	0	nonFile	type=symlink
+dev/	dir	0	nonFile	type=dir
+dev/Cargo.toml	file	15738	counted	lang=TOML bytes=15738
+dev/rustlings-repo.txt	file	110	counted	lang=Text bytes=110
+exercises/	dir	0	nonFile	type=dir
+exercises/00_intro/	dir	0	nonFile	type=dir
+exercises/00_intro/README.md	file	259	counted	lang=Markdown bytes=259
+exercises/00_intro/intro1.rs	file	1371	counted	lang=Rust bytes=1371
+exercises/00_intro/intro2.rs	file	97	counted	lang=Rust bytes=97
+exercises/01_variables/	dir	0	nonFile	type=dir
+exercises/01_variables/README.md	file	347	counted	lang=Markdown bytes=347
+exercises/01_variables/variables1.rs	file	101	counted	lang=Rust bytes=101
+exercises/01_variables/variables2.rs	file	190	counted	lang=Rust bytes=190
+exercises/01_variables/variables3.rs	file	121	counted	lang=Rust bytes=121
+exercises/01_variables/variables4.rs	file	156	counted	lang=Rust bytes=156
+exercises/01_variables/variables5.rs	file	275	counted	lang=Rust bytes=275
+exercises/01_variables/variables6.rs	file	125	counted	lang=Rust bytes=125
+exercises/02_functions/	dir	0	nonFile	type=dir
+exercises/02_functions/README.md	file	246	counted	lang=Markdown bytes=246
+exercises/02_functions/functions1.rs	file	144	counted	lang=Rust bytes=144
+exercises/02_functions/functions2.rs	file	202	counted	lang=Rust bytes=202
+exercises/02_functions/functions3.rs	file	167	counted	lang=Rust bytes=167
+exercises/02_functions/functions4.rs	file	566	counted	lang=Rust bytes=566
+exercises/02_functions/functions5.rs	file	197	counted	lang=Rust bytes=197
+exercises/03_if/	dir	0	nonFile	type=dir
+exercises/03_if/README.md	file	244	counted	lang=Markdown bytes=244
+exercises/03_if/if1.rs	file	661	counted	lang=Rust bytes=661
+exercises/03_if/if2.rs	file	932	counted	lang=Rust bytes=932
+exercises/03_if/if3.rs	file	1055	counted	lang=Rust bytes=1055
+exercises/04_primitive_types/	dir	0	nonFile	type=dir
+exercises/04_primitive_types/README.md	file	327	counted	lang=Markdown bytes=327
+exercises/04_primitive_types/primitive_types1.rs	file	384	counted	lang=Rust bytes=384
+exercises/04_primitive_types/primitive_types2.rs	file	956	counted	lang=Rust bytes=956
+exercises/04_primitive_types/primitive_types3.rs	file	323	counted	lang=Rust bytes=323
+exercises/04_primitive_types/primitive_types4.rs	file	338	counted	lang=Rust bytes=338
+exercises/04_primitive_types/primitive_types5.rs	file	225	counted	lang=Rust bytes=225
+exercises/04_primitive_types/primitive_types6.rs	file	401	counted	lang=Rust bytes=401
+exercises/05_vecs/	dir	0	nonFile	type=dir
+exercises/05_vecs/README.md	file	861	counted	lang=Markdown bytes=861
+exercises/05_vecs/vecs1.rs	file	480	counted	lang=Rust bytes=480
+exercises/05_vecs/vecs2.rs	file	501	counted	lang=Rust bytes=501
+exercises/06_move_semantics/	dir	0	nonFile	type=dir
+exercises/06_move_semantics/README.md	file	443	counted	lang=Markdown bytes=443
+exercises/06_move_semantics/move_semantics1.rs	file	410	counted	lang=Rust bytes=410
+exercises/06_move_semantics/move_semantics2.rs	file	525	counted	lang=Rust bytes=525
+exercises/06_move_semantics/move_semantics3.rs	file	413	counted	lang=Rust bytes=413
+exercises/06_move_semantics/move_semantics4.rs	file	407	counted	lang=Rust bytes=407
+exercises/06_move_semantics/move_semantics5.rs	file	485	counted	lang=Rust bytes=485
+exercises/07_structs/	dir	0	nonFile	type=dir
+exercises/07_structs/README.md	file	274	counted	lang=Markdown bytes=274
+exercises/07_structs/structs1.rs	file	1095	counted	lang=Rust bytes=1095
+exercises/07_structs/structs2.rs	file	1197	counted	lang=Rust bytes=1197
+exercises/07_structs/structs3.rs	file	1448	counted	lang=Rust bytes=1448
+exercises/08_enums/	dir	0	nonFile	type=dir
+exercises/08_enums/README.md	file	606	counted	lang=Markdown bytes=606
+exercises/08_enums/enums1.rs	file	302	counted	lang=Rust bytes=302
+exercises/08_enums/enums2.rs	file	579	counted	lang=Rust bytes=579
+exercises/08_enums/enums3.rs	file	2004	counted	lang=Rust bytes=2004
+exercises/09_strings/	dir	0	nonFile	type=dir
+exercises/09_strings/README.md	file	473	counted	lang=Markdown bytes=473
+exercises/09_strings/strings1.rs	file	239	counted	lang=Rust bytes=239
+exercises/09_strings/strings2.rs	file	432	counted	lang=Rust bytes=432
+exercises/09_strings/strings3.rs	file	1128	counted	lang=Rust bytes=1128
+exercises/09_strings/strings4.rs	file	983	counted	lang=Rust bytes=983
+exercises/10_modules/	dir	0	nonFile	type=dir
+exercises/10_modules/README.md	file	234	counted	lang=Markdown bytes=234
+exercises/10_modules/modules1.rs	file	366	counted	lang=Rust bytes=366
+exercises/10_modules/modules2.rs	file	648	counted	lang=Rust bytes=648
+exercises/10_modules/modules3.rs	file	524	counted	lang=Rust bytes=524
+exercises/11_hashmaps/	dir	0	nonFile	type=dir
+exercises/11_hashmaps/README.md	file	571	counted	lang=Markdown bytes=571
+exercises/11_hashmaps/hashmaps1.rs	file	1023	counted	lang=Rust bytes=1023
+exercises/11_hashmaps/hashmaps2.rs	file	2851	counted	lang=Rust bytes=2851
+exercises/11_hashmaps/hashmaps3.rs	file	2465	counted	lang=Rust bytes=2465
+exercises/12_options/	dir	0	nonFile	type=dir
+exercises/12_options/README.md	file	1012	counted	lang=Markdown bytes=1012
+exercises/12_options/options1.rs	file	1092	counted	lang=Rust bytes=1092
+exercises/12_options/options2.rs	file	965	counted	lang=Rust bytes=965
+exercises/12_options/options3.rs	file	407	counted	lang=Rust bytes=407
+exercises/13_error_handling/	dir	0	nonFile	type=dir
+exercises/13_error_handling/README.md	file	721	counted	lang=Markdown bytes=721
+exercises/13_error_handling/errors1.rs	file	1201	counted	lang=Rust bytes=1201
+exercises/13_error_handling/errors2.rs	file	1599	counted	lang=Rust bytes=1599
+exercises/13_error_handling/errors3.rs	file	882	counted	lang=Rust bytes=882
+exercises/13_error_handling/errors4.rs	file	863	counted	lang=Rust bytes=863
+exercises/13_error_handling/errors5.rs	file	1981	counted	lang=Rust bytes=1981
+exercises/13_error_handling/errors6.rs	file	2165	counted	lang=Rust bytes=2165
+exercises/14_generics/	dir	0	nonFile	type=dir
+exercises/14_generics/README.md	file	575	counted	lang=Markdown bytes=575
+exercises/14_generics/generics1.rs	file	632	counted	lang=Rust bytes=632
+exercises/14_generics/generics2.rs	file	663	counted	lang=Rust bytes=663
+exercises/15_traits/	dir	0	nonFile	type=dir
+exercises/15_traits/README.md	file	737	counted	lang=Markdown bytes=737
+exercises/15_traits/traits1.rs	file	617	counted	lang=Rust bytes=617
+exercises/15_traits/traits2.rs	file	490	counted	lang=Rust bytes=490
+exercises/15_traits/traits3.rs	file	1067	counted	lang=Rust bytes=1067
+exercises/15_traits/traits4.rs	file	798	counted	lang=Rust bytes=798
+exercises/15_traits/traits5.rs	file	732	counted	lang=Rust bytes=732
+exercises/16_lifetimes/	dir	0	nonFile	type=dir
+exercises/16_lifetimes/README.md	file	998	counted	lang=Markdown bytes=998
+exercises/16_lifetimes/lifetimes1.rs	file	732	counted	lang=Rust bytes=732
+exercises/16_lifetimes/lifetimes2.rs	file	445	counted	lang=Rust bytes=445
+exercises/16_lifetimes/lifetimes3.rs	file	314	counted	lang=Rust bytes=314
+exercises/17_tests/	dir	0	nonFile	type=dir
+exercises/17_tests/README.md	file	227	counted	lang=Markdown bytes=227
+exercises/17_tests/tests1.rs	file	467	counted	lang=Rust bytes=467
+exercises/17_tests/tests2.rs	file	449	counted	lang=Rust bytes=449
+exercises/17_tests/tests3.rs	file	1281	counted	lang=Rust bytes=1281
+exercises/18_iterators/	dir	0	nonFile	type=dir
+exercises/18_iterators/README.md	file	222	counted	lang=Markdown bytes=222
+exercises/18_iterators/iterators1.rs	file	999	counted	lang=Rust bytes=999
+exercises/18_iterators/iterators2.rs	file	1423	counted	lang=Rust bytes=1423
+exercises/18_iterators/iterators3.rs	file	1935	counted	lang=Rust bytes=1935
+exercises/18_iterators/iterators4.rs	file	881	counted	lang=Rust bytes=881
+exercises/18_iterators/iterators5.rs	file	4509	counted	lang=Rust bytes=4509
+exercises/19_smart_pointers/	dir	0	nonFile	type=dir
+exercises/19_smart_pointers/README.md	file	724	counted	lang=Markdown bytes=724
+exercises/19_smart_pointers/smart_pointers1.rs	file	1419	counted	lang=Rust bytes=1419
+exercises/19_smart_pointers/smart_pointers2.rs	file	3113	counted	lang=Rust bytes=3113
+exercises/19_smart_pointers/smart_pointers3.rs	file	1514	counted	lang=Rust bytes=1514
+exercises/19_smart_pointers/smart_pointers4.rs	file	2310	counted	lang=Rust bytes=2310
+exercises/20_threads/	dir	0	nonFile	type=dir
+exercises/20_threads/README.md	file	641	counted	lang=Markdown bytes=641
+exercises/20_threads/threads1.rs	file	1105	counted	lang=Rust bytes=1105
+exercises/20_threads/threads2.rs	file	1007	counted	lang=Rust bytes=1007
+exercises/20_threads/threads3.rs	file	1352	counted	lang=Rust bytes=1352
+exercises/21_macros/	dir	0	nonFile	type=dir
+exercises/21_macros/README.md	file	700	counted	lang=Markdown bytes=700
+exercises/21_macros/macros1.rs	file	150	counted	lang=Rust bytes=150
+exercises/21_macros/macros2.rs	file	196	counted	lang=Rust bytes=196
+exercises/21_macros/macros3.rs	file	244	counted	lang=Rust bytes=244
+exercises/21_macros/macros4.rs	file	303	counted	lang=Rust bytes=303
+exercises/22_clippy/	dir	0	nonFile	type=dir
+exercises/22_clippy/README.md	file	381	counted	lang=Markdown bytes=381
+exercises/22_clippy/clippy1.rs	file	508	counted	lang=Rust bytes=508
+exercises/22_clippy/clippy2.rs	file	167	counted	lang=Rust bytes=167
+exercises/22_clippy/clippy3.rs	file	843	counted	lang=Rust bytes=843
+exercises/23_conversions/	dir	0	nonFile	type=dir
+exercises/23_conversions/README.md	file	1605	counted	lang=Markdown bytes=1605
+exercises/23_conversions/conversions1.rs	file	592	counted	lang=Rust bytes=592
+exercises/23_conversions/conversions2.rs	file	1443	counted	lang=Rust bytes=1443
+exercises/23_conversions/conversions3.rs	file	3138	counted	lang=Rust bytes=3138
+exercises/23_conversions/conversions4.rs	file	4615	counted	lang=Rust bytes=4615
+exercises/23_conversions/conversions5.rs	file	1677	counted	lang=Rust bytes=1677
+exercises/24_async/	dir	0	nonFile	type=dir
+exercises/24_async/README.md	file	642	counted	lang=Markdown bytes=642
+exercises/24_async/async1.rs	file	1634	counted	lang=Rust bytes=1634
+exercises/24_async/scores_class_a.txt	file	9	counted	lang=Text bytes=9
+exercises/24_async/scores_class_b.txt	file	9	counted	lang=Text bytes=9
+exercises/24_async/scores_class_c.txt	file	9	counted	lang=Text bytes=9
+exercises/README.md	file	1286	counted	lang=Markdown bytes=1286
+exercises/quizzes/	dir	0	nonFile	type=dir
+exercises/quizzes/README.md	file	142	counted	lang=Markdown bytes=142
+exercises/quizzes/quiz1.rs	file	870	counted	lang=Rust bytes=870
+exercises/quizzes/quiz2.rs	file	1640	counted	lang=Rust bytes=1640
+exercises/quizzes/quiz3.rs	file	1716	counted	lang=Rust bytes=1716
+release-hook.sh	file	242	counted	lang=Shell bytes=242
+rustlings-macros/	dir	0	nonFile	type=dir
+rustlings-macros/Cargo.toml	file	428	counted	lang=TOML bytes=428
+rustlings-macros/info.toml	file	39099	counted	lang=TOML bytes=39099
+rustlings-macros/src/	dir	0	nonFile	type=dir
+rustlings-macros/src/lib.rs	file	2280	counted	lang=Rust bytes=2280
+solutions/	dir	0	nonFile	type=dir
+solutions/00_intro/	dir	0	nonFile	type=dir
+solutions/00_intro/intro1.rs	file	212	counted	lang=Rust bytes=212
+solutions/00_intro/intro2.rs	file	87	counted	lang=Rust bytes=87
+solutions/01_variables/	dir	0	nonFile	type=dir
+solutions/01_variables/variables1.rs	file	122	counted	lang=Rust bytes=122
+solutions/01_variables/variables2.rs	file	463	counted	lang=Rust bytes=463
+solutions/01_variables/variables3.rs	file	393	counted	lang=Rust bytes=393
+solutions/01_variables/variables4.rs	file	234	counted	lang=Rust bytes=234
+solutions/01_variables/variables5.rs	file	277	counted	lang=Rust bytes=277
+solutions/01_variables/variables6.rs	file	123	counted	lang=Rust bytes=123
+solutions/02_functions/	dir	0	nonFile	type=dir
+solutions/02_functions/functions1.rs	file	155	counted	lang=Rust bytes=155
+solutions/02_functions/functions2.rs	file	222	counted	lang=Rust bytes=222
+solutions/02_functions/functions3.rs	file	170	counted	lang=Rust bytes=170
+solutions/02_functions/functions4.rs	file	324	counted	lang=Rust bytes=324
+solutions/02_functions/functions5.rs	file	228	counted	lang=Rust bytes=228
+solutions/03_if/	dir	0	nonFile	type=dir
+solutions/03_if/if1.rs	file	483	counted	lang=Rust bytes=483
+solutions/03_if/if2.rs	file	750	counted	lang=Rust bytes=750
+solutions/03_if/if3.rs	file	1120	counted	lang=Rust bytes=1120
+solutions/04_primitive_types/	dir	0	nonFile	type=dir
+solutions/04_primitive_types/primitive_types1.rs	file	198	counted	lang=Rust bytes=198
+solutions/04_primitive_types/primitive_types2.rs	file	561	counted	lang=Rust bytes=561
+solutions/04_primitive_types/primitive_types3.rs	file	304	counted	lang=Rust bytes=304
+solutions/04_primitive_types/primitive_types4.rs	file	592	counted	lang=Rust bytes=592
+solutions/04_primitive_types/primitive_types5.rs	file	157	counted	lang=Rust bytes=157
+solutions/04_primitive_types/primitive_types6.rs	file	305	counted	lang=Rust bytes=305
+solutions/05_vecs/	dir	0	nonFile	type=dir
+solutions/05_vecs/vecs1.rs	file	388	counted	lang=Rust bytes=388
+solutions/05_vecs/vecs2.rs	file	423	counted	lang=Rust bytes=423
+solutions/06_move_semantics/	dir	0	nonFile	type=dir
+solutions/06_move_semantics/move_semantics1.rs	file	461	counted	lang=Rust bytes=461
+solutions/06_move_semantics/move_semantics2.rs	file	510	counted	lang=Rust bytes=510
+solutions/06_move_semantics/move_semantics3.rs	file	362	counted	lang=Rust bytes=362
+solutions/06_move_semantics/move_semantics4.rs	file	420	counted	lang=Rust bytes=420
+solutions/06_move_semantics/move_semantics5.rs	file	522	counted	lang=Rust bytes=522
+solutions/07_structs/	dir	0	nonFile	type=dir
+solutions/07_structs/structs1.rs	file	909	counted	lang=Rust bytes=909
+solutions/07_structs/structs2.rs	file	1267	counted	lang=Rust bytes=1267
+solutions/07_structs/structs3.rs	file	963	counted	lang=Rust bytes=963
+solutions/08_enums/	dir	0	nonFile	type=dir
+solutions/08_enums/enums1.rs	file	302	counted	lang=Rust bytes=302
+solutions/08_enums/enums2.rs	file	638	counted	lang=Rust bytes=638
+solutions/08_enums/enums3.rs	file	2188	counted	lang=Rust bytes=2188
+solutions/09_strings/	dir	0	nonFile	type=dir
+solutions/09_strings/strings1.rs	file	222	counted	lang=Rust bytes=222
+solutions/09_strings/strings2.rs	file	451	counted	lang=Rust bytes=451
+solutions/09_strings/strings3.rs	file	1203	counted	lang=Rust bytes=1203
+solutions/09_strings/strings4.rs	file	633	counted	lang=Rust bytes=633
+solutions/10_modules/	dir	0	nonFile	type=dir
+solutions/10_modules/modules1.rs	file	329	counted	lang=Rust bytes=329
+solutions/10_modules/modules2.rs	file	532	counted	lang=Rust bytes=532
+solutions/10_modules/modules3.rs	file	265	counted	lang=Rust bytes=265
+solutions/11_hashmaps/	dir	0	nonFile	type=dir
+solutions/11_hashmaps/hashmaps1.rs	file	1114	counted	lang=Rust bytes=1114
+solutions/11_hashmaps/hashmaps2.rs	file	2772	counted	lang=Rust bytes=2772
+solutions/11_hashmaps/hashmaps3.rs	file	2670	counted	lang=Rust bytes=2670
+solutions/12_options/	dir	0	nonFile	type=dir
+solutions/12_options/options1.rs	file	1089	counted	lang=Rust bytes=1089
+solutions/12_options/options2.rs	file	796	counted	lang=Rust bytes=796
+solutions/12_options/options3.rs	file	695	counted	lang=Rust bytes=695
+solutions/13_error_handling/	dir	0	nonFile	type=dir
+solutions/13_error_handling/errors1.rs	file	944	counted	lang=Rust bytes=944
+solutions/13_error_handling/errors2.rs	file	1841	counted	lang=Rust bytes=1841
+solutions/13_error_handling/errors3.rs	file	919	counted	lang=Rust bytes=919
+solutions/13_error_handling/errors4.rs	file	939	counted	lang=Rust bytes=939
+solutions/13_error_handling/errors5.rs	file	1856	counted	lang=Rust bytes=1856
+solutions/13_error_handling/errors6.rs	file	2719	counted	lang=Rust bytes=2719
+solutions/14_generics/	dir	0	nonFile	type=dir
+solutions/14_generics/generics1.rs	file	562	counted	lang=Rust bytes=562
+solutions/14_generics/generics2.rs	file	431	counted	lang=Rust bytes=431
+solutions/15_traits/	dir	0	nonFile	type=dir
+solutions/15_traits/traits1.rs	file	620	counted	lang=Rust bytes=620
+solutions/15_traits/traits2.rs	file	534	counted	lang=Rust bytes=534
+solutions/15_traits/traits3.rs	file	794	counted	lang=Rust bytes=794
+solutions/15_traits/traits4.rs	file	813	counted	lang=Rust bytes=813
+solutions/15_traits/traits5.rs	file	722	counted	lang=Rust bytes=722
+solutions/16_lifetimes/	dir	0	nonFile	type=dir
+solutions/16_lifetimes/lifetimes1.rs	file	699	counted	lang=Rust bytes=699
+solutions/16_lifetimes/lifetimes2.rs	file	1018	counted	lang=Rust bytes=1018
+solutions/16_lifetimes/lifetimes3.rs	file	348	counted	lang=Rust bytes=348
+solutions/17_tests/	dir	0	nonFile	type=dir
+solutions/17_tests/tests1.rs	file	538	counted	lang=Rust bytes=538
+solutions/17_tests/tests2.rs	file	447	counted	lang=Rust bytes=447
+solutions/17_tests/tests3.rs	file	1083	counted	lang=Rust bytes=1083
+solutions/18_iterators/	dir	0	nonFile	type=dir
+solutions/18_iterators/iterators1.rs	file	1012	counted	lang=Rust bytes=1012
+solutions/18_iterators/iterators2.rs	file	1504	counted	lang=Rust bytes=1504
+solutions/18_iterators/iterators3.rs	file	2238	counted	lang=Rust bytes=2238
+solutions/18_iterators/iterators4.rs	file	2017	counted	lang=Rust bytes=2017
+solutions/18_iterators/iterators5.rs	file	5327	counted	lang=Rust bytes=5327
+solutions/19_smart_pointers/	dir	0	nonFile	type=dir
+solutions/19_smart_pointers/smart_pointers1.rs	file	1309	counted	lang=Rust bytes=1309
+solutions/19_smart_pointers/smart_pointers2.rs	file	3091	counted	lang=Rust bytes=3091
+solutions/19_smart_pointers/smart_pointers3.rs	file	1528	counted	lang=Rust bytes=1528
+solutions/19_smart_pointers/smart_pointers4.rs	file	2235	counted	lang=Rust bytes=2235
+solutions/20_threads/	dir	0	nonFile	type=dir
+solutions/20_threads/threads1.rs	file	1068	counted	lang=Rust bytes=1068
+solutions/20_threads/threads2.rs	file	1217	counted	lang=Rust bytes=1217
+solutions/20_threads/threads3.rs	file	1433	counted	lang=Rust bytes=1433
+solutions/21_macros/	dir	0	nonFile	type=dir
+solutions/21_macros/macros1.rs	file	132	counted	lang=Rust bytes=132
+solutions/21_macros/macros2.rs	file	171	counted	lang=Rust bytes=171
+solutions/21_macros/macros3.rs	file	202	counted	lang=Rust bytes=202
+solutions/21_macros/macros4.rs	file	288	counted	lang=Rust bytes=288
+solutions/22_clippy/	dir	0	nonFile	type=dir
+solutions/22_clippy/clippy1.rs	file	530	counted	lang=Rust bytes=530
+solutions/22_clippy/clippy2.rs	file	183	counted	lang=Rust bytes=183
+solutions/22_clippy/clippy3.rs	file	916	counted	lang=Rust bytes=916
+solutions/23_conversions/	dir	0	nonFile	type=dir
+solutions/23_conversions/conversions1.rs	file	583	counted	lang=Rust bytes=583
+solutions/23_conversions/conversions2.rs	file	1474	counted	lang=Rust bytes=1474
+solutions/23_conversions/conversions3.rs	file	2928	counted	lang=Rust bytes=2928
+solutions/23_conversions/conversions4.rs	file	4998	counted	lang=Rust bytes=4998
+solutions/23_conversions/conversions5.rs	file	1549	counted	lang=Rust bytes=1549
+solutions/24_async/	dir	0	nonFile	type=dir
+solutions/24_async/async1.rs	file	1553	counted	lang=Rust bytes=1553
+solutions/README.md	file	316	counted	lang=Markdown bytes=316
+solutions/quizzes/	dir	0	nonFile	type=dir
+solutions/quizzes/quiz1.rs	file	762	counted	lang=Rust bytes=762
+solutions/quizzes/quiz2.rs	file	2780	counted	lang=Rust bytes=2780
+solutions/quizzes/quiz3.rs	file	1810	counted	lang=Rust bytes=1810
+src/	dir	0	nonFile	type=dir
+src/app_state.rs	file	23269	counted	lang=Rust bytes=23269
+src/cargo_toml.rs	file	5023	counted	lang=Rust bytes=5023
+src/cli.rs	file	1970	counted	lang=Rust bytes=1970
+src/cmd.rs	file	5856	counted	lang=Rust bytes=5856
+src/dev.rs	file	1265	counted	lang=Rust bytes=1265
+src/dev/	dir	0	nonFile	type=dir
+src/dev/check.rs	file	13787	counted	lang=Rust bytes=13787
+src/dev/new.rs	file	4908	counted	lang=Rust bytes=4908
+src/dev/update.rs	file	1282	counted	lang=Rust bytes=1282
+src/editor.rs	file	4290	counted	lang=Rust bytes=4290
+src/editor/	dir	0	nonFile	type=dir
+src/editor/zellij.rs	file	1216	counted	lang=Rust bytes=1216
+src/embedded.rs	file	5677	counted	lang=Rust bytes=5677
+src/exercise.rs	file	8119	counted	lang=Rust bytes=8119
+src/info_file.rs	file	3880	counted	lang=Rust bytes=3880
+src/init.rs	file	8727	counted	lang=Rust bytes=8727
+src/list.rs	file	5120	counted	lang=Rust bytes=5120
+src/list/	dir	0	nonFile	type=dir
+src/list/scroll_state.rs	file	2699	counted	lang=Rust bytes=2699
+src/list/state.rs	file	15448	counted	lang=Rust bytes=15448
+src/main.rs	file	6823	counted	lang=Rust bytes=6823
+src/run.rs	file	1890	counted	lang=Rust bytes=1890
+src/term.rs	file	7466	counted	lang=Rust bytes=7466
+src/watch.rs	file	6780	counted	lang=Rust bytes=6780
+src/watch/	dir	0	nonFile	type=dir
+src/watch/notify_event.rs	file	4883	counted	lang=Rust bytes=4883
+src/watch/state.rs	file	9517	counted	lang=Rust bytes=9517
+src/watch/terminal_event.rs	file	2228	counted	lang=Rust bytes=2228
+tests/	dir	0	nonFile	type=dir
+tests/integration_tests.rs	file	3690	counted	lang=Rust bytes=3690
+tests/test_exercises/	dir	0	nonFile	type=dir
+tests/test_exercises/dev/	dir	0	nonFile	type=dir
+tests/test_exercises/dev/Cargo.toml	file	378	counted	lang=TOML bytes=378
+tests/test_exercises/exercises/	dir	0	nonFile	type=dir
+	file	21	nonFile	empty-rel
+	file	13	nonFile	empty-rel
+tests/test_exercises/exercises/not_in_info.rs	file	13	counted	lang=Rust bytes=13
+tests/test_exercises/exercises/test_failure.rs	file	100	counted	lang=Rust bytes=100
+tests/test_exercises/exercises/test_success.rs	file	118	counted	lang=Rust bytes=118
+tests/test_exercises/info.toml	file	275	counted	lang=TOML bytes=275
+triagebot.toml	file	392	counted	lang=TOML bytes=392
+website/	dir	0	nonFile	type=dir
+website/.gitignore	file	88	counted	lang=Ignore List bytes=88
+website/config.toml	file	1037	counted	lang=TOML bytes=1037
+website/content/	dir	0	nonFile	type=dir
+website/content/_index.md	file	541	counted	lang=Markdown bytes=541
+website/content/community-exercises/	dir	0	nonFile	type=dir
+website/content/community-exercises/index.md	file	3429	counted	lang=Markdown bytes=3429
+website/content/setup/	dir	0	nonFile	type=dir
+website/content/setup/index.md	file	2752	counted	lang=Markdown bytes=2752
+website/content/usage/	dir	0	nonFile	type=dir
+website/content/usage/index.md	file	2624	counted	lang=Markdown bytes=2624
+website/input.css	file	1004	counted	lang=CSS bytes=1004
+website/justfile	file	93	counted	lang=Just bytes=93
+website/package.json	file	57	counted	lang=JSON bytes=57
+website/static/	dir	0	nonFile	type=dir
+website/static/images/	dir	0	nonFile	type=dir
+website/static/images/happy_ferris.svg	file	7439	counted	lang=SVG bytes=7439
+website/static/images/panic.svg	file	6282	counted	lang=SVG bytes=6282
+website/static/images/rust_logo.svg	file	3310	counted	lang=SVG bytes=3310
+website/templates/	dir	0	nonFile	type=dir
+website/templates/404.html	file	423	counted	lang=HTML bytes=423
+website/templates/anchor-link.html	file	92	counted	lang=HTML bytes=92
+website/templates/base.html	file	3856	counted	lang=HTML bytes=3856
+website/templates/components.html	file	301	counted	lang=HTML bytes=301
+website/templates/index.html	file	160	counted	lang=HTML bytes=160
+website/templates/page.html	file	1629	counted	lang=HTML bytes=1629

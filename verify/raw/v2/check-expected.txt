@@ -1,0 +1,93 @@
+### check_expected.py (46 проверок против литеральных ожиданий)
+
+[A_default_small_limit] big/generated.js (5200 Б) уходит в tooLarge; остальное считается полностью
+  команда: oracle.py --file <repo>/verify/fixtures/mini.tar.gz --max-file-bytes 2048 --no-meta (rc=0)
+  stderr: file://<repo>/verify/fixtures/mini.tar.gz: 19 строк в 7 файлах (0.0 МиБ полезной нагрузки), пропущено 16, записей 23, распаковано 0.0 МиБ (сжатых 0.0 МиБ), 0 мс |     Python                       10 строк       4 файлов          56 Б |     JavaScript                    4 строк       1 файлов          40 Б |     Rust                          4 строк       1 файлов          52 Б |     TypeScript                    1 строк       1 файлов          24 Б |     skipped: ignored=6 binary=1 tooLarge=1 nonFile=5 unknown=3 {'(none)': 1, '.png': 1, '.xyz': 1}
+  OK   total                              ожидалось 19                           получено 19
+  OK   files                              ожидалось 7                            получено 7
+  OK   bytes                              ожидалось 172                          получено 172
+  OK   skipped                            ожидалось 16                           получено 16
+  OK   skippedReasons                     ожидалось {"ignored": 6, "binary": 1, "tooLarge": 1, "nonFile": 5, "unknown": 3} получено {"ignored": 6, "binary": 1, "tooLarge": 1, "nonFile": 5, "unknown": 3}
+  OK   entries                            ожидалось 23                           получено 23
+  OK   archiveBytes                       ожидалось 30720                        получено 30720
+  OK   truncated                          ожидалось false                        получено false
+  OK   perLanguage                        ожидалось {"Python": {"lines": 10, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56}, "JavaScript": {"lines": 4, "code": 3, "blank": 0, "comment": 1, "files": 1, "bytes": 40}, "Rust": {"lines": 4, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52}, "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}} получено {"Python": {"lines": 10, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56}, "JavaScript": {"lines": 4, "code": 3, "blank": 0, "comment": 1, "files": 1, "bytes": 40}, "Rust": {"lines": 4, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52}, "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}}
+  OK   oracle.unknownFiles                ожидалось 3                            получено 3
+  OK   oracle.unknownBinaryExtFiles       ожидалось 1                            получено 1
+  OK   oracle.tarballRoot                 ожидалось "mini-repo-abc123"           получено "mini-repo-abc123"
+
+[B_default_5mib_limit] при дефолтном maxFileBytes=5 МиБ big/generated.js (400 строк, 5200 Б) считается: проверка границы tooLarge
+  команда: oracle.py --file <repo>/verify/fixtures/mini.tar.gz --no-meta (rc=0)
+  stderr: file://<repo>/verify/fixtures/mini.tar.gz: 419 строк в 8 файлах (0.0 МиБ полезной нагрузки), пропущено 15, записей 23, распаковано 0.0 МиБ (сжатых 0.0 МиБ), 1 мс |     JavaScript                  404 строк       2 файлов        5240 Б |     Python                       10 строк       4 файлов          56 Б |     Rust                          4 строк       1 файлов          52 Б |     TypeScript                    1 строк       1 файлов          24 Б |     skipped: ignored=6 binary=1 tooLarge=0 nonFile=5 unknown=3 {'(none)': 1, '.png': 1, '.xyz': 1}
+  OK   total                              ожидалось 419                          получено 419
+  OK   files                              ожидалось 8                            получено 8
+  OK   bytes                              ожидалось 5372                         получено 5372
+  OK   skipped                            ожидалось 15                           получено 15
+  OK   skippedReasons                     ожидалось {"ignored": 6, "binary": 1, "tooLarge": 0, "nonFile": 5, "unknown": 3} получено {"ignored": 6, "binary": 1, "tooLarge": 0, "nonFile": 5, "unknown": 3}
+  OK   entries                            ожидалось 23                           получено 23
+  OK   archiveBytes                       ожидалось 30720                        получено 30720
+  OK   truncated                          ожидалось false                        получено false
+  OK   perLanguage                        ожидалось {"Python": {"lines": 10, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56}, "JavaScript": {"lines": 404, "code": 403, "blank": 0, "comment": 1, "files": 2, "bytes": 5240}, "Rust": {"lines": 4, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52}, "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}} получено {"JavaScript": {"lines": 404, "code": 403, "blank": 0, "comment": 1, "files": 2, "bytes": 5240}, "Python": {"lines": 10, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56}, "Rust": {"lines": 4, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52}, "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}}
+
+[C_no_blank_no_comment] countBlankLines:false и countCommentLines:false — lines падает, blank/comment/code сохраняются
+  команда: oracle.py --file <repo>/verify/fixtures/mini.tar.gz --max-file-bytes 2048 --no-blank-lines --no-comment-lines --no-meta (rc=0)
+  stderr: file://<repo>/verify/fixtures/mini.tar.gz: 11 строк в 7 файлах (0.0 МиБ полезной нагрузки), пропущено 16, записей 23, распаковано 0.0 МиБ (сжатых 0.0 МиБ), 0 мс |     Python                        6 строк       4 файлов          56 Б |     JavaScript                    3 строк       1 файлов          40 Б |     Rust                          1 строк       1 файлов          52 Б |     TypeScript                    1 строк       1 файлов          24 Б |     skipped: ignored=6 binary=1 tooLarge=1 nonFile=5 unknown=3 {'(none)': 1, '.png': 1, '.xyz': 1}
+  OK   total                              ожидалось 11                           получено 11
+  OK   files                              ожидалось 7                            получено 7
+  OK   bytes                              ожидалось 172                          получено 172
+  OK   skipped                            ожидалось 16                           получено 16
+  OK   skippedReasons                     ожидалось {"ignored": 6, "binary": 1, "tooLarge": 1, "nonFile": 5, "unknown": 3} получено {"ignored": 6, "binary": 1, "tooLarge": 1, "nonFile": 5, "unknown": 3}
+  OK   entries                            ожидалось 23                           получено 23
+  OK   archiveBytes                       ожидалось 30720                        получено 30720
+  OK   truncated                          ожидалось false                        получено false
+  OK   perLanguage                        ожидалось {"Python": {"lines": 6, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56}, "JavaScript": {"lines": 3, "code": 3, "blank": 0, "comment": 1, "files": 1, "bytes": 40}, "Rust": {"lines": 1, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52}, "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}} получено {"Python": {"lines": 6, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56}, "JavaScript": {"lines": 3, "code": 3, "blank": 0, "comment": 1, "files": 1, "bytes": 40}, "Rust": {"lines": 1, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52}, "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}}
+
+[D_chunk_size_1] чтение по 1 байту: проверка переноса состояния 
+/
+ и потокового UTF-8 на границах чанков; результат обязан совпасть с A
+  команда: oracle.py --file <repo>/verify/fixtures/mini.tar.gz --max-file-bytes 2048 --chunk-size 1 --no-meta (rc=0)
+  stderr: file://<repo>/verify/fixtures/mini.tar.gz: 19 строк в 7 файлах (0.0 МиБ полезной нагрузки), пропущено 16, записей 23, распаковано 0.0 МиБ (сжатых 0.0 МиБ), 0 мс |     Python                       10 строк       4 файлов          56 Б |     JavaScript                    4 строк       1 файлов          40 Б |     Rust                          4 строк       1 файлов          52 Б |     TypeScript                    1 строк       1 файлов          24 Б |     skipped: ignored=6 binary=1 tooLarge=1 nonFile=5 unknown=3 {'(none)': 1, '.png': 1, '.xyz': 1}
+  OK   total                              ожидалось 19                           получено 19
+  OK   files                              ожидалось 7                            получено 7
+  OK   bytes                              ожидалось 172                          получено 172
+  OK   skipped                            ожидалось 16                           получено 16
+  OK   skippedReasons                     ожидалось {"ignored": 6, "binary": 1, "tooLarge": 1, "nonFile": 5, "unknown": 3} получено {"ignored": 6, "binary": 1, "tooLarge": 1, "nonFile": 5, "unknown": 3}
+  OK   entries                            ожидалось 23                           получено 23
+  OK   archiveBytes                       ожидалось 30720                        получено 30720
+  OK   truncated                          ожидалось false                        получено false
+  OK   perLanguage                        ожидалось {"Python": {"lines": 10, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56}, "JavaScript": {"lines": 4, "code": 3, "blank": 0, "comment": 1, "files": 1, "bytes": 40}, "Rust": {"lines": 4, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52}, "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}} получено {"Python": {"lines": 10, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56}, "JavaScript": {"lines": 4, "code": 3, "blank": 0, "comment": 1, "files": 1, "bytes": 40}, "Rust": {"lines": 4, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52}, "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}}
+
+[E_truncated_archive] обрыв архива посреди записи: SPEC 2.4 — не бросать, вернуть частичный результат с truncated:true
+  команда: oracle.py --file <repo>/verify/fixtures/mini.truncated.tar.gz --max-file-bytes 2048 --no-meta (rc=0)
+  OK   truncated                          ожидалось true                         получено true
+
+[F_bad_gzip] битый gzip: оракул обязан вернуть JSON с ok:false и кодом ошибки, а не трейсбек
+  команда: oracle.py --file <repo>/verify/fixtures/mini.corrupt.tar.gz --no-meta (rc=4)
+  OK   ok                                 ожидалось false                        получено false
+  OK   error.code                         ожидалось "unknown"                    получено "unknown"
+
+[G_archive_limit] лимит по СЖАТЫМ байтам (SPEC 3.3): фикстура 906 Б > лимита
+  команда: oracle.py --file <repo>/verify/fixtures/mini.tar.gz --max-archive-mb 0.0001 --no-meta (rc=3)
+  OK   ok                                 ожидалось false                        получено false
+  OK   error.code                         ожидалось "too_large"                  получено "too_large"
+
+[H_builtin_self_test] граничные случаи счётчика (в т.ч. чтение по 1 байту)
+  rc=0
+OK   ''           Python      lines=0 blank=0 comment=0 code=0 (ожидалось 0/0/0/0)
+OK   '\n'         Python      lines=1 blank=1 comment=0 code=0 (ожидалось 1/1/0/0)
+OK   'a\nb\n'     Python      lines=2 blank=0 comment=0 code=2 (ожидалось 2/0/0/2)
+OK   'a\nb'       Python      lines=2 blank=0 comment=0 code=2 (ожидалось 2/0/0/2)
+OK   'a\r\nb\rc'  Python      lines=3 blank=0 comment=0 code=3 (ожидалось 3/0/0/3)
+OK   'a\r\n'      Python      lines=1 blank=0 comment=0 code=1 (ожидалось 1/0/0/1)
+OK   '# c\nx = 1\n\n' Python      lines=3 blank=1 comment=1 code=1 (ожидалось 3/1/1/1)
+OK   '// c\nx();' JavaScript  lines=2 blank=0 comment=1 code=1 (ожидалось 2/0/1/1)
+OK   '   \n\t\n'  Python      lines=2 blank=2 comment=0 code=0 (ожидалось 2/2/0/0)
+OK   '/* not a line comment */\nx' JavaScript  lines=2 blank=0 comment=0 code=2 (ожидалось 2/0/0/2)
+OK   '--[[ block ]]\nx' Lua         lines=2 blank=0 comment=1 code=1 (ожидалось 2/0/1/1)
+OK   '-- line\nx' Lua         lines=2 blank=0 comment=1 code=1 (ожидалось 2/0/1/1)
+OK   '\xa0\nx'    Python      lines=2 blank=1 comment=0 code=1 (ожидалось 2/1/0/1)
+OK   '\u2028x'    Python      lines=1 blank=0 comment=0 code=1 (ожидалось 1/0/0/1)
+самопроверка: 28 проверок, ошибок 0
+
+ИТОГО: проверок 46, расхождений 0
+rc=0

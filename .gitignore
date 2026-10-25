@@ -1,0 +1,19 @@
+# закрытый ключ подписи CRX — никогда не публиковать
+tools/extension-key.pem
+
+# сборка и артефакты
+dist/
+*.crx
+*.zip
+
+# артефакты прогонов
+docs/e2e-fixture.tar.gz
+docs/e2e-expected.json
+docs/e2e-report.json
+verify/out/
+__pycache__/
+*.pyc
+
+# системный мусор
+.DS_Store
+node_modules/

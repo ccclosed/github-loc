@@ -1,0 +1,106 @@
+{
+  "_comment": "ОЖИДАНИЯ ВПИСАНЫ ЛИТЕРАЛАМИ (ручной подсчёт по SPEC 2.1/2.2/2.4), не вычисляются скриптом. Фикстура: fixtures/mini.tar.gz, 23 записи, корень mini-repo-abc123/. Разбор леджера — METHOD.md, раздел «Фикстура mini.tar.gz».",
+  "_fixture_sha256": "c0410023d60ee660",
+  "runs": {
+    "A_default_small_limit": {
+      "args": ["--max-file-bytes", "2048"],
+      "why": "big/generated.js (5200 Б) уходит в tooLarge; остальное считается полностью",
+      "expect": {
+        "total": 19,
+        "files": 7,
+        "bytes": 172,
+        "skipped": 16,
+        "skippedReasons": {"ignored": 6, "binary": 1, "tooLarge": 1, "nonFile": 5, "unknown": 3},
+        "entries": 23,
+        "archiveBytes": 30720,
+        "truncated": false,
+        "perLanguage": {
+          "Python": {"lines": 10, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56},
+          "JavaScript": {"lines": 4, "code": 3, "blank": 0, "comment": 1, "files": 1, "bytes": 40},
+          "Rust": {"lines": 4, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52},
+          "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}
+        },
+        "oracle.unknownFiles": 3,
+        "oracle.unknownBinaryExtFiles": 1,
+        "oracle.tarballRoot": "mini-repo-abc123"
+      }
+    },
+    "B_default_5mib_limit": {
+      "args": [],
+      "why": "при дефолтном maxFileBytes=5 МиБ big/generated.js (400 строк, 5200 Б) считается: проверка границы tooLarge",
+      "expect": {
+        "total": 419,
+        "files": 8,
+        "bytes": 5372,
+        "skipped": 15,
+        "skippedReasons": {"ignored": 6, "binary": 1, "tooLarge": 0, "nonFile": 5, "unknown": 3},
+        "entries": 23,
+        "archiveBytes": 30720,
+        "truncated": false,
+        "perLanguage": {
+          "Python": {"lines": 10, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56},
+          "JavaScript": {"lines": 404, "code": 403, "blank": 0, "comment": 1, "files": 2, "bytes": 5240},
+          "Rust": {"lines": 4, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52},
+          "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}
+        }
+      }
+    },
+    "C_no_blank_no_comment": {
+      "args": ["--max-file-bytes", "2048", "--no-blank-lines", "--no-comment-lines"],
+      "why": "countBlankLines:false и countCommentLines:false — lines падает, blank/comment/code сохраняются",
+      "expect": {
+        "total": 11,
+        "files": 7,
+        "bytes": 172,
+        "skipped": 16,
+        "skippedReasons": {"ignored": 6, "binary": 1, "tooLarge": 1, "nonFile": 5, "unknown": 3},
+        "entries": 23,
+        "archiveBytes": 30720,
+        "truncated": false,
+        "perLanguage": {
+          "Python": {"lines": 6, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56},
+          "JavaScript": {"lines": 3, "code": 3, "blank": 0, "comment": 1, "files": 1, "bytes": 40},
+          "Rust": {"lines": 1, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52},
+          "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}
+        }
+      }
+    },
+    "D_chunk_size_1": {
+      "args": ["--max-file-bytes", "2048", "--chunk-size", "1"],
+      "why": "чтение по 1 байту: проверка переноса состояния \r/\r\n и потокового UTF-8 на границах чанков; результат обязан совпасть с A",
+      "expect": {
+        "total": 19,
+        "files": 7,
+        "bytes": 172,
+        "skipped": 16,
+        "skippedReasons": {"ignored": 6, "binary": 1, "tooLarge": 1, "nonFile": 5, "unknown": 3},
+        "entries": 23,
+        "archiveBytes": 30720,
+        "truncated": false,
+        "perLanguage": {
+          "Python": {"lines": 10, "code": 6, "blank": 3, "comment": 1, "files": 4, "bytes": 56},
+          "JavaScript": {"lines": 4, "code": 3, "blank": 0, "comment": 1, "files": 1, "bytes": 40},
+          "Rust": {"lines": 4, "code": 1, "blank": 1, "comment": 2, "files": 1, "bytes": 52},
+          "TypeScript": {"lines": 1, "code": 1, "blank": 0, "comment": 0, "files": 1, "bytes": 24}
+        }
+      }
+    },
+    "E_truncated_archive": {
+      "args": ["--max-file-bytes", "2048"],
+      "why": "обрыв архива посреди записи: SPEC 2.4 — не бросать, вернуть частичный результат с truncated:true",
+      "input": "fixtures/mini.truncated.tar.gz (первые 4096 Б mini.tar.gz)",
+      "expect": {"truncated": true}
+    },
+    "F_bad_gzip": {
+      "args": [],
+      "why": "битый gzip: оракул обязан вернуть JSON с ok:false и кодом ошибки, а не трейсбек",
+      "input": "fixtures/mini.corrupt.tar.gz (мусорные байты)",
+      "expect": {"ok": false, "error.code": "unknown"}
+    },
+    "G_archive_limit": {
+      "args": ["--max-archive-mb", "0.0001"],
+      "why": "лимит по СЖАТЫМ байтам (SPEC 3.3): фикстура 906 Б > лимита",
+      "expect": {"ok": false, "error.code": "too_large"}
+    }
+  }
+}

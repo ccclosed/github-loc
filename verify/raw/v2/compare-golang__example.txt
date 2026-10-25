@@ -1,0 +1,24 @@
+================ golang/example ================
+# golang/example
+  РАЗН total            оракул=10716                        движок=9979
+  РАЗН files            оракул=64                           движок=50
+  РАЗН bytes            оракул=322609                       движок=303603
+  OK  truncated        оракул=False                        движок=False
+  инфо skipped          оракул=39                           движок=53
+  OK  entries          оракул=103                          движок=103
+  инфо skippedReasons  оракул={'ignored': 4, 'binary': 0, 'tooLarge': 0, 'nonFile': 32, 'unknown': 3}
+                        движок={'ignored': 4, 'binary': 1, 'tooLarge': 0, 'nonFile': 37, 'unknown': 11}
+  perLanguage (lines / files):
+    OK  Markdown           оракул=6728/7  движок=6728/7
+    РАЗН Go                 оракул=3753/44  движок=3066/32
+    OK  Shell              оракул=67/4  движок=67/4
+    РАЗН Other              оракул=50/2  движок=None/None
+    OK  YAML               оракул=45/2  движок=45/2
+    OK  Makefile           оракул=26/2  движок=26/2
+    OK  HTML               оракул=24/1  движок=24/1
+    OK  JavaScript         оракул=14/1  движок=14/1
+    OK  CSS                оракул=9/1  движок=9/1
+  инфо только у оракула: ['Other']
+  РАСХОЖДЕНИЯ по языкам: ['Go', 'Other']
+
+compare_rc=1

@@ -1,0 +1,81 @@
+{
+  "total": 46,
+  "files": 3,
+  "bytes": 1391,
+  "perLanguage": {
+    "HTML": {
+      "lines": 20,
+      "code": 14,
+      "blank": 5,
+      "comment": 1,
+      "files": 1,
+      "bytes": 355
+    },
+    "CSS": {
+      "lines": 17,
+      "code": 15,
+      "blank": 2,
+      "comment": 0,
+      "files": 1,
+      "bytes": 256
+    },
+    "Markdown": {
+      "lines": 9,
+      "code": 5,
+      "blank": 4,
+      "comment": 0,
+      "files": 1,
+      "bytes": 780
+    }
+  },
+  "skipped": 1,
+  "skippedReasons": {
+    "ignored": 0,
+    "binary": 0,
+    "tooLarge": 0,
+    "nonFile": 1,
+    "unknown": 0
+  },
+  "entries": 4,
+  "archiveBytes": 10240,
+  "truncated": false,
+  "ms": 0,
+  "oracle": {
+    "version": "1.0.0",
+    "unknownFiles": 0,
+    "unknownByExt": {},
+    "unknownBinaryExtFiles": 0,
+    "compressedBytes": 1075,
+    "archiveBytesNoPax": 5120,
+    "tarballRoot": "Spoon-Knife-main",
+    "entriesOutsideRoot": 0,
+    "ignoreProfile": "spec",
+    "skipPrecedence": "ignored > nonFile > tooLarge > unknown > binary; binary = язык определён, но в первых 8192 Б есть NUL",
+    "options": {
+      "countBlankLines": true,
+      "countCommentLines": true,
+      "maxFileBytes": 5242880,
+      "maxArchiveBytes": 125829120
+    },
+    "truncError": null,
+    "mode": "repo",
+    "repo": "octocat/Spoon-Knife",
+    "ref": "main",
+    "commit": "d0dd1f61b33d64e29d8bc1372a94ef6a2fee76a9",
+    "tarballUrl": "https://codeload.github.com/octocat/Spoon-Knife/tar.gz/main",
+    "ghRepo": {
+      "default_branch": "main",
+      "private": false,
+      "size": 2,
+      "pushed_at": "2024-08-21T15:25:42Z",
+      "stargazers_count": 14137,
+      "fork": false
+    },
+    "ghLanguages": {
+      "HTML": 355,
+      "CSS": 256
+    },
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}

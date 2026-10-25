@@ -1,0 +1,464 @@
+### A_default_small_limit
+$ python3 verify/oracle.py --file <repo>/verify/fixtures/mini.tar.gz --max-file-bytes 2048 --no-meta
+rc=0
+{
+  "total": 19,
+  "files": 7,
+  "bytes": 172,
+  "perLanguage": {
+    "Python": {
+      "lines": 10,
+      "code": 6,
+      "blank": 3,
+      "comment": 1,
+      "files": 4,
+      "bytes": 56
+    },
+    "JavaScript": {
+      "lines": 4,
+      "code": 3,
+      "blank": 0,
+      "comment": 1,
+      "files": 1,
+      "bytes": 40
+    },
+    "Rust": {
+      "lines": 4,
+      "code": 1,
+      "blank": 1,
+      "comment": 2,
+      "files": 1,
+      "bytes": 52
+    },
+    "TypeScript": {
+      "lines": 1,
+      "code": 1,
+      "blank": 0,
+      "comment": 0,
+      "files": 1,
+      "bytes": 24
+    }
+  },
+  "skipped": 16,
+  "skippedReasons": {
+    "ignored": 6,
+    "binary": 1,
+    "tooLarge": 1,
+    "nonFile": 5,
+    "unknown": 3
+  },
+  "entries": 23,
+  "archiveBytes": 30720,
+  "truncated": false,
+  "ms": 0,
+  "oracle": {
+    "version": "1.0.0",
+    "unknownFiles": 3,
+    "unknownByExt": {
+      "(none)": 1,
+      ".png": 1,
+      ".xyz": 1
+    },
+    "unknownBinaryExtFiles": 1,
+    "compressedBytes": 906,
+    "archiveBytesNoPax": 26624,
+    "tarballRoot": "mini-repo-abc123",
+    "entriesOutsideRoot": 0,
+    "ignoreProfile": "spec",
+    "skipPrecedence": "ignored > nonFile > tooLarge > unknown > binary; binary = язык определён, но в первых 8192 Б есть NUL",
+    "options": {
+      "countBlankLines": true,
+      "countCommentLines": true,
+      "maxFileBytes": 2048,
+      "maxArchiveBytes": 125829120
+    },
+    "truncError": null,
+    "mode": "file",
+    "repo": null,
+    "ref": null,
+    "commit": null,
+    "tarballUrl": "file://<repo>/verify/fixtures/mini.tar.gz",
+    "ghRepo": null,
+    "ghLanguages": null,
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}
+
+### B_default_5mib_limit
+$ python3 verify/oracle.py --file <repo>/verify/fixtures/mini.tar.gz --no-meta
+rc=0
+{
+  "total": 419,
+  "files": 8,
+  "bytes": 5372,
+  "perLanguage": {
+    "JavaScript": {
+      "lines": 404,
+      "code": 403,
+      "blank": 0,
+      "comment": 1,
+      "files": 2,
+      "bytes": 5240
+    },
+    "Python": {
+      "lines": 10,
+      "code": 6,
+      "blank": 3,
+      "comment": 1,
+      "files": 4,
+      "bytes": 56
+    },
+    "Rust": {
+      "lines": 4,
+      "code": 1,
+      "blank": 1,
+      "comment": 2,
+      "files": 1,
+      "bytes": 52
+    },
+    "TypeScript": {
+      "lines": 1,
+      "code": 1,
+      "blank": 0,
+      "comment": 0,
+      "files": 1,
+      "bytes": 24
+    }
+  },
+  "skipped": 15,
+  "skippedReasons": {
+    "ignored": 6,
+    "binary": 1,
+    "tooLarge": 0,
+    "nonFile": 5,
+    "unknown": 3
+  },
+  "entries": 23,
+  "archiveBytes": 30720,
+  "truncated": false,
+  "ms": 1,
+  "oracle": {
+    "version": "1.0.0",
+    "unknownFiles": 3,
+    "unknownByExt": {
+      "(none)": 1,
+      ".png": 1,
+      ".xyz": 1
+    },
+    "unknownBinaryExtFiles": 1,
+    "compressedBytes": 906,
+    "archiveBytesNoPax": 26624,
+    "tarballRoot": "mini-repo-abc123",
+    "entriesOutsideRoot": 0,
+    "ignoreProfile": "spec",
+    "skipPrecedence": "ignored > nonFile > tooLarge > unknown > binary; binary = язык определён, но в первых 8192 Б есть NUL",
+    "options": {
+      "countBlankLines": true,
+      "countCommentLines": true,
+      "maxFileBytes": 5242880,
+      "maxArchiveBytes": 125829120
+    },
+    "truncError": null,
+    "mode": "file",
+    "repo": null,
+    "ref": null,
+    "commit": null,
+    "tarballUrl": "file://<repo>/verify/fixtures/mini.tar.gz",
+    "ghRepo": null,
+    "ghLanguages": null,
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}
+
+### C_no_blank_no_comment
+$ python3 verify/oracle.py --file <repo>/verify/fixtures/mini.tar.gz --max-file-bytes 2048 --no-blank-lines --no-comment-lines --no-meta
+rc=0
+{
+  "total": 11,
+  "files": 7,
+  "bytes": 172,
+  "perLanguage": {
+    "Python": {
+      "lines": 6,
+      "code": 6,
+      "blank": 3,
+      "comment": 1,
+      "files": 4,
+      "bytes": 56
+    },
+    "JavaScript": {
+      "lines": 3,
+      "code": 3,
+      "blank": 0,
+      "comment": 1,
+      "files": 1,
+      "bytes": 40
+    },
+    "Rust": {
+      "lines": 1,
+      "code": 1,
+      "blank": 1,
+      "comment": 2,
+      "files": 1,
+      "bytes": 52
+    },
+    "TypeScript": {
+      "lines": 1,
+      "code": 1,
+      "blank": 0,
+      "comment": 0,
+      "files": 1,
+      "bytes": 24
+    }
+  },
+  "skipped": 16,
+  "skippedReasons": {
+    "ignored": 6,
+    "binary": 1,
+    "tooLarge": 1,
+    "nonFile": 5,
+    "unknown": 3
+  },
+  "entries": 23,
+  "archiveBytes": 30720,
+  "truncated": false,
+  "ms": 0,
+  "oracle": {
+    "version": "1.0.0",
+    "unknownFiles": 3,
+    "unknownByExt": {
+      "(none)": 1,
+      ".png": 1,
+      ".xyz": 1
+    },
+    "unknownBinaryExtFiles": 1,
+    "compressedBytes": 906,
+    "archiveBytesNoPax": 26624,
+    "tarballRoot": "mini-repo-abc123",
+    "entriesOutsideRoot": 0,
+    "ignoreProfile": "spec",
+    "skipPrecedence": "ignored > nonFile > tooLarge > unknown > binary; binary = язык определён, но в первых 8192 Б есть NUL",
+    "options": {
+      "countBlankLines": false,
+      "countCommentLines": false,
+      "maxFileBytes": 2048,
+      "maxArchiveBytes": 125829120
+    },
+    "truncError": null,
+    "mode": "file",
+    "repo": null,
+    "ref": null,
+    "commit": null,
+    "tarballUrl": "file://<repo>/verify/fixtures/mini.tar.gz",
+    "ghRepo": null,
+    "ghLanguages": null,
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}
+
+### D_chunk_size_1
+$ python3 verify/oracle.py --file <repo>/verify/fixtures/mini.tar.gz --max-file-bytes 2048 --chunk-size 1 --no-meta
+rc=0
+{
+  "total": 19,
+  "files": 7,
+  "bytes": 172,
+  "perLanguage": {
+    "Python": {
+      "lines": 10,
+      "code": 6,
+      "blank": 3,
+      "comment": 1,
+      "files": 4,
+      "bytes": 56
+    },
+    "JavaScript": {
+      "lines": 4,
+      "code": 3,
+      "blank": 0,
+      "comment": 1,
+      "files": 1,
+      "bytes": 40
+    },
+    "Rust": {
+      "lines": 4,
+      "code": 1,
+      "blank": 1,
+      "comment": 2,
+      "files": 1,
+      "bytes": 52
+    },
+    "TypeScript": {
+      "lines": 1,
+      "code": 1,
+      "blank": 0,
+      "comment": 0,
+      "files": 1,
+      "bytes": 24
+    }
+  },
+  "skipped": 16,
+  "skippedReasons": {
+    "ignored": 6,
+    "binary": 1,
+    "tooLarge": 1,
+    "nonFile": 5,
+    "unknown": 3
+  },
+  "entries": 23,
+  "archiveBytes": 30720,
+  "truncated": false,
+  "ms": 0,
+  "oracle": {
+    "version": "1.0.0",
+    "unknownFiles": 3,
+    "unknownByExt": {
+      "(none)": 1,
+      ".png": 1,
+      ".xyz": 1
+    },
+    "unknownBinaryExtFiles": 1,
+    "compressedBytes": 906,
+    "archiveBytesNoPax": 26624,
+    "tarballRoot": "mini-repo-abc123",
+    "entriesOutsideRoot": 0,
+    "ignoreProfile": "spec",
+    "skipPrecedence": "ignored > nonFile > tooLarge > unknown > binary; binary = язык определён, но в первых 8192 Б есть NUL",
+    "options": {
+      "countBlankLines": true,
+      "countCommentLines": true,
+      "maxFileBytes": 2048,
+      "maxArchiveBytes": 125829120
+    },
+    "truncError": null,
+    "mode": "file",
+    "repo": null,
+    "ref": null,
+    "commit": null,
+    "tarballUrl": "file://<repo>/verify/fixtures/mini.tar.gz",
+    "ghRepo": null,
+    "ghLanguages": null,
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}
+
+### E_truncated_archive
+$ python3 verify/oracle.py --file <repo>/verify/fixtures/mini.truncated.tar.gz --max-file-bytes 2048 --no-meta
+rc=0
+{
+  "total": 0,
+  "files": 0,
+  "bytes": 0,
+  "perLanguage": {},
+  "skipped": 6,
+  "skippedReasons": {
+    "ignored": 0,
+    "binary": 0,
+    "tooLarge": 1,
+    "nonFile": 3,
+    "unknown": 2
+  },
+  "entries": 7,
+  "archiveBytes": 10240,
+  "truncated": true,
+  "ms": 0,
+  "oracle": {
+    "version": "1.0.0",
+    "unknownFiles": 2,
+    "unknownByExt": {
+      "(none)": 1,
+      ".png": 1
+    },
+    "unknownBinaryExtFiles": 1,
+    "compressedBytes": 679,
+    "archiveBytesNoPax": 11776,
+    "tarballRoot": "mini-repo-abc123",
+    "entriesOutsideRoot": 0,
+    "ignoreProfile": "spec",
+    "skipPrecedence": "ignored > nonFile > tooLarge > unknown > binary; binary = язык определён, но в первых 8192 Б есть NUL",
+    "options": {
+      "countBlankLines": true,
+      "countCommentLines": true,
+      "maxFileBytes": 2048,
+      "maxArchiveBytes": 125829120
+    },
+    "truncError": "EOFError: Compressed file ended before the end-of-stream marker was reached",
+    "mode": "file",
+    "repo": null,
+    "ref": null,
+    "commit": null,
+    "tarballUrl": "file://<repo>/verify/fixtures/mini.truncated.tar.gz",
+    "ghRepo": null,
+    "ghLanguages": null,
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}
+
+### F_bad_gzip
+$ python3 verify/oracle.py --file <repo>/verify/fixtures/mini.corrupt.tar.gz --no-meta
+rc=4
+{
+  "ok": false,
+  "error": {
+    "code": "unknown",
+    "message": "не удалось открыть архив: Not a gzipped file (b'th')"
+  },
+  "oracle": {
+    "mode": "file",
+    "repo": null,
+    "ref": null,
+    "commit": null,
+    "tarballUrl": "file://<repo>/verify/fixtures/mini.corrupt.tar.gz",
+    "ghRepo": null,
+    "ghLanguages": null,
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}
+
+### G_archive_limit
+$ python3 verify/oracle.py --file <repo>/verify/fixtures/mini.tar.gz --max-archive-mb 0.0001 --no-meta
+rc=3
+{
+  "ok": false,
+  "error": {
+    "code": "too_large",
+    "message": "сжатый архив больше лимита 104 Б"
+  },
+  "oracle": {
+    "mode": "file",
+    "repo": null,
+    "ref": null,
+    "commit": null,
+    "tarballUrl": "file://<repo>/verify/fixtures/mini.tar.gz",
+    "ghRepo": null,
+    "ghLanguages": null,
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}
+
+### H_builtin_self_test
+$ python3 verify/oracle.py --self-test
+rc=0
+OK   ''           Python      lines=0 blank=0 comment=0 code=0 (ожидалось 0/0/0/0)
+OK   '\n'         Python      lines=1 blank=1 comment=0 code=0 (ожидалось 1/1/0/0)
+OK   'a\nb\n'     Python      lines=2 blank=0 comment=0 code=2 (ожидалось 2/0/0/2)
+OK   'a\nb'       Python      lines=2 blank=0 comment=0 code=2 (ожидалось 2/0/0/2)
+OK   'a\r\nb\rc'  Python      lines=3 blank=0 comment=0 code=3 (ожидалось 3/0/0/3)
+OK   'a\r\n'      Python      lines=1 blank=0 comment=0 code=1 (ожидалось 1/0/0/1)
+OK   '# c\nx = 1\n\n' Python      lines=3 blank=1 comment=1 code=1 (ожидалось 3/1/1/1)
+OK   '// c\nx();' JavaScript  lines=2 blank=0 comment=1 code=1 (ожидалось 2/0/1/1)
+OK   '   \n\t\n'  Python      lines=2 blank=2 comment=0 code=0 (ожидалось 2/2/0/0)
+OK   '/* not a line comment */\nx' JavaScript  lines=2 blank=0 comment=0 code=2 (ожидалось 2/0/0/2)
+OK   '--[[ block ]]\nx' Lua         lines=2 blank=0 comment=1 code=1 (ожидалось 2/0/1/1)
+OK   '-- line\nx' Lua         lines=2 blank=0 comment=1 code=1 (ожидалось 2/0/1/1)
+OK   '\xa0\nx'    Python      lines=2 blank=1 comment=0 code=1 (ожидалось 2/1/0/1)
+OK   '\u2028x'    Python      lines=1 blank=0 comment=0 code=1 (ожидалось 1/0/0/1)
+самопроверка: 28 проверок, ошибок 0
+

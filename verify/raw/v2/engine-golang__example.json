@@ -1,0 +1,83 @@
+{
+  "total": 9979,
+  "files": 50,
+  "bytes": 303603,
+  "perLanguage": {
+    "Markdown": {
+      "lines": 6728,
+      "code": 4783,
+      "blank": 1933,
+      "comment": 12,
+      "files": 7,
+      "bytes": 222315
+    },
+    "Go": {
+      "lines": 3066,
+      "code": 2242,
+      "blank": 369,
+      "comment": 455,
+      "files": 32,
+      "bytes": 77147
+    },
+    "YAML": {
+      "lines": 45,
+      "code": 37,
+      "blank": 5,
+      "comment": 3,
+      "files": 2,
+      "bytes": 910
+    },
+    "HTML": {
+      "lines": 24,
+      "code": 17,
+      "blank": 6,
+      "comment": 1,
+      "files": 1,
+      "bytes": 495
+    },
+    "JavaScript": {
+      "lines": 14,
+      "code": 12,
+      "blank": 2,
+      "comment": 0,
+      "files": 1,
+      "bytes": 378
+    },
+    "CSS": {
+      "lines": 9,
+      "code": 7,
+      "blank": 1,
+      "comment": 1,
+      "files": 1,
+      "bytes": 185
+    },
+    "Makefile": {
+      "lines": 26,
+      "code": 14,
+      "blank": 8,
+      "comment": 4,
+      "files": 2,
+      "bytes": 692
+    },
+    "Shell": {
+      "lines": 67,
+      "code": 45,
+      "blank": 13,
+      "comment": 9,
+      "files": 4,
+      "bytes": 1481
+    }
+  },
+  "skipped": 53,
+  "skippedReasons": {
+    "ignored": 4,
+    "binary": 1,
+    "tooLarge": 0,
+    "nonFile": 37,
+    "unknown": 11
+  },
+  "entries": 103,
+  "archiveBytes": 512000,
+  "truncated": false,
+  "ms": 17
+}

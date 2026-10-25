@@ -1,0 +1,17 @@
+{
+  "name": "github-loc",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "MV3-расширение: общее число строк кода под виджетом Languages на GitHub",
+  "scripts": {
+    "test": "node --test 'tests/**/*.test.mjs'",
+    "icons": "node tools/make-icons.mjs",
+    "build": "node tools/build.mjs",
+    "e2e": "node tools/e2e-browser.mjs",
+    "fixture": "node tools/make-e2e-fixture.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

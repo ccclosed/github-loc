@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub LOC — сколько всего строк кода",
+  "version": "1.0.1",
+  "description": "Показывает общее число строк кода под виджетом «Languages» на GitHub: мгновенная оценка и точный подсчёт по tarball с прогрессом.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqLbOE2dpFGEPOkSM7/an+v/5HYx0PIWQNQEnsn70YQX6tPtsT7J9+SNH8ExjjTz+xkxtYRzI6m10g8MzPhzTeIuGZYBlAkV2Y55+z08x+HIxVZ0uc/G9DLaN4yAdECfE/HtLQXkUfE4QBgV1mOuFPh1w5UjbTykZe0hIzrddQBi7w1zu1L185LosJLBdw8H5EBpCenoeNKUe78dB72cmNHka5iAFvH2L2dINDTlpW7+f2kfnmaXPm1BoEXtrroFqhBbWQPPKNnQxyi+3IN19xv5Zh2UxUqIJ/HAaMe2DnrKpyZ1puXq/Nu/kFIYSCMuIZYyO4r0kN85klj//3E+MwQIDAQAB",
+  "minimum_chrome_version": "110",
+  "icons": {
+    "16": "src/icons/icon16.png",
+    "32": "src/icons/icon32.png",
+    "48": "src/icons/icon48.png",
+    "128": "src/icons/icon128.png"
+  },
+  "action": {
+    "default_title": "GitHub LOC",
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "src/icons/icon16.png",
+      "32": "src/icons/icon32.png",
+      "48": "src/icons/icon48.png",
+      "128": "src/icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://github.com/*",
+    "https://api.github.com/*",
+    "https://codeload.github.com/*"
+  ],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "src/content.js"
+      ],
+      "css": [
+        "src/content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

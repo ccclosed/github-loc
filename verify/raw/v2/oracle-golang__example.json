@@ -1,0 +1,122 @@
+{
+  "total": 10716,
+  "files": 64,
+  "bytes": 322609,
+  "perLanguage": {
+    "Markdown": {
+      "lines": 6728,
+      "code": 4795,
+      "blank": 1933,
+      "comment": 0,
+      "files": 7,
+      "bytes": 222315
+    },
+    "Go": {
+      "lines": 3753,
+      "code": 2856,
+      "blank": 426,
+      "comment": 471,
+      "files": 44,
+      "bytes": 95288
+    },
+    "Shell": {
+      "lines": 67,
+      "code": 45,
+      "blank": 13,
+      "comment": 9,
+      "files": 4,
+      "bytes": 1481
+    },
+    "Other": {
+      "lines": 50,
+      "code": 47,
+      "blank": 3,
+      "comment": 0,
+      "files": 2,
+      "bytes": 865
+    },
+    "YAML": {
+      "lines": 45,
+      "code": 37,
+      "blank": 5,
+      "comment": 3,
+      "files": 2,
+      "bytes": 910
+    },
+    "Makefile": {
+      "lines": 26,
+      "code": 14,
+      "blank": 8,
+      "comment": 4,
+      "files": 2,
+      "bytes": 692
+    },
+    "HTML": {
+      "lines": 24,
+      "code": 17,
+      "blank": 6,
+      "comment": 1,
+      "files": 1,
+      "bytes": 495
+    },
+    "JavaScript": {
+      "lines": 14,
+      "code": 12,
+      "blank": 2,
+      "comment": 0,
+      "files": 1,
+      "bytes": 378
+    },
+    "CSS": {
+      "lines": 9,
+      "code": 8,
+      "blank": 1,
+      "comment": 0,
+      "files": 1,
+      "bytes": 185
+    }
+  },
+  "skipped": 39,
+  "skippedReasons": {
+    "ignored": 4,
+    "binary": 0,
+    "tooLarge": 0,
+    "nonFile": 32,
+    "unknown": 3
+  },
+  "entries": 103,
+  "archiveBytes": 512000,
+  "truncated": false,
+  "ms": 8,
+  "oracle": {
+    "version": "1.0.0",
+    "unknownFiles": 3,
+    "unknownByExt": {
+      "(none)": 2,
+      ".ico": 1
+    },
+    "unknownBinaryExtFiles": 1,
+    "compressedBytes": 148343,
+    "archiveBytesNoPax": 507392,
+    "tarballRoot": "example-7f05d217867b2af52b0a28c6d1c91df97e1b5b39",
+    "entriesOutsideRoot": 0,
+    "ignoreProfile": "spec",
+    "skipPrecedence": "ignored > nonFile > tooLarge > unknown > binary; binary = язык определён, но в первых 8192 Б есть NUL",
+    "options": {
+      "countBlankLines": true,
+      "countCommentLines": true,
+      "maxFileBytes": 5242880,
+      "maxArchiveBytes": 125829120
+    },
+    "truncError": null,
+    "mode": "file",
+    "repo": null,
+    "ref": null,
+    "commit": null,
+    "tarballUrl": "file:///tmp/ghloc-verify/golang__example@7f05d217867b2af52b0a28c6d1c91df97e1b5b39.tar.gz",
+    "ghRepo": null,
+    "ghLanguages": null,
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}

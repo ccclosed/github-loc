@@ -1,0 +1,12 @@
+# octocat/Spoon-Knife
+  OK  total            оракул=46                           движок=46
+  OK  files            оракул=3                            движок=3
+  OK  bytes            оракул=1391                         движок=1391
+  OK  truncated        оракул=False                        движок=False
+  OK  skipped          оракул=1                            движок=1
+  OK  entries          оракул=4                            движок=4
+  perLanguage (lines / files):
+    OK  HTML               оракул=20/1  движок=20/1
+    OK  CSS                оракул=17/1  движок=17/1
+    OK  Markdown           оракул=9/1  движок=9/1
+

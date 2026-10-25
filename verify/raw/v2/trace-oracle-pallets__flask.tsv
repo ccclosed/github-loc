@@ -1,0 +1,289 @@
+path	type	size	lang	decision	reason	lines	code	blank	comment	bytes
+	dir	0		skipped	nonFile					
+.devcontainer	dir	0		skipped	nonFile					
+.devcontainer/devcontainer.json	file	434	JSON	counted		17	17	0	0	434
+.devcontainer/on-create-command.sh	file	165	Shell	counted		7	6	0	1	165
+.editorconfig	file	233	EditorConfig	counted		13	11	2	0	233
+.github	dir	0		skipped	nonFile					
+.github/ISSUE_TEMPLATE	dir	0		skipped	nonFile					
+.github/ISSUE_TEMPLATE/bug-report.md	file	615	Markdown	counted		27	20	7	0	615
+.github/ISSUE_TEMPLATE/config.yml	file	511	YAML	counted		11	11	0	0	511
+.github/ISSUE_TEMPLATE/feature-request.md	file	416	Markdown	counted		15	13	2	0	416
+.github/pull_request_template.md	file	822	Markdown	counted		25	20	5	0	822
+.github/workflows	dir	0		skipped	nonFile					
+.github/workflows/lock.yaml	file	741	YAML	counted		26	21	1	4	741
+.github/workflows/pre-commit.yaml	file	1074	YAML	counted		29	29	0	0	1074
+.github/workflows/publish.yaml	file	2041	YAML	counted		62	62	0	0	2041
+.github/workflows/tests.yaml	file	2367	YAML	counted		64	64	0	0	2367
+.github/workflows/zizmor.yaml	file	654	YAML	counted		22	22	0	0	654
+.gitignore	file	74	Ignore List	counted		8	8	0	0	74
+.pre-commit-config.yaml	file	844	YAML	counted		24	24	0	0	844
+.readthedocs.yaml	file	242	YAML	counted		10	10	0	0	242
+CHANGES.rst	file	73668	reStructuredText	counted		1667	1399	268	0	73668
+LICENSE.txt	file	1475	Other	counted		28	23	5	0	1475
+README.md	file	1639	Markdown	counted		53	38	15	0	1639
+docs	dir	0		skipped	nonFile					
+docs/Makefile	file	634	Makefile	counted		20	9	4	7	634
+docs/_static	dir	0		skipped	nonFile					
+docs/_static/debugger.png	file	207889		skipped	unknown					
+docs/_static/flask-icon.svg	file	1999	SVG	counted		15	15	0	0	1999
+docs/_static/flask-logo.svg	file	3455	SVG	counted		17	17	0	0	3455
+docs/_static/flask-name.svg	file	5311	SVG	counted		23	23	0	0	5311
+docs/_static/pycharm-run-config.png	file	99654		skipped	unknown					
+docs/api.rst	file	21212	reStructuredText	counted		708	381	233	94	21212
+docs/appcontext.rst	file	7691	reStructuredText	counted		187	128	52	7	7691
+docs/async-await.rst	file	4709	reStructuredText	counted		119	81	31	7	4709
+docs/blueprints.rst	file	12561	reStructuredText	counted		315	230	80	5	12561
+docs/changes.rst	file	45	reStructuredText	counted		4	2	1	1	45
+docs/cli.rst	file	16701	reStructuredText	counted		556	316	189	51	16701
+docs/conf.py	file	3386	Python	counted		101	80	17	4	3386
+docs/config.rst	file	29006	reStructuredText	counted		839	486	270	83	29006
+docs/contributing.rst	file	274	reStructuredText	counted		8	5	2	1	274
+docs/debugging.rst	file	3462	reStructuredText	counted		99	61	31	7	3462
+docs/deploying	dir	0		skipped	nonFile					
+docs/deploying/apache-httpd.rst	file	2364	reStructuredText	counted		66	45	18	3	2364
+docs/deploying/asgi.rst	file	673	reStructuredText	counted		27	15	9	3	673
+docs/deploying/eventlet.rst	file	141	reStructuredText	counted		8	5	3	0	141
+docs/deploying/gevent.rst	file	2248	reStructuredText	counted		76	47	24	5	2248
+docs/deploying/gunicorn.rst	file	3645	reStructuredText	counted		116	76	33	7	3645
+docs/deploying/index.rst	file	3173	reStructuredText	counted		78	59	17	2	3173
+docs/deploying/mod_wsgi.rst	file	2813	reStructuredText	counted		94	56	30	8	2813
+docs/deploying/nginx.rst	file	2316	reStructuredText	counted		69	48	18	3	2316
+docs/deploying/proxy_fix.rst	file	1365	reStructuredText	counted		33	24	8	1	1365
+docs/deploying/uwsgi.rst	file	4734	reStructuredText	counted		143	88	44	11	4734
+docs/deploying/waitress.rst	file	2337	reStructuredText	counted		75	49	23	3	2337
+docs/design.rst	file	11215	reStructuredText	counted		229	182	47	0	11215
+docs/errorhandling.rst	file	18374	reStructuredText	counted		523	362	143	18	18374
+docs/extensiondev.rst	file	12918	reStructuredText	counted		305	228	66	11	12918
+docs/extensions.rst	file	1372	reStructuredText	counted		48	31	16	1	1372
+docs/gevent.rst	file	4075	reStructuredText	counted		125	72	39	14	4075
+docs/index.rst	file	2065	reStructuredText	counted		89	61	20	8	2065
+docs/installation.rst	file	3768	reStructuredText	counted		143	70	52	21	3768
+docs/license.rst	file	98	reStructuredText	counted		5	3	1	1	98
+docs/lifecycle.rst	file	8987	reStructuredText	counted		171	139	31	1	8987
+docs/logging.rst	file	5927	reStructuredText	counted		183	134	48	1	5927
+docs/make.bat	file	760	Batchfile	counted		35	27	8	0	760
+docs/patterns	dir	0		skipped	nonFile					
+docs/patterns/appdispatch.rst	file	6507	reStructuredText	counted		189	133	50	6	6507
+docs/patterns/appfactories.rst	file	4098	reStructuredText	counted		118	80	36	2	4098
+docs/patterns/caching.rst	file	653	reStructuredText	counted		16	11	4	1	653
+docs/patterns/celery.rst	file	8670	reStructuredText	counted		242	153	73	16	8670
+docs/patterns/deferredcallbacks.rst	file	1848	reStructuredText	counted		44	34	10	0	1848
+docs/patterns/favicon.rst	file	2101	reStructuredText	counted		56	41	14	1	2101
+docs/patterns/fileuploads.rst	file	7297	reStructuredText	counted		182	133	43	6	7297
+docs/patterns/flashing.rst	file	4536	reStructuredText	counted		148	111	30	7	4536
+docs/patterns/index.rst	file	961	reStructuredText	counted		40	35	4	1	961
+docs/patterns/javascript.rst	file	9038	reStructuredText	counted		261	173	65	23	9038
+docs/patterns/jquery.rst	file	96	reStructuredText	counted		6	4	2	0	96
+docs/patterns/lazyloading.rst	file	3847	reStructuredText	counted		109	81	28	0	3847
+docs/patterns/methodoverrides.rst	file	1456	reStructuredText	counted		42	33	9	0	1456
+docs/patterns/mongoengine.rst	file	2882	reStructuredText	counted		102	68	31	3	2882
+docs/patterns/packages.rst	file	4105	reStructuredText	counted		133	94	32	7	4105
+docs/patterns/requestchecksum.rst	file	1861	reStructuredText	counted		55	43	12	0	1861
+docs/patterns/singlepageapplications.rst	file	731	reStructuredText	counted		24	16	8	0	731
+docs/patterns/sqlalchemy.rst	file	7265	reStructuredText	counted		213	148	62	3	7265
+docs/patterns/sqlite3.rst	file	5028	reStructuredText	counted		147	107	37	3	5028
+docs/patterns/streaming.rst	file	3307	reStructuredText	counted		100	67	29	4	3307
+docs/patterns/subclassing.rst	file	676	reStructuredText	counted		17	13	4	0	676
+docs/patterns/templateinheritance.rst	file	2197	reStructuredText	counted		68	53	13	2	2197
+docs/patterns/urlprocessors.rst	file	4306	reStructuredText	counted		126	89	30	7	4306
+docs/patterns/viewdecorators.rst	file	6318	reStructuredText	counted		171	134	36	1	6318
+docs/patterns/wtforms.rst	file	4708	reStructuredText	counted		126	94	26	6	4708
+docs/quickstart.rst	file	30055	reStructuredText	counted		858	602	227	29	30055
+docs/reqcontext.rst	file	93	reStructuredText	counted		6	4	2	0	93
+docs/server.rst	file	3712	reStructuredText	counted		115	62	40	13	3712
+docs/shell.rst	file	2853	reStructuredText	counted		81	56	24	1	2853
+docs/signals.rst	file	6107	reStructuredText	counted		166	115	46	5	6107
+docs/templating.rst	file	8935	reStructuredText	counted		261	170	74	17	8935
+docs/testing.rst	file	10426	reStructuredText	counted		318	212	92	14	10426
+docs/tutorial	dir	0		skipped	nonFile					
+docs/tutorial/blog.rst	file	11388	reStructuredText	counted		336	251	73	12	11388
+docs/tutorial/database.rst	file	7028	reStructuredText	counted		219	146	63	10	7028
+docs/tutorial/deploy.rst	file	3699	reStructuredText	counted		111	64	39	8	3699
+docs/tutorial/factory.rst	file	5878	reStructuredText	counted		159	113	41	5	5878
+docs/tutorial/flaskr_edit.png	file	13259		skipped	unknown					
+docs/tutorial/flaskr_index.png	file	11675		skipped	unknown					
+docs/tutorial/flaskr_login.png	file	7455		skipped	unknown					
+docs/tutorial/index.rst	file	2061	reStructuredText	counted		64	47	12	5	2061
+docs/tutorial/install.rst	file	2838	reStructuredText	counted		89	58	26	5	2838
+docs/tutorial/layout.rst	file	2878	reStructuredText	counted		105	74	26	5	2878
+docs/tutorial/next.rst	file	1631	reStructuredText	counted		38	28	6	4	1631
+docs/tutorial/static.rst	file	3170	reStructuredText	counted		72	54	14	4	3170
+docs/tutorial/templates.rst	file	6962	reStructuredText	counted		187	141	40	6	6962
+docs/tutorial/tests.rst	file	18268	reStructuredText	counted		559	383	153	23	18268
+docs/tutorial/views.rst	file	10924	reStructuredText	counted		305	218	78	9	10924
+docs/views.rst	file	10270	reStructuredText	counted		324	217	90	17	10270
+docs/web-security.rst	file	13085	reStructuredText	counted		316	222	82	12	13085
+examples	dir	0		skipped	nonFile					
+examples/celery	dir	0		skipped	nonFile					
+examples/celery/README.md	file	950	Markdown	counted		27	21	6	0	950
+examples/celery/make_celery.py	file	102	Python	counted		4	3	1	0	102
+examples/celery/pyproject.toml	file	485	TOML	counted		22	18	4	0	485
+examples/celery/requirements.txt	file	1073	Other	counted		58	58	0	0	1073
+examples/celery/src	dir	0		skipped	nonFile					
+examples/celery/src/task_app	dir	0		skipped	nonFile					
+examples/celery/src/task_app/__init__.py	file	1024	Python	counted		39	31	8	0	1024
+examples/celery/src/task_app/tasks.py	file	484	Python	counted		23	15	8	0	484
+examples/celery/src/task_app/templates	dir	0		skipped	nonFile					
+examples/celery/src/task_app/templates/index.html	file	2909	HTML	counted		108	95	13	0	2909
+examples/celery/src/task_app/views.py	file	954	Python	counted		38	28	10	0	954
+examples/javascript	dir	0		skipped	nonFile					
+examples/javascript/.gitignore	file	119	Ignore List	counted		14	14	0	0	119
+examples/javascript/LICENSE.txt	file	1475	Other	counted		28	23	5	0	1475
+examples/javascript/README.rst	file	1086	reStructuredText	counted		48	20	18	10	1086
+examples/javascript/js_example	dir	0		skipped	nonFile					
+examples/javascript/js_example/__init__.py	file	91	Python	counted		5	3	2	0	91
+examples/javascript/js_example/templates	dir	0		skipped	nonFile					
+examples/javascript/js_example/templates/base.html	file	1178	HTML	counted		33	33	0	0	1178
+examples/javascript/js_example/templates/fetch.html	file	852	HTML	counted		33	28	5	0	852
+examples/javascript/js_example/templates/jquery.html	file	666	HTML	counted		27	23	4	0	666
+examples/javascript/js_example/templates/xhr.html	file	933	HTML	counted		29	25	4	0	933
+examples/javascript/js_example/views.py	file	429	Python	counted		18	13	5	0	429
+examples/javascript/pyproject.toml	file	842	TOML	counted		38	30	8	0	842
+examples/javascript/tests	dir	0		skipped	nonFile					
+examples/javascript/tests/conftest.py	file	216	Python	counted		15	10	5	0	216
+examples/javascript/tests/test_js_example.py	file	727	Python	counted		27	22	5	0	727
+examples/tutorial	dir	0		skipped	nonFile					
+examples/tutorial/.gitignore	file	119	Ignore List	counted		14	14	0	0	119
+examples/tutorial/LICENSE.txt	file	1475	Other	counted		28	23	5	0	1475
+examples/tutorial/README.rst	file	1273	reStructuredText	counted		68	41	25	2	1273
+examples/tutorial/flaskr	dir	0		skipped	nonFile					
+examples/tutorial/flaskr/__init__.py	file	1406	Python	counted		48	25	12	11	1406
+examples/tutorial/flaskr/auth.py	file	3296	Python	counted		116	86	26	4	3296
+examples/tutorial/flaskr/blog.py	file	3305	Python	counted		125	100	25	0	3305
+examples/tutorial/flaskr/db.py	file	1317	Python	counted		56	40	16	0	1317
+examples/tutorial/flaskr/schema.sql	file	498	SQL	counted		20	15	3	2	498
+examples/tutorial/flaskr/static	dir	0		skipped	nonFile					
+examples/tutorial/flaskr/static/style.css	file	1696	CSS	counted		134	109	25	0	1696
+examples/tutorial/flaskr/templates	dir	0		skipped	nonFile					
+examples/tutorial/flaskr/templates/auth	dir	0		skipped	nonFile					
+examples/tutorial/flaskr/templates/auth/login.html	file	424	HTML	counted		15	13	2	0	424
+examples/tutorial/flaskr/templates/auth/register.html	file	428	HTML	counted		15	13	2	0	428
+examples/tutorial/flaskr/templates/base.html	file	752	HTML	counted		24	24	0	0	752
+examples/tutorial/flaskr/templates/blog	dir	0		skipped	nonFile					
+examples/tutorial/flaskr/templates/blog/create.html	file	447	HTML	counted		15	13	2	0	447
+examples/tutorial/flaskr/templates/blog/index.html	file	790	HTML	counted		28	26	2	0	790
+examples/tutorial/flaskr/templates/blog/update.html	file	690	HTML	counted		19	17	2	0	690
+examples/tutorial/pyproject.toml	file	873	TOML	counted		45	36	9	0	873
+examples/tutorial/tests	dir	0		skipped	nonFile					
+examples/tutorial/tests/conftest.py	file	1454	Python	counted		62	39	18	5	1454
+examples/tutorial/tests/data.sql	file	394	SQL	counted		8	7	1	0	394
+examples/tutorial/tests/test_auth.py	file	2070	Python	counted		69	46	16	7	2070
+examples/tutorial/tests/test_blog.py	file	2503	Python	counted		83	58	22	3	2503
+examples/tutorial/tests/test_db.py	file	616	Python	counted		29	19	10	0	616
+examples/tutorial/tests/test_factory.py	file	298	Python	counted		12	8	4	0	298
+pyproject.toml	file	6424	TOML	counted		272	243	29	0	6424
+src	dir	0		skipped	nonFile					
+src/flask	dir	0		skipped	nonFile					
+src/flask/__init__.py	file	2072	Python	counted		39	39	0	0	2072
+src/flask/__main__.py	file	30	Python	counted		3	2	1	0	30
+src/flask/app.py	file	65299	Python	counted		1625	1235	300	90	65299
+src/flask/blueprints.py	file	4541	Python	counted		128	94	26	8	4541
+src/flask/cli.py	file	36756	Python	counted		1126	825	228	73	36756
+src/flask/config.py	file	13219	Python	counted		367	282	81	4	13219
+src/flask/ctx.py	file	18261	Python	counted		540	393	136	11	18261
+src/flask/debughelpers.py	file	6070	Python	counted		179	146	33	0	6070
+src/flask/globals.py	file	2414	Python	counted		77	56	19	2	2414
+src/flask/helpers.py	file	24511	Python	counted		679	510	148	21	24511
+src/flask/json	dir	0		skipped	nonFile					
+src/flask/json/__init__.py	file	5583	Python	counted		170	122	48	0	5583
+src/flask/json/provider.py	file	7644	Python	counted		215	163	52	0	7644
+src/flask/json/tag.py	file	9281	Python	counted		327	227	91	9	9281
+src/flask/logging.py	file	2377	Python	counted		79	53	24	2	2377
+src/flask/py.typed	file	0		skipped	unknown					
+src/flask/sansio	dir	0		skipped	nonFile					
+src/flask/sansio/README.md	file	229	Markdown	counted		6	5	1	0	229
+src/flask/sansio/app.py	file	39534	Python	counted		1014	679	181	154	39534
+src/flask/sansio/blueprints.py	file	27017	Python	counted		692	557	120	15	27017
+src/flask/sansio/scaffold.py	file	30633	Python	counted		800	540	153	107	30633
+src/flask/sessions.py	file	14955	Python	counted		385	279	75	31	14955
+src/flask/signals.py	file	750	Python	counted		17	13	3	1	750
+src/flask/templating.py	file	7336	Python	counted		212	164	46	2	7336
+src/flask/testing.py	file	10134	Python	counted		298	231	61	6	10134
+src/flask/typing.py	file	3114	Python	counted		87	63	10	14	3114
+src/flask/views.py	file	6971	Python	counted		191	117	45	29	6971
+src/flask/wrappers.py	file	9406	Python	counted		257	175	63	19	9406
+tests	dir	0		skipped	nonFile					
+tests/conftest.py	file	2546	Python	counted		112	80	30	2	2546
+tests/static	dir	0		skipped	nonFile					
+tests/static/config.json	file	54	JSON	counted		4	4	0	0	54
+tests/static/config.toml	file	35	TOML	counted		2	2	0	0	35
+tests/static/index.html	file	22	HTML	counted		1	1	0	0	22
+tests/templates	dir	0		skipped	nonFile					
+tests/templates/_macro.html	file	55	HTML	counted		1	1	0	0	55
+tests/templates/context_template.html	file	36	HTML	counted		1	1	0	0	36
+tests/templates/escaping_template.html	file	147	HTML	counted		6	6	0	0	147
+tests/templates/mail.txt	file	14	Other	counted		1	1	0	0	14
+tests/templates/nested	dir	0		skipped	nonFile					
+tests/templates/nested/nested.txt	file	11	Other	counted		1	1	0	0	11
+tests/templates/non_escaping_template.txt	file	169	Other	counted		8	8	0	0	169
+tests/templates/simple_template.html	file	23	HTML	counted		1	1	0	0	23
+tests/templates/template_filter.html	file	26	HTML	counted		1	1	0	0	26
+tests/templates/template_test.html	file	51	HTML	counted		3	3	0	0	51
+tests/test_appctx.py	file	6622	Python	counted		259	181	70	8	6622
+tests/test_apps	dir	0		skipped	nonFile					
+tests/test_apps/.env	file	33	Dotenv	counted		4	4	0	0	33
+tests/test_apps/.flaskenv	file	28		skipped	unknown					
+tests/test_apps/blueprintapp	dir	0		skipped	nonFile					
+tests/test_apps/blueprintapp/__init__.py	file	256	Python	counted		9	7	2	0	256
+tests/test_apps/blueprintapp/apps	dir	0		skipped	nonFile					
+tests/test_apps/blueprintapp/apps/__init__.py	file	0	Python	counted		0	0	0	0	0
+tests/test_apps/blueprintapp/apps/admin	dir	0		skipped	nonFile					
+tests/test_apps/blueprintapp/apps/admin/__init__.py	file	366	Python	counted		20	15	5	0	366
+tests/test_apps/blueprintapp/apps/admin/static	dir	0		skipped	nonFile					
+tests/test_apps/blueprintapp/apps/admin/static/css	dir	0		skipped	nonFile					
+tests/test_apps/blueprintapp/apps/admin/static/css/test.css	file	18	CSS	counted		1	1	0	0	18
+tests/test_apps/blueprintapp/apps/admin/static/test.txt	file	11	Other	counted		1	1	0	0	11
+tests/test_apps/blueprintapp/apps/admin/templates	dir	0		skipped	nonFile					
+tests/test_apps/blueprintapp/apps/admin/templates/admin	dir	0		skipped	nonFile					
+tests/test_apps/blueprintapp/apps/admin/templates/admin/index.html	file	21	HTML	counted		1	1	0	0	21
+tests/test_apps/blueprintapp/apps/frontend	dir	0		skipped	nonFile					
+tests/test_apps/blueprintapp/apps/frontend/__init__.py	file	327	Python	counted		14	9	5	0	327
+tests/test_apps/blueprintapp/apps/frontend/templates	dir	0		skipped	nonFile					
+tests/test_apps/blueprintapp/apps/frontend/templates/frontend	dir	0		skipped	nonFile					
+tests/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html	file	24	HTML	counted		1	1	0	0	24
+tests/test_apps/cliapp	dir	0		skipped	nonFile					
+tests/test_apps/cliapp/__init__.py	file	0	Python	counted		0	0	0	0	0
+tests/test_apps/cliapp/app.py	file	52	Python	counted		3	2	1	0	52
+tests/test_apps/cliapp/factory.py	file	169	Python	counted		13	7	6	0	169
+tests/test_apps/cliapp/importerrorapp.py	file	73	Python	counted		5	3	2	0	73
+tests/test_apps/cliapp/inner1	dir	0		skipped	nonFile					
+tests/test_apps/cliapp/inner1/__init__.py	file	55	Python	counted		3	2	1	0	55
+tests/test_apps/cliapp/inner1/inner2	dir	0		skipped	nonFile					
+tests/test_apps/cliapp/inner1/inner2/__init__.py	file	0	Python	counted		0	0	0	0	0
+tests/test_apps/cliapp/inner1/inner2/flask.py	file	47	Python	counted		3	2	1	0	47
+tests/test_apps/cliapp/message.txt	file	38	Other	counted		1	1	0	0	38
+tests/test_apps/cliapp/multiapp.py	file	67	Python	counted		4	3	1	0	67
+tests/test_apps/helloworld	dir	0		skipped	nonFile					
+tests/test_apps/helloworld/hello.py	file	104	Python	counted		8	5	3	0	104
+tests/test_apps/helloworld/wsgi.py	file	36	Python	counted		1	1	0	0	36
+tests/test_apps/subdomaintestmodule	dir	0		skipped	nonFile					
+tests/test_apps/subdomaintestmodule/__init__.py	file	73	Python	counted		3	2	1	0	73
+tests/test_apps/subdomaintestmodule/static	dir	0		skipped	nonFile					
+tests/test_apps/subdomaintestmodule/static/hello.txt	file	16	Other	counted		1	1	0	0	16
+tests/test_async.py	file	3335	Python	counted		145	104	41	0	3335
+tests/test_basic.py	file	54250	Python	counted		1974	1444	487	43	54250
+tests/test_blueprints.py	file	31287	Python	counted		1115	776	325	14	31287
+tests/test_cli.py	file	20303	Python	counted		703	497	167	39	20303
+tests/test_config.py	file	7686	Python	counted		250	191	57	2	7686
+tests/test_converters.py	file	1093	Python	counted		42	29	13	0	1093
+tests/test_helpers.py	file	11218	Python	counted		377	260	104	13	11218
+tests/test_instance_config.py	file	3317	Python	counted		111	80	31	0	3317
+tests/test_json.py	file	8741	Python	counted		346	270	74	2	8741
+tests/test_json_tag.py	file	1984	Python	counted		86	64	22	0	1984
+tests/test_logging.py	file	2529	Python	counted		98	69	29	0	2529
+tests/test_regression.py	file	712	Python	counted		30	21	8	1	712
+tests/test_reqctx.py	file	6696	Python	counted		249	183	59	7	6696
+tests/test_request.py	file	1902	Python	counted		70	50	17	3	1902
+tests/test_session_interface.py	file	784	Python	counted		28	21	7	0	784
+tests/test_signals.py	file	4864	Python	counted		181	139	42	0	4864
+tests/test_subclassing.py	file	480	Python	counted		21	15	6	0	480
+tests/test_templating.py	file	15403	Python	counted		532	381	145	6	15403
+tests/test_testing.py	file	10559	Python	counted		398	277	112	9	10559
+tests/test_user_error_handler.py	file	8436	Python	counted		295	214	80	1	8436
+tests/test_views.py	file	7058	Python	counted		271	186	84	1	7058
+tests/type_check	dir	0		skipped	nonFile					
+tests/type_check/typing_app_decorators.py	file	589	Python	counted		32	18	14	0	589
+tests/type_check/typing_error_handler.py	file	647	Python	counted		33	21	12	0	647
+tests/type_check/typing_route.py	file	2532	Python	counted		112	71	41	0	2532
+uv.lock	file	279196		skipped	ignored					

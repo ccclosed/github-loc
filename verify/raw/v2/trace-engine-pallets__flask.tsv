@@ -1,0 +1,288 @@
+	dir	0	nonFile	type=dir
+.devcontainer/	dir	0	nonFile	type=dir
+.devcontainer/devcontainer.json	file	434	counted	lang=JSON bytes=434
+.devcontainer/on-create-command.sh	file	165	counted	lang=Shell bytes=165
+.editorconfig	file	233	counted	lang=EditorConfig bytes=233
+.github/	dir	0	nonFile	type=dir
+.github/ISSUE_TEMPLATE/	dir	0	nonFile	type=dir
+.github/ISSUE_TEMPLATE/bug-report.md	file	615	counted	lang=Markdown bytes=615
+.github/ISSUE_TEMPLATE/config.yml	file	511	counted	lang=YAML bytes=511
+.github/ISSUE_TEMPLATE/feature-request.md	file	416	counted	lang=Markdown bytes=416
+.github/pull_request_template.md	file	822	counted	lang=Markdown bytes=822
+.github/workflows/	dir	0	nonFile	type=dir
+.github/workflows/lock.yaml	file	741	counted	lang=YAML bytes=741
+.github/workflows/pre-commit.yaml	file	1074	counted	lang=YAML bytes=1074
+.github/workflows/publish.yaml	file	2041	counted	lang=YAML bytes=2041
+.github/workflows/tests.yaml	file	2367	counted	lang=YAML bytes=2367
+.github/workflows/zizmor.yaml	file	654	counted	lang=YAML bytes=654
+.gitignore	file	74	counted	lang=Ignore List bytes=74
+.pre-commit-config.yaml	file	844	counted	lang=YAML bytes=844
+.readthedocs.yaml	file	242	counted	lang=YAML bytes=242
+CHANGES.rst	file	73668	counted	lang=reStructuredText bytes=73668
+LICENSE.txt	file	1475	counted	lang=Text bytes=1475
+README.md	file	1639	counted	lang=Markdown bytes=1639
+docs/	dir	0	nonFile	type=dir
+docs/Makefile	file	634	counted	lang=Makefile bytes=634
+docs/_static/	dir	0	nonFile	type=dir
+docs/_static/debugger.png	file	207889	binary	lang=null
+docs/_static/flask-icon.svg	file	1999	counted	lang=SVG bytes=1999
+docs/_static/flask-logo.svg	file	3455	counted	lang=SVG bytes=3455
+docs/_static/flask-name.svg	file	5311	counted	lang=SVG bytes=5311
+docs/_static/pycharm-run-config.png	file	99654	binary	lang=null
+docs/api.rst	file	21212	counted	lang=reStructuredText bytes=21212
+docs/appcontext.rst	file	7691	counted	lang=reStructuredText bytes=7691
+docs/async-await.rst	file	4709	counted	lang=reStructuredText bytes=4709
+docs/blueprints.rst	file	12561	counted	lang=reStructuredText bytes=12561
+docs/changes.rst	file	45	counted	lang=reStructuredText bytes=45
+docs/cli.rst	file	16701	counted	lang=reStructuredText bytes=16701
+docs/conf.py	file	3386	counted	lang=Python bytes=3386
+docs/config.rst	file	29006	counted	lang=reStructuredText bytes=29006
+docs/contributing.rst	file	274	counted	lang=reStructuredText bytes=274
+docs/debugging.rst	file	3462	counted	lang=reStructuredText bytes=3462
+docs/deploying/	dir	0	nonFile	type=dir
+docs/deploying/apache-httpd.rst	file	2364	counted	lang=reStructuredText bytes=2364
+docs/deploying/asgi.rst	file	673	counted	lang=reStructuredText bytes=673
+docs/deploying/eventlet.rst	file	141	counted	lang=reStructuredText bytes=141
+docs/deploying/gevent.rst	file	2248	counted	lang=reStructuredText bytes=2248
+docs/deploying/gunicorn.rst	file	3645	counted	lang=reStructuredText bytes=3645
+docs/deploying/index.rst	file	3173	counted	lang=reStructuredText bytes=3173
+docs/deploying/mod_wsgi.rst	file	2813	counted	lang=reStructuredText bytes=2813
+docs/deploying/nginx.rst	file	2316	counted	lang=reStructuredText bytes=2316
+docs/deploying/proxy_fix.rst	file	1365	counted	lang=reStructuredText bytes=1365
+docs/deploying/uwsgi.rst	file	4734	counted	lang=reStructuredText bytes=4734
+docs/deploying/waitress.rst	file	2337	counted	lang=reStructuredText bytes=2337
+docs/design.rst	file	11215	counted	lang=reStructuredText bytes=11215
+docs/errorhandling.rst	file	18374	counted	lang=reStructuredText bytes=18374
+docs/extensiondev.rst	file	12918	counted	lang=reStructuredText bytes=12918
+docs/extensions.rst	file	1372	counted	lang=reStructuredText bytes=1372
+docs/gevent.rst	file	4075	counted	lang=reStructuredText bytes=4075
+docs/index.rst	file	2065	counted	lang=reStructuredText bytes=2065
+docs/installation.rst	file	3768	counted	lang=reStructuredText bytes=3768
+docs/license.rst	file	98	counted	lang=reStructuredText bytes=98
+docs/lifecycle.rst	file	8987	counted	lang=reStructuredText bytes=8987
+docs/logging.rst	file	5927	counted	lang=reStructuredText bytes=5927
+docs/make.bat	file	760	counted	lang=Batchfile bytes=760
+docs/patterns/	dir	0	nonFile	type=dir
+docs/patterns/appdispatch.rst	file	6507	counted	lang=reStructuredText bytes=6507
+docs/patterns/appfactories.rst	file	4098	counted	lang=reStructuredText bytes=4098
+docs/patterns/caching.rst	file	653	counted	lang=reStructuredText bytes=653
+docs/patterns/celery.rst	file	8670	counted	lang=reStructuredText bytes=8670
+docs/patterns/deferredcallbacks.rst	file	1848	counted	lang=reStructuredText bytes=1848
+docs/patterns/favicon.rst	file	2101	counted	lang=reStructuredText bytes=2101
+docs/patterns/fileuploads.rst	file	7297	counted	lang=reStructuredText bytes=7297
+docs/patterns/flashing.rst	file	4536	counted	lang=reStructuredText bytes=4536
+docs/patterns/index.rst	file	961	counted	lang=reStructuredText bytes=961
+docs/patterns/javascript.rst	file	9038	counted	lang=reStructuredText bytes=9038
+docs/patterns/jquery.rst	file	96	counted	lang=reStructuredText bytes=96
+docs/patterns/lazyloading.rst	file	3847	counted	lang=reStructuredText bytes=3847
+docs/patterns/methodoverrides.rst	file	1456	counted	lang=reStructuredText bytes=1456
+docs/patterns/mongoengine.rst	file	2882	counted	lang=reStructuredText bytes=2882
+docs/patterns/packages.rst	file	4105	counted	lang=reStructuredText bytes=4105
+docs/patterns/requestchecksum.rst	file	1861	counted	lang=reStructuredText bytes=1861
+docs/patterns/singlepageapplications.rst	file	731	counted	lang=reStructuredText bytes=731
+docs/patterns/sqlalchemy.rst	file	7265	counted	lang=reStructuredText bytes=7265
+docs/patterns/sqlite3.rst	file	5028	counted	lang=reStructuredText bytes=5028
+docs/patterns/streaming.rst	file	3307	counted	lang=reStructuredText bytes=3307
+docs/patterns/subclassing.rst	file	676	counted	lang=reStructuredText bytes=676
+docs/patterns/templateinheritance.rst	file	2197	counted	lang=reStructuredText bytes=2197
+docs/patterns/urlprocessors.rst	file	4306	counted	lang=reStructuredText bytes=4306
+docs/patterns/viewdecorators.rst	file	6318	counted	lang=reStructuredText bytes=6318
+docs/patterns/wtforms.rst	file	4708	counted	lang=reStructuredText bytes=4708
+docs/quickstart.rst	file	30055	counted	lang=reStructuredText bytes=30055
+docs/reqcontext.rst	file	93	counted	lang=reStructuredText bytes=93
+docs/server.rst	file	3712	counted	lang=reStructuredText bytes=3712
+docs/shell.rst	file	2853	counted	lang=reStructuredText bytes=2853
+docs/signals.rst	file	6107	counted	lang=reStructuredText bytes=6107
+docs/templating.rst	file	8935	counted	lang=reStructuredText bytes=8935
+docs/testing.rst	file	10426	counted	lang=reStructuredText bytes=10426
+docs/tutorial/	dir	0	nonFile	type=dir
+docs/tutorial/blog.rst	file	11388	counted	lang=reStructuredText bytes=11388
+docs/tutorial/database.rst	file	7028	counted	lang=reStructuredText bytes=7028
+docs/tutorial/deploy.rst	file	3699	counted	lang=reStructuredText bytes=3699
+docs/tutorial/factory.rst	file	5878	counted	lang=reStructuredText bytes=5878
+docs/tutorial/flaskr_edit.png	file	13259	binary	lang=null
+docs/tutorial/flaskr_index.png	file	11675	binary	lang=null
+docs/tutorial/flaskr_login.png	file	7455	binary	lang=null
+docs/tutorial/index.rst	file	2061	counted	lang=reStructuredText bytes=2061
+docs/tutorial/install.rst	file	2838	counted	lang=reStructuredText bytes=2838
+docs/tutorial/layout.rst	file	2878	counted	lang=reStructuredText bytes=2878
+docs/tutorial/next.rst	file	1631	counted	lang=reStructuredText bytes=1631
+docs/tutorial/static.rst	file	3170	counted	lang=reStructuredText bytes=3170
+docs/tutorial/templates.rst	file	6962	counted	lang=reStructuredText bytes=6962
+docs/tutorial/tests.rst	file	18268	counted	lang=reStructuredText bytes=18268
+docs/tutorial/views.rst	file	10924	counted	lang=reStructuredText bytes=10924
+docs/views.rst	file	10270	counted	lang=reStructuredText bytes=10270
+docs/web-security.rst	file	13085	counted	lang=reStructuredText bytes=13085
+examples/	dir	0	nonFile	type=dir
+examples/celery/	dir	0	nonFile	type=dir
+examples/celery/README.md	file	950	counted	lang=Markdown bytes=950
+examples/celery/make_celery.py	file	102	counted	lang=Python bytes=102
+examples/celery/pyproject.toml	file	485	counted	lang=TOML bytes=485
+examples/celery/requirements.txt	file	1073	counted	lang=Text bytes=1073
+examples/celery/src/	dir	0	nonFile	type=dir
+examples/celery/src/task_app/	dir	0	nonFile	type=dir
+examples/celery/src/task_app/__init__.py	file	1024	counted	lang=Python bytes=1024
+examples/celery/src/task_app/tasks.py	file	484	counted	lang=Python bytes=484
+examples/celery/src/task_app/templates/	dir	0	nonFile	type=dir
+examples/celery/src/task_app/templates/index.html	file	2909	counted	lang=HTML bytes=2909
+examples/celery/src/task_app/views.py	file	954	counted	lang=Python bytes=954
+examples/javascript/	dir	0	nonFile	type=dir
+examples/javascript/.gitignore	file	119	counted	lang=Ignore List bytes=119
+examples/javascript/LICENSE.txt	file	1475	counted	lang=Text bytes=1475
+examples/javascript/README.rst	file	1086	counted	lang=reStructuredText bytes=1086
+examples/javascript/js_example/	dir	0	nonFile	type=dir
+examples/javascript/js_example/__init__.py	file	91	counted	lang=Python bytes=91
+examples/javascript/js_example/templates/	dir	0	nonFile	type=dir
+examples/javascript/js_example/templates/base.html	file	1178	counted	lang=HTML bytes=1178
+examples/javascript/js_example/templates/fetch.html	file	852	counted	lang=HTML bytes=852
+examples/javascript/js_example/templates/jquery.html	file	666	counted	lang=HTML bytes=666
+examples/javascript/js_example/templates/xhr.html	file	933	counted	lang=HTML bytes=933
+examples/javascript/js_example/views.py	file	429	counted	lang=Python bytes=429
+examples/javascript/pyproject.toml	file	842	counted	lang=TOML bytes=842
+examples/javascript/tests/	dir	0	nonFile	type=dir
+examples/javascript/tests/conftest.py	file	216	counted	lang=Python bytes=216
+examples/javascript/tests/test_js_example.py	file	727	counted	lang=Python bytes=727
+examples/tutorial/	dir	0	nonFile	type=dir
+examples/tutorial/.gitignore	file	119	counted	lang=Ignore List bytes=119
+examples/tutorial/LICENSE.txt	file	1475	counted	lang=Text bytes=1475
+examples/tutorial/README.rst	file	1273	counted	lang=reStructuredText bytes=1273
+examples/tutorial/flaskr/	dir	0	nonFile	type=dir
+examples/tutorial/flaskr/__init__.py	file	1406	counted	lang=Python bytes=1406
+examples/tutorial/flaskr/auth.py	file	3296	counted	lang=Python bytes=3296
+examples/tutorial/flaskr/blog.py	file	3305	counted	lang=Python bytes=3305
+examples/tutorial/flaskr/db.py	file	1317	counted	lang=Python bytes=1317
+examples/tutorial/flaskr/schema.sql	file	498	counted	lang=SQL bytes=498
+examples/tutorial/flaskr/static/	dir	0	nonFile	type=dir
+examples/tutorial/flaskr/static/style.css	file	1696	counted	lang=CSS bytes=1696
+examples/tutorial/flaskr/templates/	dir	0	nonFile	type=dir
+examples/tutorial/flaskr/templates/auth/	dir	0	nonFile	type=dir
+examples/tutorial/flaskr/templates/auth/login.html	file	424	counted	lang=HTML bytes=424
+examples/tutorial/flaskr/templates/auth/register.html	file	428	counted	lang=HTML bytes=428
+examples/tutorial/flaskr/templates/base.html	file	752	counted	lang=HTML bytes=752
+examples/tutorial/flaskr/templates/blog/	dir	0	nonFile	type=dir
+examples/tutorial/flaskr/templates/blog/create.html	file	447	counted	lang=HTML bytes=447
+examples/tutorial/flaskr/templates/blog/index.html	file	790	counted	lang=HTML bytes=790
+examples/tutorial/flaskr/templates/blog/update.html	file	690	counted	lang=HTML bytes=690
+examples/tutorial/pyproject.toml	file	873	counted	lang=TOML bytes=873
+examples/tutorial/tests/	dir	0	nonFile	type=dir
+examples/tutorial/tests/conftest.py	file	1454	counted	lang=Python bytes=1454
+examples/tutorial/tests/data.sql	file	394	counted	lang=SQL bytes=394
+examples/tutorial/tests/test_auth.py	file	2070	counted	lang=Python bytes=2070
+examples/tutorial/tests/test_blog.py	file	2503	counted	lang=Python bytes=2503
+examples/tutorial/tests/test_db.py	file	616	counted	lang=Python bytes=616
+examples/tutorial/tests/test_factory.py	file	298	counted	lang=Python bytes=298
+pyproject.toml	file	6424	counted	lang=TOML bytes=6424
+src/	dir	0	nonFile	type=dir
+src/flask/	dir	0	nonFile	type=dir
+src/flask/__init__.py	file	2072	counted	lang=Python bytes=2072
+src/flask/__main__.py	file	30	counted	lang=Python bytes=30
+src/flask/app.py	file	65299	counted	lang=Python bytes=65299
+src/flask/blueprints.py	file	4541	counted	lang=Python bytes=4541
+src/flask/cli.py	file	36756	counted	lang=Python bytes=36756
+src/flask/config.py	file	13219	counted	lang=Python bytes=13219
+src/flask/ctx.py	file	18261	counted	lang=Python bytes=18261
+src/flask/debughelpers.py	file	6070	counted	lang=Python bytes=6070
+src/flask/globals.py	file	2414	counted	lang=Python bytes=2414
+src/flask/helpers.py	file	24511	counted	lang=Python bytes=24511
+src/flask/json/	dir	0	nonFile	type=dir
+src/flask/json/__init__.py	file	5583	counted	lang=Python bytes=5583
+src/flask/json/provider.py	file	7644	counted	lang=Python bytes=7644
+src/flask/json/tag.py	file	9281	counted	lang=Python bytes=9281
+src/flask/logging.py	file	2377	counted	lang=Python bytes=2377
+src/flask/py.typed	file	0	unknown	ext=.typed
+src/flask/sansio/	dir	0	nonFile	type=dir
+src/flask/sansio/README.md	file	229	counted	lang=Markdown bytes=229
+src/flask/sansio/app.py	file	39534	counted	lang=Python bytes=39534
+src/flask/sansio/blueprints.py	file	27017	counted	lang=Python bytes=27017
+src/flask/sansio/scaffold.py	file	30633	counted	lang=Python bytes=30633
+src/flask/sessions.py	file	14955	counted	lang=Python bytes=14955
+src/flask/signals.py	file	750	counted	lang=Python bytes=750
+src/flask/templating.py	file	7336	counted	lang=Python bytes=7336
+src/flask/testing.py	file	10134	counted	lang=Python bytes=10134
+src/flask/typing.py	file	3114	counted	lang=Python bytes=3114
+src/flask/views.py	file	6971	counted	lang=Python bytes=6971
+src/flask/wrappers.py	file	9406	counted	lang=Python bytes=9406
+tests/	dir	0	nonFile	type=dir
+tests/conftest.py	file	2546	counted	lang=Python bytes=2546
+tests/static/	dir	0	nonFile	type=dir
+tests/static/config.json	file	54	counted	lang=JSON bytes=54
+tests/static/config.toml	file	35	counted	lang=TOML bytes=35
+tests/static/index.html	file	22	counted	lang=HTML bytes=22
+tests/templates/	dir	0	nonFile	type=dir
+tests/templates/_macro.html	file	55	counted	lang=HTML bytes=55
+tests/templates/context_template.html	file	36	counted	lang=HTML bytes=36
+tests/templates/escaping_template.html	file	147	counted	lang=HTML bytes=147
+tests/templates/mail.txt	file	14	counted	lang=Text bytes=14
+tests/templates/nested/	dir	0	nonFile	type=dir
+tests/templates/nested/nested.txt	file	11	counted	lang=Text bytes=11
+tests/templates/non_escaping_template.txt	file	169	counted	lang=Text bytes=169
+tests/templates/simple_template.html	file	23	counted	lang=HTML bytes=23
+tests/templates/template_filter.html	file	26	counted	lang=HTML bytes=26
+tests/templates/template_test.html	file	51	counted	lang=HTML bytes=51
+tests/test_appctx.py	file	6622	counted	lang=Python bytes=6622
+tests/test_apps/	dir	0	nonFile	type=dir
+tests/test_apps/.env	file	33	counted	lang=Dotenv bytes=33
+tests/test_apps/.flaskenv	file	28	unknown	ext=.flaskenv
+tests/test_apps/blueprintapp/	dir	0	nonFile	type=dir
+tests/test_apps/blueprintapp/__init__.py	file	256	counted	lang=Python bytes=256
+tests/test_apps/blueprintapp/apps/	dir	0	nonFile	type=dir
+tests/test_apps/blueprintapp/apps/__init__.py	file	0	counted	lang=Python bytes=0
+tests/test_apps/blueprintapp/apps/admin/	dir	0	nonFile	type=dir
+tests/test_apps/blueprintapp/apps/admin/__init__.py	file	366	counted	lang=Python bytes=366
+tests/test_apps/blueprintapp/apps/admin/static/	dir	0	nonFile	type=dir
+tests/test_apps/blueprintapp/apps/admin/static/css/	dir	0	nonFile	type=dir
+	file	18	nonFile	empty-rel
+	file	11	nonFile	empty-rel
+tests/test_apps/blueprintapp/apps/admin/templates/	dir	0	nonFile	type=dir
+	dir	0	nonFile	type=dir
+	file	21	nonFile	empty-rel
+tests/test_apps/blueprintapp/apps/frontend/	dir	0	nonFile	type=dir
+	file	327	nonFile	empty-rel
+tests/test_apps/blueprintapp/apps/frontend/templates/	dir	0	nonFile	type=dir
+	dir	0	nonFile	type=dir
+	file	24	nonFile	empty-rel
+tests/test_apps/cliapp/	dir	0	nonFile	type=dir
+tests/test_apps/cliapp/__init__.py	file	0	counted	lang=Python bytes=0
+tests/test_apps/cliapp/app.py	file	52	counted	lang=Python bytes=52
+tests/test_apps/cliapp/factory.py	file	169	counted	lang=Python bytes=169
+tests/test_apps/cliapp/importerrorapp.py	file	73	counted	lang=Python bytes=73
+tests/test_apps/cliapp/inner1/	dir	0	nonFile	type=dir
+tests/test_apps/cliapp/inner1/__init__.py	file	55	counted	lang=Python bytes=55
+tests/test_apps/cliapp/inner1/inner2/	dir	0	nonFile	type=dir
+tests/test_apps/cliapp/inner1/inner2/__init__.py	file	0	counted	lang=Python bytes=0
+tests/test_apps/cliapp/inner1/inner2/flask.py	file	47	counted	lang=Python bytes=47
+tests/test_apps/cliapp/message.txt	file	38	counted	lang=Text bytes=38
+tests/test_apps/cliapp/multiapp.py	file	67	counted	lang=Python bytes=67
+tests/test_apps/helloworld/	dir	0	nonFile	type=dir
+tests/test_apps/helloworld/hello.py	file	104	counted	lang=Python bytes=104
+tests/test_apps/helloworld/wsgi.py	file	36	counted	lang=Python bytes=36
+tests/test_apps/subdomaintestmodule/	dir	0	nonFile	type=dir
+tests/test_apps/subdomaintestmodule/__init__.py	file	73	counted	lang=Python bytes=73
+tests/test_apps/subdomaintestmodule/static/	dir	0	nonFile	type=dir
+tests/test_apps/subdomaintestmodule/static/hello.txt	file	16	counted	lang=Text bytes=16
+tests/test_async.py	file	3335	counted	lang=Python bytes=3335
+tests/test_basic.py	file	54250	counted	lang=Python bytes=54250
+tests/test_blueprints.py	file	31287	counted	lang=Python bytes=31287
+tests/test_cli.py	file	20303	counted	lang=Python bytes=20303
+tests/test_config.py	file	7686	counted	lang=Python bytes=7686
+tests/test_converters.py	file	1093	counted	lang=Python bytes=1093
+tests/test_helpers.py	file	11218	counted	lang=Python bytes=11218
+tests/test_instance_config.py	file	3317	counted	lang=Python bytes=3317
+tests/test_json.py	file	8741	counted	lang=Python bytes=8741
+tests/test_json_tag.py	file	1984	counted	lang=Python bytes=1984
+tests/test_logging.py	file	2529	counted	lang=Python bytes=2529
+tests/test_regression.py	file	712	counted	lang=Python bytes=712
+tests/test_reqctx.py	file	6696	counted	lang=Python bytes=6696
+tests/test_request.py	file	1902	counted	lang=Python bytes=1902
+tests/test_session_interface.py	file	784	counted	lang=Python bytes=784
+tests/test_signals.py	file	4864	counted	lang=Python bytes=4864
+tests/test_subclassing.py	file	480	counted	lang=Python bytes=480
+tests/test_templating.py	file	15403	counted	lang=Python bytes=15403
+tests/test_testing.py	file	10559	counted	lang=Python bytes=10559
+tests/test_user_error_handler.py	file	8436	counted	lang=Python bytes=8436
+tests/test_views.py	file	7058	counted	lang=Python bytes=7058
+tests/type_check/	dir	0	nonFile	type=dir
+tests/type_check/typing_app_decorators.py	file	589	counted	lang=Python bytes=589
+tests/type_check/typing_error_handler.py	file	647	counted	lang=Python bytes=647
+tests/type_check/typing_route.py	file	2532	counted	lang=Python bytes=2532
+uv.lock	file	279196	ignored	

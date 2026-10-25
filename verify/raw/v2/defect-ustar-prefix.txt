@@ -1,0 +1,20 @@
+ДЕФЕКТ D1: ustar prefix-поле читается со смещением 344 вместо 345
+Файл: src/loc/tar.js:204  ->  const prefix = readCString(header, 344, 500);
+Стандарт POSIX ustar: devminor = [337,345), prefix = [345,500) (155 байт).
+Байт 344 — последний байт devminor (обычно NUL) => readCString возвращает '' => путь теряется.
+
+МИНИМАЛЬНАЯ РЕПРОДУКЦИЯ (готовая команда):
+  python3 verify/fixtures/mk-prefix-repro.py && node verify/engine-trace.mjs /tmp/ghloc-verify/prefix-repro.tar.gz
+Ожидалось: строка с полным путём (154 симв.) и decision=counted; получено: пустой путь + 'nonFile empty-rel'.
+
+ВЫВОД ТРАССЫ (сырой):
+  	file	12	nonFile	empty-rel
+  short.py	file	12	counted	lang=Python bytes=12
+
+НА РЕАЛЬНЫХ РЕПО:
+  rustlings:       oracle 15734/290 файлов, движок 15730/288  (-2 файла .rs, -4 строки; bytes 515444 vs 515410 = 21+13)
+  golang/example:  oracle 10716/64,  движок  9979/50   (-5 .go файлов через prefix: 1043+1770+1770+2674+664 = 7921 Б)
+  pallets/flask:   oracle 34632/228, движок 34614/223  (-5 файлов: 18+11+21+24+327 = 401 Б)
+
+ПРИЧИНА, ПОЧЕМУ ТЕСТЫ НЕ ПОЙМАЛИ: tests/loc.test.mjs проверяет longName:'pax' и 'gnu', но НИ ОДИН тест не передаёт entry.prefix;
+tests/tar-writer.mjs:37 пишет prefix корректно в 345, т.е. писатель фикстуры прав, а читатель — нет.

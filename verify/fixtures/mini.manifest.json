@@ -1,0 +1,144 @@
+{
+  "root": "mini-repo-abc123/",
+  "entries": 23,
+  "tarBytes": 30720,
+  "gzBytes": 906,
+  "gzSha256": "c0410023d60ee660ec0658fb5223f2db73533bdbf38bc0c2041976c72f9baaaf",
+  "members": [
+    {
+      "path": "mini-repo-abc123/",
+      "type": "dir",
+      "size": 0
+    },
+    {
+      "path": "mini-repo-abc123/src",
+      "type": "dir",
+      "size": 0
+    },
+    {
+      "path": "mini-repo-abc123/assets",
+      "type": "dir",
+      "size": 0
+    },
+    {
+      "path": "mini-repo-abc123/LICENSE",
+      "type": "file",
+      "size": 4,
+      "sha256": "adc37366f403835c1470ab2df93d3837d4719372fc1ef8593d922e06f033f8b2"
+    },
+    {
+      "path": "mini-repo-abc123/assets/logo.png",
+      "type": "file",
+      "size": 16,
+      "sha256": "d9c9bcbbba3f78d5acb0e0223861c44f79e918c161d4ea7b571f5cc6df50797f"
+    },
+    {
+      "path": "mini-repo-abc123/big/generated.js",
+      "type": "file",
+      "size": 5200,
+      "sha256": "89dd7d1970fa9e59e9906b7ac3c07c16639439cf384191a7843a834449f37d10"
+    },
+    {
+      "path": "mini-repo-abc123/data/blob.js",
+      "type": "file",
+      "size": 10,
+      "sha256": "48660bf23665bb76a2caa3de2fdaeafcfb81f560d9728abab292499982624f85"
+    },
+    {
+      "path": "mini-repo-abc123/data/notes.xyz",
+      "type": "file",
+      "size": 12,
+      "sha256": "4a1e67f2fe1d1cc7b31d0ca2ec441da4778203a036a77da10344c85e24ff0f92"
+    },
+    {
+      "path": "mini-repo-abc123/lib/helper.js",
+      "type": "file",
+      "size": 40,
+      "sha256": "765f2803ca860f5dbd3797fc041407b930dd5ba7431cb8a4bdfa36ad55c780bd"
+    },
+    {
+      "path": "mini-repo-abc123/maps/app.js.map",
+      "type": "file",
+      "size": 14,
+      "sha256": "fcef7b4fb29d3eab7ba6209e5d1db8ef29330a6072c8d4169351108f914261db"
+    },
+    {
+      "path": "mini-repo-abc123/node_modules/left-pad/index.js",
+      "type": "file",
+      "size": 20,
+      "sha256": "6e66e366f0aefb84ad8110afcd9b2245702c643c831edf8316ff048fec739d2e"
+    },
+    {
+      "path": "mini-repo-abc123/node_modules/left-pad/package.json",
+      "type": "file",
+      "size": 20,
+      "sha256": "0df761983535ea867422c161bf48e6d80fe7e3800091266b27f194917c6b6d25"
+    },
+    {
+      "path": "mini-repo-abc123/package-lock.json",
+      "type": "file",
+      "size": 23,
+      "sha256": "f66e66d185a139532477c54bd6ad0f4c3cd04cb7803a3a2f23bccfa6e07df037"
+    },
+    {
+      "path": "mini-repo-abc123/src/blanks.py",
+      "type": "file",
+      "size": 2,
+      "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+    },
+    {
+      "path": "mini-repo-abc123/src/crlf.py",
+      "type": "file",
+      "size": 18,
+      "sha256": "8acfc566f0838b6daedaf24a02b89cf868105eda5e0834cb060970290ecc3b40"
+    },
+    {
+      "path": "mini-repo-abc123/src/empty.py",
+      "type": "file",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "mini-repo-abc123/src/lib.rs",
+      "type": "file",
+      "size": 52,
+      "sha256": "19cc7031a385ad61abb1df93d19880cc91e03a5aa6c4bd8466be439e9fdf0454"
+    },
+    {
+      "path": "mini-repo-abc123/src/main.py",
+      "type": "file",
+      "size": 36,
+      "sha256": "19ac61d9bf1bd793ff75a80eab9f7c13585c999013fb5ecb96b996a9a435b6d7"
+    },
+    {
+      "path": "mini-repo-abc123/src/vendor/lib.py",
+      "type": "file",
+      "size": 12,
+      "sha256": "8353afe579a16d27abc038055bf713459ba6ef418c65b143b526a09dd529e500"
+    },
+    {
+      "path": "mini-repo-abc123/types/index.d.ts",
+      "type": "file",
+      "size": 24,
+      "sha256": "72d2bcb9dbf62dd1e9fa4383b86d24296b3a4e3bccd312515b9fd5aad1fc71b9"
+    },
+    {
+      "path": "mini-repo-abc123/web/app.min.js",
+      "type": "file",
+      "size": 24,
+      "sha256": "f04752ae701f52b770672d9f0f1c1d1c0903cd975d20f651bc8fe2d60b34ae7f"
+    },
+    {
+      "path": "mini-repo-abc123/link.py",
+      "type": "symlink",
+      "linkname": "src/main.py",
+      "size": 0
+    },
+    {
+      "path": "mini-repo-abc123/src/copy.py",
+      "type": "hardlink",
+      "linkname": "mini-repo-abc123/src/main.py",
+      "size": 0
+    }
+  ]
+}

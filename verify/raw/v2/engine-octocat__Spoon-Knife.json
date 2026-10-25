@@ -1,0 +1,43 @@
+{
+  "total": 46,
+  "files": 3,
+  "bytes": 1391,
+  "perLanguage": {
+    "Markdown": {
+      "lines": 9,
+      "code": 5,
+      "blank": 4,
+      "comment": 0,
+      "files": 1,
+      "bytes": 780
+    },
+    "HTML": {
+      "lines": 20,
+      "code": 14,
+      "blank": 5,
+      "comment": 1,
+      "files": 1,
+      "bytes": 355
+    },
+    "CSS": {
+      "lines": 17,
+      "code": 15,
+      "blank": 2,
+      "comment": 0,
+      "files": 1,
+      "bytes": 256
+    }
+  },
+  "skipped": 1,
+  "skippedReasons": {
+    "ignored": 0,
+    "binary": 0,
+    "tooLarge": 0,
+    "nonFile": 1,
+    "unknown": 0
+  },
+  "entries": 4,
+  "archiveBytes": 10240,
+  "truncated": false,
+  "ms": 8
+}

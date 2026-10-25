@@ -1,0 +1,11 @@
+# Независимая сверка разбора tar: оракул (Python tarfile) против GNU tar
+# Репозиторий: rust-lang/rustlings, ref main, commit bc8e51115c93
+# Команды:
+#   python3 verify/oracle.py rust-lang/rustlings --no-meta --trace /tmp/rustlings.trace.tsv
+#   curl -sL https://codeload.github.com/rust-lang/rustlings/tar.gz/main -o /tmp/rustlings.tar.gz
+#   tar tzvf /tmp/rustlings.tar.gz > /tmp/rustlings.gnutar.txt
+записей: оракул 371, GNU tar 371
+множества путей совпадают: да (единственное отличие печати: GNU tar пишет "dev-Cargo.toml -> dev/Cargo.toml" для симлинка)
+расхождений тип/размер: 0
+сумма payload: оракул 537534, GNU tar 537534  -> СОВПАДАЕТ
+считано байт 515444 + пропущено(файлы) 22090 = 537534 (payload всего 537534)

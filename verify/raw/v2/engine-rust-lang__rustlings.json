@@ -1,0 +1,115 @@
+{
+  "total": 15734,
+  "files": 290,
+  "bytes": 515444,
+  "perLanguage": {
+    "TOML": {
+      "lines": 1677,
+      "code": 1348,
+      "blank": 283,
+      "comment": 46,
+      "files": 12,
+      "bytes": 60519
+    },
+    "YAML": {
+      "lines": 106,
+      "code": 99,
+      "blank": 5,
+      "comment": 2,
+      "files": 2,
+      "bytes": 2640
+    },
+    "Ignore List": {
+      "lines": 26,
+      "code": 15,
+      "blank": 6,
+      "comment": 5,
+      "files": 2,
+      "bytes": 262
+    },
+    "Markdown": {
+      "lines": 1657,
+      "code": 1184,
+      "blank": 473,
+      "comment": 0,
+      "files": 35,
+      "bytes": 85558
+    },
+    "Rust": {
+      "lines": 11855,
+      "code": 8754,
+      "blank": 1803,
+      "comment": 1298,
+      "files": 222,
+      "bytes": 341440
+    },
+    "Text": {
+      "lines": 10,
+      "code": 10,
+      "blank": 0,
+      "comment": 0,
+      "files": 4,
+      "bytes": 137
+    },
+    "Shell": {
+      "lines": 15,
+      "code": 7,
+      "blank": 4,
+      "comment": 4,
+      "files": 1,
+      "bytes": 242
+    },
+    "CSS": {
+      "lines": 50,
+      "code": 48,
+      "blank": 2,
+      "comment": 0,
+      "files": 1,
+      "bytes": 1004
+    },
+    "Just": {
+      "lines": 5,
+      "code": 4,
+      "blank": 1,
+      "comment": 0,
+      "files": 1,
+      "bytes": 93
+    },
+    "JSON": {
+      "lines": 5,
+      "code": 5,
+      "blank": 0,
+      "comment": 0,
+      "files": 1,
+      "bytes": 57
+    },
+    "SVG": {
+      "lines": 164,
+      "code": 162,
+      "blank": 0,
+      "comment": 2,
+      "files": 3,
+      "bytes": 17031
+    },
+    "HTML": {
+      "lines": 164,
+      "code": 141,
+      "blank": 23,
+      "comment": 0,
+      "files": 6,
+      "bytes": 6461
+    }
+  },
+  "skipped": 81,
+  "skippedReasons": {
+    "ignored": 1,
+    "binary": 0,
+    "tooLarge": 0,
+    "nonFile": 79,
+    "unknown": 1
+  },
+  "entries": 371,
+  "archiveBytes": 808960,
+  "truncated": false,
+  "ms": 22
+}

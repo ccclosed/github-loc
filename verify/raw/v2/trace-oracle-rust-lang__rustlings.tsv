@@ -1,0 +1,372 @@
+path	type	size	lang	decision	reason	lines	code	blank	comment	bytes
+	dir	0		skipped	nonFile					
+.cargo	dir	0		skipped	nonFile					
+.cargo/config.toml	file	35	TOML	counted		2	2	0	0	35
+.github	dir	0		skipped	nonFile					
+.github/workflows	dir	0		skipped	nonFile					
+.github/workflows/rust.yml	file	1214	YAML	counted		56	53	3	0	1214
+.github/workflows/website.yml	file	1426	YAML	counted		50	46	2	2	1426
+.gitignore	file	174	Ignore List	counted		19	10	4	5	174
+.rumdl.toml	file	168	TOML	counted		7	6	1	0	168
+.typos.toml	file	130	TOML	counted		7	6	1	0	130
+CHANGELOG.md	file	57349	Markdown	counted		1014	745	269	0	57349
+CONTRIBUTING.md	file	2659	Markdown	counted		72	50	22	0	2659
+Cargo.lock	file	20995		skipped	ignored					
+Cargo.toml	file	2191	TOML	counted		89	75	12	2	2191
+LICENSE	file	1095		skipped	unknown					
+README.md	file	390	Markdown	counted		7	4	3	0	390
+build.rs	file	176	Rust	counted		5	4	0	1	176
+clippy.toml	file	648	TOML	counted		11	10	1	0	648
+dev-Cargo.toml	symlink	0		skipped	nonFile					
+dev	dir	0		skipped	nonFile					
+dev/Cargo.toml	file	15738	TOML	counted		228	212	6	10	15738
+dev/rustlings-repo.txt	file	110	Other	counted		1	1	0	0	110
+exercises	dir	0		skipped	nonFile					
+exercises/00_intro	dir	0		skipped	nonFile					
+exercises/00_intro/README.md	file	259	Markdown	counted		8	5	3	0	259
+exercises/00_intro/intro1.rs	file	1371	Rust	counted		24	17	1	6	1371
+exercises/00_intro/intro2.rs	file	97	Rust	counted		4	3	0	1	97
+exercises/01_variables	dir	0		skipped	nonFile					
+exercises/01_variables/README.md	file	347	Markdown	counted		9	6	3	0	347
+exercises/01_variables/variables1.rs	file	101	Rust	counted		6	4	1	1	101
+exercises/01_variables/variables2.rs	file	190	Rust	counted		10	8	1	1	190
+exercises/01_variables/variables3.rs	file	121	Rust	counted		6	4	1	1	121
+exercises/01_variables/variables4.rs	file	156	Rust	counted		8	6	1	1	156
+exercises/01_variables/variables5.rs	file	275	Rust	counted		8	6	1	1	275
+exercises/01_variables/variables6.rs	file	125	Rust	counted		6	4	1	1	125
+exercises/02_functions	dir	0		skipped	nonFile					
+exercises/02_functions/README.md	file	246	Markdown	counted		8	5	3	0	246
+exercises/02_functions/functions1.rs	file	144	Rust	counted		5	3	1	1	144
+exercises/02_functions/functions2.rs	file	202	Rust	counted		10	8	1	1	202
+exercises/02_functions/functions3.rs	file	167	Rust	counted		10	8	1	1	167
+exercises/02_functions/functions4.rs	file	566	Rust	counted		22	14	3	5	566
+exercises/02_functions/functions5.rs	file	197	Rust	counted		9	7	1	1	197
+exercises/03_if	dir	0		skipped	nonFile					
+exercises/03_if/README.md	file	244	Markdown	counted		7	4	3	0	244
+exercises/03_if/if1.rs	file	661	Rust	counted		32	20	5	7	661
+exercises/03_if/if2.rs	file	932	Rust	counted		37	27	5	5	932
+exercises/03_if/if3.rs	file	1055	Rust	counted		53	42	7	4	1055
+exercises/04_primitive_types	dir	0		skipped	nonFile					
+exercises/04_primitive_types/README.md	file	327	Markdown	counted		9	6	3	0	327
+exercises/04_primitive_types/primitive_types1.rs	file	384	Rust	counted		15	9	2	4	384
+exercises/04_primitive_types/primitive_types2.rs	file	956	Rust	counted		28	17	3	8	956
+exercises/04_primitive_types/primitive_types3.rs	file	323	Rust	counted		11	8	1	2	323
+exercises/04_primitive_types/primitive_types4.rs	file	338	Rust	counted		16	10	3	3	338
+exercises/04_primitive_types/primitive_types5.rs	file	225	Rust	counted		8	4	2	2	225
+exercises/04_primitive_types/primitive_types6.rs	file	401	Rust	counted		17	10	3	4	401
+exercises/05_vecs	dir	0		skipped	nonFile					
+exercises/05_vecs/README.md	file	861	Markdown	counted		17	13	4	0	861
+exercises/05_vecs/vecs1.rs	file	480	Rust	counted		22	16	3	3	480
+exercises/05_vecs/vecs2.rs	file	501	Rust	counted		26	18	5	3	501
+exercises/06_move_semantics	dir	0		skipped	nonFile					
+exercises/06_move_semantics/README.md	file	443	Markdown	counted		10	6	4	0	443
+exercises/06_move_semantics/move_semantics1.rs	file	410	Rust	counted		24	17	5	2	410
+exercises/06_move_semantics/move_semantics2.rs	file	525	Rust	counted		28	18	7	3	525
+exercises/06_move_semantics/move_semantics3.rs	file	413	Rust	counted		22	16	4	2	413
+exercises/06_move_semantics/move_semantics4.rs	file	407	Rust	counted		18	14	1	3	407
+exercises/06_move_semantics/move_semantics5.rs	file	485	Rust	counted		24	13	7	4	485
+exercises/07_structs	dir	0		skipped	nonFile					
+exercises/07_structs/README.md	file	274	Markdown	counted		8	5	3	0	274
+exercises/07_structs/structs1.rs	file	1095	Rust	counted		47	28	10	9	1095
+exercises/07_structs/structs2.rs	file	1197	Rust	counted		47	38	6	3	1197
+exercises/07_structs/structs3.rs	file	1448	Rust	counted		51	31	10	10	1448
+exercises/08_enums	dir	0		skipped	nonFile					
+exercises/08_enums/README.md	file	606	Markdown	counted		10	7	3	0	606
+exercises/08_enums/enums1.rs	file	302	Rust	counted		12	10	1	1	302
+exercises/08_enums/enums2.rs	file	579	Rust	counted		33	28	4	1	579
+exercises/08_enums/enums3.rs	file	2004	Rust	counted		88	71	13	4	2004
+exercises/09_strings	dir	0		skipped	nonFile					
+exercises/09_strings/README.md	file	473	Markdown	counted		11	8	3	0	473
+exercises/09_strings/strings1.rs	file	239	Rust	counted		9	7	1	1	239
+exercises/09_strings/strings2.rs	file	432	Rust	counted		14	11	2	1	432
+exercises/09_strings/strings3.rs	file	1128	Rust	counted		46	35	7	4	1128
+exercises/09_strings/strings4.rs	file	983	Rust	counted		35	18	11	6	983
+exercises/10_modules	dir	0		skipped	nonFile					
+exercises/10_modules/README.md	file	234	Markdown	counted		7	4	3	0	234
+exercises/10_modules/modules1.rs	file	366	Rust	counted		16	12	2	2	366
+exercises/10_modules/modules2.rs	file	648	Rust	counted		26	17	4	5	648
+exercises/10_modules/modules3.rs	file	524	Rust	counted		13	6	2	5	524
+exercises/11_hashmaps	dir	0		skipped	nonFile					
+exercises/11_hashmaps/README.md	file	571	Markdown	counted		12	8	4	0	571
+exercises/11_hashmaps/hashmaps1.rs	file	1023	Rust	counted		40	21	9	10	1023
+exercises/11_hashmaps/hashmaps2.rs	file	2851	Rust	counted		97	70	13	14	2851
+exercises/11_hashmaps/hashmaps3.rs	file	2465	Rust	counted		77	49	13	15	2465
+exercises/12_options	dir	0		skipped	nonFile					
+exercises/12_options/README.md	file	1012	Markdown	counted		21	17	4	0	1012
+exercises/12_options/options1.rs	file	1092	Rust	counted		36	23	5	8	1092
+exercises/12_options/options2.rs	file	965	Rust	counted		39	27	7	5	965
+exercises/12_options/options3.rs	file	407	Rust	counted		17	13	3	1	407
+exercises/13_error_handling	dir	0		skipped	nonFile					
+exercises/13_error_handling/README.md	file	721	Markdown	counted		12	9	3	0	721
+exercises/13_error_handling/errors1.rs	file	1201	Rust	counted		41	29	4	8	1201
+exercises/13_error_handling/errors2.rs	file	1599	Rust	counted		50	25	8	17	1599
+exercises/13_error_handling/errors3.rs	file	882	Rust	counted		31	18	6	7	882
+exercises/13_error_handling/errors4.rs	file	863	Rust	counted		38	30	5	3	863
+exercises/13_error_handling/errors5.rs	file	1981	Rust	counted		56	34	7	15	1981
+exercises/13_error_handling/errors6.rs	file	2165	Rust	counted		80	59	12	9	2165
+exercises/14_generics	dir	0		skipped	nonFile					
+exercises/14_generics/README.md	file	575	Markdown	counted		11	8	3	0	575
+exercises/14_generics/generics1.rs	file	632	Rust	counted		18	8	3	7	632
+exercises/14_generics/generics2.rs	file	663	Rust	counted		31	22	5	4	663
+exercises/15_traits	dir	0		skipped	nonFile					
+exercises/15_traits/README.md	file	737	Markdown	counted		19	11	8	0	737
+exercises/15_traits/traits1.rs	file	617	Rust	counted		30	22	5	3	617
+exercises/15_traits/traits2.rs	file	490	Rust	counted		22	15	4	3	490
+exercises/15_traits/traits3.rs	file	1067	Rust	counted		38	27	6	5	1067
+exercises/15_traits/traits4.rs	file	798	Rust	counted		35	26	7	2	798
+exercises/15_traits/traits5.rs	file	732	Rust	counted		39	30	7	2	732
+exercises/16_lifetimes	dir	0		skipped	nonFile					
+exercises/16_lifetimes/README.md	file	998	Markdown	counted		22	17	5	0	998
+exercises/16_lifetimes/lifetimes1.rs	file	732	Rust	counted		28	18	4	6	732
+exercises/16_lifetimes/lifetimes2.rs	file	445	Rust	counted		20	16	2	2	445
+exercises/16_lifetimes/lifetimes3.rs	file	314	Rust	counted		16	11	3	2	314
+exercises/17_tests	dir	0		skipped	nonFile					
+exercises/17_tests/README.md	file	227	Markdown	counted		7	4	3	0	227
+exercises/17_tests/tests1.rs	file	467	Rust	counted		23	13	4	6	467
+exercises/17_tests/tests2.rs	file	449	Rust	counted		23	16	3	4	449
+exercises/17_tests/tests3.rs	file	1281	Rust	counted		49	32	7	10	1281
+exercises/18_iterators	dir	0		skipped	nonFile					
+exercises/18_iterators/README.md	file	222	Markdown	counted		8	5	3	0	222
+exercises/18_iterators/iterators1.rs	file	999	Rust	counted		25	16	4	5	999
+exercises/18_iterators/iterators2.rs	file	1423	Rust	counted		57	35	9	13	1423
+exercises/18_iterators/iterators3.rs	file	1935	Rust	counted		75	53	12	10	1935
+exercises/18_iterators/iterators4.rs	file	881	Rust	counted		41	24	5	12	881
+exercises/18_iterators/iterators5.rs	file	4509	Rust	counted		153	114	24	15	4509
+exercises/19_smart_pointers	dir	0		skipped	nonFile					
+exercises/19_smart_pointers/README.md	file	724	Markdown	counted		12	9	3	0	724
+exercises/19_smart_pointers/smart_pointers1.rs	file	1419	Rust	counted		50	30	7	13	1419
+exercises/19_smart_pointers/smart_pointers2.rs	file	3113	Rust	counted		105	69	25	11	3113
+exercises/19_smart_pointers/smart_pointers3.rs	file	1514	Rust	counted		45	16	8	21	1514
+exercises/19_smart_pointers/smart_pointers4.rs	file	2310	Rust	counted		69	43	8	18	2310
+exercises/20_threads	dir	0		skipped	nonFile					
+exercises/20_threads/README.md	file	641	Markdown	counted		10	7	3	0	641
+exercises/20_threads/threads1.rs	file	1105	Rust	counted		37	26	5	6	1105
+exercises/20_threads/threads2.rs	file	1007	Rust	counted		34	20	7	7	1007
+exercises/20_threads/threads3.rs	file	1352	Rust	counted		60	47	10	3	1352
+exercises/21_macros	dir	0		skipped	nonFile					
+exercises/21_macros/README.md	file	700	Markdown	counted		15	11	4	0	700
+exercises/21_macros/macros1.rs	file	150	Rust	counted		10	8	1	1	150
+exercises/21_macros/macros2.rs	file	196	Rust	counted		10	8	1	1	196
+exercises/21_macros/macros3.rs	file	244	Rust	counted		13	10	1	2	244
+exercises/21_macros/macros4.rs	file	303	Rust	counted		15	13	1	1	303
+exercises/22_clippy	dir	0		skipped	nonFile					
+exercises/22_clippy/README.md	file	381	Markdown	counted		10	6	4	0	381
+exercises/22_clippy/clippy1.rs	file	508	Rust	counted		15	6	3	6	508
+exercises/22_clippy/clippy2.rs	file	167	Rust	counted		10	8	1	1	167
+exercises/22_clippy/clippy3.rs	file	843	Rust	counted		30	21	4	5	843
+exercises/23_conversions	dir	0		skipped	nonFile					
+exercises/23_conversions/README.md	file	1605	Markdown	counted		23	14	9	0	1605
+exercises/23_conversions/conversions1.rs	file	592	Rust	counted		24	16	4	4	592
+exercises/23_conversions/conversions2.rs	file	1443	Rust	counted		54	34	9	11	1443
+exercises/23_conversions/conversions3.rs	file	3138	Rust	counted		114	73	17	24	3138
+exercises/23_conversions/conversions4.rs	file	4615	Rust	counted		177	133	27	17	4615
+exercises/23_conversions/conversions5.rs	file	1677	Rust	counted		62	40	10	12	1677
+exercises/24_async	dir	0		skipped	nonFile					
+exercises/24_async/README.md	file	642	Markdown	counted		13	9	4	0	642
+exercises/24_async/async1.rs	file	1634	Rust	counted		40	20	5	15	1634
+exercises/24_async/scores_class_a.txt	file	9	Other	counted		3	3	0	0	9
+exercises/24_async/scores_class_b.txt	file	9	Other	counted		3	3	0	0	9
+exercises/24_async/scores_class_c.txt	file	9	Other	counted		3	3	0	0	9
+exercises/README.md	file	1286	Markdown	counted		27	26	1	0	1286
+exercises/quizzes	dir	0		skipped	nonFile					
+exercises/quizzes/README.md	file	142	Markdown	counted		3	2	1	0	142
+exercises/quizzes/quiz1.rs	file	870	Rust	counted		31	13	4	14	870
+exercises/quizzes/quiz2.rs	file	1640	Rust	counted		63	33	7	23	1640
+exercises/quizzes/quiz3.rs	file	1716	Rust	counted		64	43	6	15	1716
+release-hook.sh	file	242	Shell	counted		15	7	4	4	242
+rustlings-macros	dir	0		skipped	nonFile					
+rustlings-macros/Cargo.toml	file	428	TOML	counted		24	21	3	0	428
+rustlings-macros/info.toml	file	39099	TOML	counted		1229	954	247	28	39099
+rustlings-macros/src	dir	0		skipped	nonFile					
+rustlings-macros/src/lib.rs	file	2280	Rust	counted		77	66	10	1	2280
+solutions	dir	0		skipped	nonFile					
+solutions/00_intro	dir	0		skipped	nonFile					
+solutions/00_intro/intro1.rs	file	212	Rust	counted		5	2	0	3	212
+solutions/00_intro/intro2.rs	file	87	Rust	counted		4	3	0	1	87
+solutions/01_variables	dir	0		skipped	nonFile					
+solutions/01_variables/variables1.rs	file	122	Rust	counted		6	4	1	1	122
+solutions/01_variables/variables2.rs	file	463	Rust	counted		16	8	2	6	463
+solutions/01_variables/variables3.rs	file	393	Rust	counted		15	8	3	4	393
+solutions/01_variables/variables4.rs	file	234	Rust	counted		9	6	1	2	234
+solutions/01_variables/variables5.rs	file	277	Rust	counted		9	6	1	2	277
+solutions/01_variables/variables6.rs	file	123	Rust	counted		6	4	1	1	123
+solutions/02_functions	dir	0		skipped	nonFile					
+solutions/02_functions/functions1.rs	file	155	Rust	counted		8	6	1	1	155
+solutions/02_functions/functions2.rs	file	222	Rust	counted		11	8	1	2	222
+solutions/02_functions/functions3.rs	file	170	Rust	counted		10	8	1	1	170
+solutions/02_functions/functions4.rs	file	324	Rust	counted		17	14	2	1	324
+solutions/02_functions/functions5.rs	file	228	Rust	counted		9	7	1	1	228
+solutions/03_if	dir	0		skipped	nonFile					
+solutions/03_if/if1.rs	file	483	Rust	counted		28	21	5	2	483
+solutions/03_if/if2.rs	file	750	Rust	counted		35	29	5	1	750
+solutions/03_if/if3.rs	file	1120	Rust	counted		54	42	7	5	1120
+solutions/04_primitive_types	dir	0		skipped	nonFile					
+solutions/04_primitive_types/primitive_types1.rs	file	198	Rust	counted		11	10	1	0	198
+solutions/04_primitive_types/primitive_types2.rs	file	561	Rust	counted		21	18	2	1	561
+solutions/04_primitive_types/primitive_types3.rs	file	304	Rust	counted		11	9	1	1	304
+solutions/04_primitive_types/primitive_types4.rs	file	592	Rust	counted		23	13	3	7	592
+solutions/04_primitive_types/primitive_types5.rs	file	157	Rust	counted		8	5	2	1	157
+solutions/04_primitive_types/primitive_types6.rs	file	305	Rust	counted		16	11	3	2	305
+solutions/05_vecs	dir	0		skipped	nonFile					
+solutions/05_vecs/vecs1.rs	file	388	Rust	counted		21	17	3	1	388
+solutions/05_vecs/vecs2.rs	file	423	Rust	counted		25	19	5	1	423
+solutions/06_move_semantics	dir	0		skipped	nonFile					
+solutions/06_move_semantics/move_semantics1.rs	file	461	Rust	counted		25	17	5	3	461
+solutions/06_move_semantics/move_semantics2.rs	file	510	Rust	counted		28	18	7	3	510
+solutions/06_move_semantics/move_semantics3.rs	file	362	Rust	counted		22	16	4	2	362
+solutions/06_move_semantics/move_semantics4.rs	file	420	Rust	counted		19	14	1	4	420
+solutions/06_move_semantics/move_semantics5.rs	file	522	Rust	counted		23	13	6	4	522
+solutions/07_structs	dir	0		skipped	nonFile					
+solutions/07_structs/structs1.rs	file	909	Rust	counted		49	38	10	1	909
+solutions/07_structs/structs2.rs	file	1267	Rust	counted		51	43	6	2	1267
+solutions/07_structs/structs3.rs	file	963	Rust	counted		45	33	9	3	963
+solutions/08_enums	dir	0		skipped	nonFile					
+solutions/08_enums/enums1.rs	file	302	Rust	counted		16	15	1	0	302
+solutions/08_enums/enums2.rs	file	638	Rust	counted		37	33	4	0	638
+solutions/08_enums/enums3.rs	file	2188	Rust	counted		92	78	13	1	2188
+solutions/09_strings	dir	0		skipped	nonFile					
+solutions/09_strings/strings1.rs	file	222	Rust	counted		9	7	1	1	222
+solutions/09_strings/strings2.rs	file	451	Rust	counted		15	11	2	2	451
+solutions/09_strings/strings3.rs	file	1203	Rust	counted		49	38	7	4	1203
+solutions/09_strings/strings4.rs	file	633	Rust	counted		29	17	10	2	633
+solutions/10_modules	dir	0		skipped	nonFile					
+solutions/10_modules/modules1.rs	file	329	Rust	counted		15	12	2	1	329
+solutions/10_modules/modules2.rs	file	532	Rust	counted		23	19	3	1	532
+solutions/10_modules/modules3.rs	file	265	Rust	counted		8	7	1	0	265
+solutions/11_hashmaps	dir	0		skipped	nonFile					
+solutions/11_hashmaps/hashmaps1.rs	file	1114	Rust	counted		42	24	9	9	1114
+solutions/11_hashmaps/hashmaps2.rs	file	2772	Rust	counted		96	71	13	12	2772
+solutions/11_hashmaps/hashmaps3.rs	file	2670	Rust	counted		85	57	14	14	2670
+solutions/12_options	dir	0		skipped	nonFile					
+solutions/12_options/options1.rs	file	1089	Rust	counted		39	28	5	6	1089
+solutions/12_options/options2.rs	file	796	Rust	counted		37	27	7	3	796
+solutions/12_options/options3.rs	file	695	Rust	counted		27	17	4	6	695
+solutions/13_error_handling	dir	0		skipped	nonFile					
+solutions/13_error_handling/errors1.rs	file	944	Rust	counted		37	29	4	4	944
+solutions/13_error_handling/errors2.rs	file	1841	Rust	counted		58	30	9	19	1841
+solutions/13_error_handling/errors3.rs	file	919	Rust	counted		32	19	7	6	919
+solutions/13_error_handling/errors4.rs	file	939	Rust	counted		42	35	6	1	939
+solutions/13_error_handling/errors5.rs	file	1856	Rust	counted		54	34	7	13	1856
+solutions/13_error_handling/errors6.rs	file	2719	Rust	counted		96	64	13	19	2719
+solutions/14_generics	dir	0		skipped	nonFile					
+solutions/14_generics/generics1.rs	file	562	Rust	counted		17	8	3	6	562
+solutions/14_generics/generics2.rs	file	431	Rust	counted		28	22	5	1	431
+solutions/15_traits	dir	0		skipped	nonFile					
+solutions/15_traits/traits1.rs	file	620	Rust	counted		32	25	5	2	620
+solutions/15_traits/traits2.rs	file	534	Rust	counted		27	21	4	2	534
+solutions/15_traits/traits3.rs	file	794	Rust	counted		36	29	6	1	794
+solutions/15_traits/traits4.rs	file	813	Rust	counted		35	26	7	2	813
+solutions/15_traits/traits5.rs	file	722	Rust	counted		39	30	7	2	722
+solutions/16_lifetimes	dir	0		skipped	nonFile					
+solutions/16_lifetimes/lifetimes1.rs	file	699	Rust	counted		24	14	4	6	699
+solutions/16_lifetimes/lifetimes2.rs	file	1018	Rust	counted		29	19	3	7	1018
+solutions/16_lifetimes/lifetimes3.rs	file	348	Rust	counted		18	11	3	4	348
+solutions/17_tests	dir	0		skipped	nonFile					
+solutions/17_tests/tests1.rs	file	538	Rust	counted		24	14	4	6	538
+solutions/17_tests/tests2.rs	file	447	Rust	counted		22	16	3	3	447
+solutions/17_tests/tests3.rs	file	1083	Rust	counted		45	34	7	4	1083
+solutions/18_iterators	dir	0		skipped	nonFile					
+solutions/18_iterators/iterators1.rs	file	1012	Rust	counted		26	16	4	6	1012
+solutions/18_iterators/iterators2.rs	file	1504	Rust	counted		56	37	9	10	1504
+solutions/18_iterators/iterators3.rs	file	2238	Rust	counted		88	64	15	9	2238
+solutions/18_iterators/iterators4.rs	file	2017	Rust	counted		72	44	10	18	2017
+solutions/18_iterators/iterators5.rs	file	5327	Rust	counted		168	128	23	17	5327
+solutions/19_smart_pointers	dir	0		skipped	nonFile					
+solutions/19_smart_pointers/smart_pointers1.rs	file	1309	Rust	counted		47	30	7	10	1309
+solutions/19_smart_pointers/smart_pointers2.rs	file	3091	Rust	counted		102	72	25	5	3091
+solutions/19_smart_pointers/smart_pointers3.rs	file	1528	Rust	counted		45	18	8	19	1528
+solutions/19_smart_pointers/smart_pointers4.rs	file	2235	Rust	counted		69	43	8	18	2235
+solutions/20_threads	dir	0		skipped	nonFile					
+solutions/20_threads/threads1.rs	file	1068	Rust	counted		37	27	5	5	1068
+solutions/20_threads/threads2.rs	file	1217	Rust	counted		41	24	7	10	1217
+solutions/20_threads/threads3.rs	file	1433	Rust	counted		62	48	10	4	1433
+solutions/21_macros	dir	0		skipped	nonFile					
+solutions/21_macros/macros1.rs	file	132	Rust	counted		10	8	1	1	132
+solutions/21_macros/macros2.rs	file	171	Rust	counted		10	8	1	1	171
+solutions/21_macros/macros3.rs	file	202	Rust	counted		13	11	1	1	202
+solutions/21_macros/macros4.rs	file	288	Rust	counted		15	13	1	1	288
+solutions/22_clippy	dir	0		skipped	nonFile					
+solutions/22_clippy/clippy1.rs	file	530	Rust	counted		17	7	4	6	530
+solutions/22_clippy/clippy2.rs	file	183	Rust	counted		10	8	1	1	183
+solutions/22_clippy/clippy3.rs	file	916	Rust	counted		31	21	4	6	916
+solutions/23_conversions	dir	0		skipped	nonFile					
+solutions/23_conversions/conversions1.rs	file	583	Rust	counted		24	16	4	4	583
+solutions/23_conversions/conversions2.rs	file	1474	Rust	counted		57	40	9	8	1474
+solutions/23_conversions/conversions3.rs	file	2928	Rust	counted		118	86	20	12	2928
+solutions/23_conversions/conversions4.rs	file	4998	Rust	counted		192	150	28	14	4998
+solutions/23_conversions/conversions5.rs	file	1549	Rust	counted		60	42	10	8	1549
+solutions/24_async	dir	0		skipped	nonFile					
+solutions/24_async/async1.rs	file	1553	Rust	counted		38	20	5	13	1553
+solutions/README.md	file	316	Markdown	counted		6	4	2	0	316
+solutions/quizzes	dir	0		skipped	nonFile					
+solutions/quizzes/quiz1.rs	file	762	Rust	counted		30	20	4	6	762
+solutions/quizzes/quiz2.rs	file	2780	Rust	counted		90	59	12	19	2780
+solutions/quizzes/quiz3.rs	file	1810	Rust	counted		65	44	7	14	1810
+src	dir	0		skipped	nonFile					
+src/app_state.rs	file	23269	Rust	counted		656	520	97	39	23269
+src/cargo_toml.rs	file	5023	Rust	counted		155	132	15	8	5023
+src/cli.rs	file	1970	Rust	counted		57	30	3	24	1970
+src/cmd.rs	file	5856	Rust	counted		199	159	31	9	5856
+src/dev.rs	file	1265	Rust	counted		46	35	5	6	1265
+src/dev	dir	0		skipped	nonFile					
+src/dev/check.rs	file	13787	Rust	counted		405	330	67	8	13787
+src/dev/new.rs	file	4908	Rust	counted		148	112	33	3	4908
+src/dev/update.rs	file	1282	Rust	counted		44	32	10	2	1282
+src/editor.rs	file	4290	Rust	counted		144	122	22	0	4290
+src/editor	dir	0		skipped	nonFile					
+src/editor/zellij.rs	file	1216	Rust	counted		55	40	13	2	1216
+src/embedded.rs	file	5677	Rust	counted		183	132	35	16	5677
+src/exercise.rs	file	8119	Rust	counted		247	189	33	25	8119
+src/info_file.rs	file	3880	Rust	counted		131	92	16	23	3880
+src/init.rs	file	8727	Rust	counted		241	198	36	7	8727
+src/list.rs	file	5120	Rust	counted		135	119	13	3	5120
+src/list	dir	0		skipped	nonFile					
+src/list/scroll_state.rs	file	2699	Rust	counted		100	83	17	0	2699
+src/list/state.rs	file	15448	Rust	counted		449	378	61	10	15448
+src/main.rs	file	6823	Rust	counted		207	175	28	4	6823
+src/run.rs	file	1890	Rust	counted		60	50	10	0	1890
+src/term.rs	file	7466	Rust	counted		270	219	45	6	7466
+src/watch.rs	file	6780	Rust	counted		193	153	26	14	6780
+src/watch	dir	0		skipped	nonFile					
+src/watch/notify_event.rs	file	4883	Rust	counted		132	113	14	5	4883
+src/watch/state.rs	file	9517	Rust	counted		313	254	53	6	9517
+src/watch/terminal_event.rs	file	2228	Rust	counted		71	61	9	1	2228
+tests	dir	0		skipped	nonFile					
+tests/integration_tests.rs	file	3690	Rust	counted		159	131	26	2	3690
+tests/test_exercises	dir	0		skipped	nonFile					
+tests/test_exercises/dev	dir	0		skipped	nonFile					
+tests/test_exercises/dev/Cargo.toml	file	378	TOML	counted		11	10	1	0	378
+tests/test_exercises/exercises	dir	0		skipped	nonFile					
+tests/test_exercises/exercises/compilation_failure.rs	file	21	Rust	counted		3	3	0	0	21
+tests/test_exercises/exercises/compilation_success.rs	file	13	Rust	counted		1	1	0	0	13
+tests/test_exercises/exercises/not_in_info.rs	file	13	Rust	counted		1	1	0	0	13
+tests/test_exercises/exercises/test_failure.rs	file	100	Rust	counted		9	8	1	0	100
+tests/test_exercises/exercises/test_success.rs	file	118	Rust	counted		9	8	1	0	118
+tests/test_exercises/info.toml	file	275	TOML	counted		19	15	4	0	275
+triagebot.toml	file	392	TOML	counted		9	2	1	6	392
+website	dir	0		skipped	nonFile					
+website/.gitignore	file	88	Ignore List	counted		7	5	2	0	88
+website/config.toml	file	1037	TOML	counted		41	35	6	0	1037
+website/content	dir	0		skipped	nonFile					
+website/content/_index.md	file	541	Markdown	counted		21	16	5	0	541
+website/content/community-exercises	dir	0		skipped	nonFile					
+website/content/community-exercises/index.md	file	3429	Markdown	counted		75	49	26	0	3429
+website/content/setup	dir	0		skipped	nonFile					
+website/content/setup/index.md	file	2752	Markdown	counted		80	52	28	0	2752
+website/content/usage	dir	0		skipped	nonFile					
+website/content/usage/index.md	file	2624	Markdown	counted		53	32	21	0	2624
+website/input.css	file	1004	CSS	counted		50	48	2	0	1004
+website/justfile	file	93	Just	counted		5	4	1	0	93
+website/package.json	file	57	JSON	counted		5	5	0	0	57
+website/static	dir	0		skipped	nonFile					
+website/static/images	dir	0		skipped	nonFile					
+website/static/images/happy_ferris.svg	file	7439	SVG	counted		33	33	0	0	7439
+website/static/images/panic.svg	file	6282	SVG	counted		70	68	0	2	6282
+website/static/images/rust_logo.svg	file	3310	SVG	counted		61	61	0	0	3310
+website/templates	dir	0		skipped	nonFile					
+website/templates/404.html	file	423	HTML	counted		14	11	3	0	423
+website/templates/anchor-link.html	file	92	HTML	counted		2	2	0	0	92
+website/templates/base.html	file	3856	HTML	counted		92	77	15	0	3856
+website/templates/components.html	file	301	HTML	counted		8	8	0	0	301
+website/templates/index.html	file	160	HTML	counted		9	7	2	0	160
+website/templates/page.html	file	1629	HTML	counted		39	36	3	0	1629

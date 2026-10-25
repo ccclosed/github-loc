@@ -1,0 +1,199 @@
+{
+  "total": 34632,
+  "files": 228,
+  "bytes": 1165864,
+  "perLanguage": {
+    "Python": {
+      "lines": 18333,
+      "code": 13291,
+      "blank": 4259,
+      "comment": 783,
+      "files": 83,
+      "bytes": 588784
+    },
+    "reStructuredText": {
+      "lines": 14648,
+      "code": 10129,
+      "blank": 3826,
+      "comment": 693,
+      "files": 79,
+      "bytes": 523049
+    },
+    "TOML": {
+      "lines": 379,
+      "code": 329,
+      "blank": 50,
+      "comment": 0,
+      "files": 5,
+      "bytes": 8659
+    },
+    "HTML": {
+      "lines": 362,
+      "code": 326,
+      "blank": 36,
+      "comment": 0,
+      "files": 20,
+      "bytes": 10474
+    },
+    "YAML": {
+      "lines": 248,
+      "code": 243,
+      "blank": 1,
+      "comment": 4,
+      "files": 8,
+      "bytes": 8474
+    },
+    "Other": {
+      "lines": 155,
+      "code": 140,
+      "blank": 15,
+      "comment": 0,
+      "files": 10,
+      "bytes": 5757
+    },
+    "Markdown": {
+      "lines": 153,
+      "code": 117,
+      "blank": 36,
+      "comment": 0,
+      "files": 6,
+      "bytes": 4671
+    },
+    "CSS": {
+      "lines": 135,
+      "code": 110,
+      "blank": 25,
+      "comment": 0,
+      "files": 2,
+      "bytes": 1714
+    },
+    "SVG": {
+      "lines": 55,
+      "code": 55,
+      "blank": 0,
+      "comment": 0,
+      "files": 3,
+      "bytes": 10765
+    },
+    "Ignore List": {
+      "lines": 36,
+      "code": 36,
+      "blank": 0,
+      "comment": 0,
+      "files": 3,
+      "bytes": 312
+    },
+    "Batchfile": {
+      "lines": 35,
+      "code": 27,
+      "blank": 8,
+      "comment": 0,
+      "files": 1,
+      "bytes": 760
+    },
+    "SQL": {
+      "lines": 28,
+      "code": 22,
+      "blank": 4,
+      "comment": 2,
+      "files": 2,
+      "bytes": 892
+    },
+    "JSON": {
+      "lines": 21,
+      "code": 21,
+      "blank": 0,
+      "comment": 0,
+      "files": 2,
+      "bytes": 488
+    },
+    "Makefile": {
+      "lines": 20,
+      "code": 9,
+      "blank": 4,
+      "comment": 7,
+      "files": 1,
+      "bytes": 634
+    },
+    "EditorConfig": {
+      "lines": 13,
+      "code": 11,
+      "blank": 2,
+      "comment": 0,
+      "files": 1,
+      "bytes": 233
+    },
+    "Shell": {
+      "lines": 7,
+      "code": 6,
+      "blank": 0,
+      "comment": 1,
+      "files": 1,
+      "bytes": 165
+    },
+    "Dotenv": {
+      "lines": 4,
+      "code": 4,
+      "blank": 0,
+      "comment": 0,
+      "files": 1,
+      "bytes": 33
+    }
+  },
+  "skipped": 60,
+  "skippedReasons": {
+    "ignored": 1,
+    "binary": 0,
+    "tooLarge": 0,
+    "nonFile": 52,
+    "unknown": 7
+  },
+  "entries": 288,
+  "archiveBytes": 2007040,
+  "truncated": false,
+  "ms": 503,
+  "oracle": {
+    "version": "1.0.0",
+    "unknownFiles": 7,
+    "unknownByExt": {
+      ".png": 5,
+      ".typed": 1,
+      ".flaskenv": 1
+    },
+    "unknownBinaryExtFiles": 5,
+    "compressedBytes": 739975,
+    "archiveBytesNoPax": 1996800,
+    "tarballRoot": "flask-main",
+    "entriesOutsideRoot": 0,
+    "ignoreProfile": "spec",
+    "skipPrecedence": "ignored > nonFile > tooLarge > unknown > binary; binary = язык определён, но в первых 8192 Б есть NUL",
+    "options": {
+      "countBlankLines": true,
+      "countCommentLines": true,
+      "maxFileBytes": 5242880,
+      "maxArchiveBytes": 125829120
+    },
+    "truncError": null,
+    "mode": "repo",
+    "repo": "pallets/flask",
+    "ref": "main",
+    "commit": "d086db856be187255b8ec61ef409357393020f32",
+    "tarballUrl": "https://codeload.github.com/pallets/flask/tar.gz/main",
+    "ghRepo": {
+      "default_branch": "main",
+      "private": false,
+      "size": 12216,
+      "pushed_at": "2026-10-07T14:02:59Z",
+      "stargazers_count": 75031,
+      "fork": false
+    },
+    "ghLanguages": {
+      "Python": 565106,
+      "HTML": 405,
+      "Shell": 193,
+      "CSS": 18
+    },
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}

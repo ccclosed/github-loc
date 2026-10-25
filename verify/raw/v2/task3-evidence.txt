@@ -1,0 +1,17 @@
+task-3 verification by verifier2, 2026-10-25T10:27:33+03:00
+
+1) python3 verify/fixtures/check_expected.py -> ИТОГО: проверок 46, расхождений 0 (rc=0)
+2) python3 verify/oracle.py --file verify/fixtures/mini.tar.gz --max-file-bytes 2048 -> total=19 files=7, совпадает с fixtures/expected.json run A
+3) ./verify/run-oracle.sh octocat/Spoon-Knife -> rc=0, total=46 files=3 (регенерация JSON идентична прежней out/*.json)
+4) ./verify/run-oracle.sh rust-lang/rustlings -> rc=0, total=15734 files=290, commit=bc8e51115c9304fbd036f5d6fca683e71363468f (совпал с METHOD.md)
+5) оракул не импортирует src/loc: grep -n 'import' verify/oracle.py -> только stdlib
+28:from __future__ import annotations
+30:import argparse
+31:import codecs
+32:import gzip
+33:import json
+34:import os
+35:import re
+36:import sys
+37:import tarfile
+38:import time

@@ -1,0 +1,158 @@
+{
+  "total": 15734,
+  "files": 290,
+  "bytes": 515444,
+  "perLanguage": {
+    "Rust": {
+      "lines": 11855,
+      "code": 8754,
+      "blank": 1803,
+      "comment": 1298,
+      "files": 222,
+      "bytes": 341440
+    },
+    "TOML": {
+      "lines": 1677,
+      "code": 1348,
+      "blank": 283,
+      "comment": 46,
+      "files": 12,
+      "bytes": 60519
+    },
+    "Markdown": {
+      "lines": 1657,
+      "code": 1184,
+      "blank": 473,
+      "comment": 0,
+      "files": 35,
+      "bytes": 85558
+    },
+    "HTML": {
+      "lines": 164,
+      "code": 141,
+      "blank": 23,
+      "comment": 0,
+      "files": 6,
+      "bytes": 6461
+    },
+    "SVG": {
+      "lines": 164,
+      "code": 162,
+      "blank": 0,
+      "comment": 2,
+      "files": 3,
+      "bytes": 17031
+    },
+    "YAML": {
+      "lines": 106,
+      "code": 99,
+      "blank": 5,
+      "comment": 2,
+      "files": 2,
+      "bytes": 2640
+    },
+    "CSS": {
+      "lines": 50,
+      "code": 48,
+      "blank": 2,
+      "comment": 0,
+      "files": 1,
+      "bytes": 1004
+    },
+    "Ignore List": {
+      "lines": 26,
+      "code": 15,
+      "blank": 6,
+      "comment": 5,
+      "files": 2,
+      "bytes": 262
+    },
+    "Shell": {
+      "lines": 15,
+      "code": 7,
+      "blank": 4,
+      "comment": 4,
+      "files": 1,
+      "bytes": 242
+    },
+    "Other": {
+      "lines": 10,
+      "code": 10,
+      "blank": 0,
+      "comment": 0,
+      "files": 4,
+      "bytes": 137
+    },
+    "JSON": {
+      "lines": 5,
+      "code": 5,
+      "blank": 0,
+      "comment": 0,
+      "files": 1,
+      "bytes": 57
+    },
+    "Just": {
+      "lines": 5,
+      "code": 4,
+      "blank": 1,
+      "comment": 0,
+      "files": 1,
+      "bytes": 93
+    }
+  },
+  "skipped": 81,
+  "skippedReasons": {
+    "ignored": 1,
+    "binary": 0,
+    "tooLarge": 0,
+    "nonFile": 79,
+    "unknown": 1
+  },
+  "entries": 371,
+  "archiveBytes": 808960,
+  "truncated": false,
+  "ms": 265,
+  "oracle": {
+    "version": "1.0.0",
+    "unknownFiles": 1,
+    "unknownByExt": {
+      "(none)": 1
+    },
+    "unknownBinaryExtFiles": 0,
+    "compressedBytes": 157323,
+    "archiveBytesNoPax": 806912,
+    "tarballRoot": "rustlings-main",
+    "entriesOutsideRoot": 0,
+    "ignoreProfile": "spec",
+    "skipPrecedence": "ignored > nonFile > tooLarge > unknown > binary; binary = язык определён, но в первых 8192 Б есть NUL",
+    "options": {
+      "countBlankLines": true,
+      "countCommentLines": true,
+      "maxFileBytes": 5242880,
+      "maxArchiveBytes": 125829120
+    },
+    "truncError": null,
+    "mode": "repo",
+    "repo": "rust-lang/rustlings",
+    "ref": "main",
+    "commit": "bc8e51115c9304fbd036f5d6fca683e71363468f",
+    "tarballUrl": "https://codeload.github.com/rust-lang/rustlings/tar.gz/main",
+    "ghRepo": {
+      "default_branch": "main",
+      "private": false,
+      "size": 4461,
+      "pushed_at": "2026-09-29T10:16:31Z",
+      "stargazers_count": 64451,
+      "fork": false
+    },
+    "ghLanguages": {
+      "Rust": 341440,
+      "HTML": 6461,
+      "CSS": 1004,
+      "Shell": 242,
+      "Just": 93
+    },
+    "ghCommit": null,
+    "apiErrors": []
+  }
+}

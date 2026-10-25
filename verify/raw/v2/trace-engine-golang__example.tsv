@@ -1,0 +1,103 @@
+	dir	0	nonFile	type=dir
+LICENSE	file	1453	unknown	ext=(none)
+PATENTS	file	1303	unknown	ext=(none)
+README.md	file	3214	counted	lang=Markdown bytes=3214
+appengine-hello/	dir	0	nonFile	type=dir
+appengine-hello/README.md	file	432	counted	lang=Markdown bytes=432
+appengine-hello/app.go	file	611	counted	lang=Go bytes=611
+appengine-hello/app.yaml	file	460	counted	lang=YAML bytes=460
+appengine-hello/static/	dir	0	nonFile	type=dir
+appengine-hello/static/favicon.ico	file	1150	binary	lang=null
+appengine-hello/static/index.html	file	495	counted	lang=HTML bytes=495
+appengine-hello/static/script.js	file	378	counted	lang=JavaScript bytes=378
+appengine-hello/static/style.css	file	185	counted	lang=CSS bytes=185
+go.mod	file	195	unknown	ext=.mod
+go.sum	file	992	ignored	
+gotypes/	dir	0	nonFile	type=dir
+gotypes/Makefile	file	349	counted	lang=Makefile bytes=349
+gotypes/README.md	file	82695	counted	lang=Markdown bytes=82695
+gotypes/defsuses/	dir	0	nonFile	type=dir
+gotypes/defsuses/main.go	file	1331	counted	lang=Go bytes=1331
+gotypes/doc/	dir	0	nonFile	type=dir
+gotypes/doc/main.go	file	2701	counted	lang=Go bytes=2701
+gotypes/gen.go	file	105	counted	lang=Go bytes=105
+gotypes/go-types.md	file	68558	counted	lang=Markdown bytes=68558
+gotypes/hello/	dir	0	nonFile	type=dir
+gotypes/hello/hello.go	file	86	counted	lang=Go bytes=86
+gotypes/hugeparam/	dir	0	nonFile	type=dir
+gotypes/hugeparam/main.go	file	2240	counted	lang=Go bytes=2240
+gotypes/implements/	dir	0	nonFile	type=dir
+gotypes/implements/main.go	file	1515	counted	lang=Go bytes=1515
+gotypes/lookup/	dir	0	nonFile	type=dir
+gotypes/lookup/lookup.go	file	1504	counted	lang=Go bytes=1504
+gotypes/nilfunc/	dir	0	nonFile	type=dir
+gotypes/nilfunc/main.go	file	2174	counted	lang=Go bytes=2174
+gotypes/pkginfo/	dir	0	nonFile	type=dir
+gotypes/pkginfo/main.go	file	1321	counted	lang=Go bytes=1321
+gotypes/skeleton/	dir	0	nonFile	type=dir
+gotypes/skeleton/main.go	file	3063	counted	lang=Go bytes=3063
+gotypes/typeandvalue/	dir	0	nonFile	type=dir
+gotypes/typeandvalue/main.go	file	3338	counted	lang=Go bytes=3338
+hello/	dir	0	nonFile	type=dir
+hello/go.mod	file	44	unknown	ext=.mod
+hello/hello.go	file	1425	counted	lang=Go bytes=1425
+hello/reverse/	dir	0	nonFile	type=dir
+hello/reverse/example_test.go	file	321	counted	lang=Go bytes=321
+hello/reverse/reverse.go	file	464	counted	lang=Go bytes=464
+hello/reverse/reverse_test.go	file	482	counted	lang=Go bytes=482
+helloserver/	dir	0	nonFile	type=dir
+helloserver/go.mod	file	50	unknown	ext=.mod
+helloserver/server.go	file	1718	counted	lang=Go bytes=1718
+internal/	dir	0	nonFile	type=dir
+internal/cmd/	dir	0	nonFile	type=dir
+internal/cmd/weave/	dir	0	nonFile	type=dir
+internal/cmd/weave/weave.go	file	6784	counted	lang=Go bytes=6784
+outyet/	dir	0	nonFile	type=dir
+outyet/go.mod	file	45	unknown	ext=.mod
+outyet/main.go	file	3036	counted	lang=Go bytes=3036
+outyet/main_test.go	file	2128	counted	lang=Go bytes=2128
+ragserver/	dir	0	nonFile	type=dir
+ragserver/README.md	file	2214	counted	lang=Markdown bytes=2214
+ragserver/ragserver-genkit/	dir	0	nonFile	type=dir
+ragserver/ragserver-genkit/go.mod	file	3612	unknown	ext=.mod
+ragserver/ragserver-genkit/go.sum	file	33242	ignored	
+ragserver/ragserver-genkit/json.go	file	1142	counted	lang=Go bytes=1142
+ragserver/ragserver-genkit/main.go	file	5098	counted	lang=Go bytes=5098
+ragserver/ragserver-langchaingo/	dir	0	nonFile	type=dir
+ragserver/ragserver-langchaingo/go.mod	file	3398	unknown	ext=.mod
+ragserver/ragserver-langchaingo/go.sum	file	43922	ignored	
+ragserver/ragserver-langchaingo/json.go	file	1142	counted	lang=Go bytes=1142
+ragserver/ragserver-langchaingo/main.go	file	4582	counted	lang=Go bytes=4582
+ragserver/ragserver/	dir	0	nonFile	type=dir
+ragserver/ragserver/go.mod	file	2876	unknown	ext=.mod
+ragserver/ragserver/go.sum	file	31047	ignored	
+ragserver/ragserver/json.go	file	1142	counted	lang=Go bytes=1142
+ragserver/ragserver/main.go	file	7224	counted	lang=Go bytes=7224
+ragserver/ragserver/weaviate.go	file	1700	counted	lang=Go bytes=1700
+ragserver/tests/	dir	0	nonFile	type=dir
+ragserver/tests/add-documents.sh	file	690	counted	lang=Shell bytes=690
+ragserver/tests/docker-compose.yml	file	450	counted	lang=YAML bytes=450
+ragserver/tests/query.sh	file	462	counted	lang=Shell bytes=462
+ragserver/tests/weaviate-delete-objects.sh	file	87	counted	lang=Shell bytes=87
+ragserver/tests/weaviate-show-all.sh	file	242	counted	lang=Shell bytes=242
+slog-handler-guide/	dir	0	nonFile	type=dir
+slog-handler-guide/Makefile	file	343	counted	lang=Makefile bytes=343
+slog-handler-guide/README.md	file	36502	counted	lang=Markdown bytes=36502
+slog-handler-guide/guide.md	file	28700	counted	lang=Markdown bytes=28700
+slog-handler-guide/indenthandler1/	dir	0	nonFile	type=dir
+slog-handler-guide/indenthandler1/indent_handler.go	file	2971	counted	lang=Go bytes=2971
+	file	664	nonFile	empty-rel
+slog-handler-guide/indenthandler2/	dir	0	nonFile	type=dir
+slog-handler-guide/indenthandler2/indent_handler.go	file	3911	counted	lang=Go bytes=3911
+	file	2674	nonFile	empty-rel
+slog-handler-guide/indenthandler3/	dir	0	nonFile	type=dir
+slog-handler-guide/indenthandler3/indent_handler.go	file	4291	counted	lang=Go bytes=4291
+	file	1770	nonFile	empty-rel
+slog-handler-guide/indenthandler4/	dir	0	nonFile	type=dir
+slog-handler-guide/indenthandler4/indent_handler.go	file	5141	counted	lang=Go bytes=5141
+	file	1043	nonFile	empty-rel
+	file	1770	nonFile	empty-rel
+template/	dir	0	nonFile	type=dir
+template/image.tmpl	file	162	unknown	ext=.tmpl
+template/index.tmpl	file	703	unknown	ext=.tmpl
+template/main.go	file	2456	counted	lang=Go bytes=2456

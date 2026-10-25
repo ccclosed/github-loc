@@ -1,0 +1,180 @@
+/* Панель под виджетом Languages. Все селекторы — свои (ghloc-*), чужие стили не трогаем. */
+.ghloc-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--fgColor-muted, #59636e);
+}
+
+.ghloc-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.ghloc-total {
+  font-weight: 600;
+  color: var(--fgColor-default, #1f2328);
+}
+
+.ghloc-note {
+  color: var(--fgColor-muted, #59636e);
+}
+
+.ghloc-actions {
+  gap: 6px;
+}
+
+.ghloc-btn {
+  padding: 3px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--fgColor-default, #1f2328);
+  cursor: pointer;
+  background-color: var(--button-default-bgColor-rest, #f6f8fa);
+  border: 1px solid var(--button-default-borderColor-rest, rgba(31, 35, 40, 0.15));
+  border-radius: 6px;
+}
+
+.ghloc-btn:hover:not(:disabled) {
+  background-color: var(--button-default-bgColor-hover, #eef1f4);
+}
+
+.ghloc-btn:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.ghloc-btn-primary {
+  color: var(--button-primary-fgColor-rest, #ffffff);
+  background-color: var(--button-primary-bgColor-rest, #1f883d);
+  border-color: var(--button-primary-borderColor-rest, rgba(31, 35, 40, 0.15));
+}
+
+.ghloc-btn-primary:hover:not(:disabled) {
+  background-color: var(--button-primary-bgColor-hover, #1a7f37);
+}
+
+.ghloc-progress {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  overflow: hidden;
+  background-color: var(--bgColor-neutral-muted, rgba(129, 139, 152, 0.2));
+  border-radius: 999px;
+}
+
+.ghloc-progress-bar {
+  width: 0;
+  height: 100%;
+  background-color: var(--fgColor-accent, #0969da);
+  border-radius: 999px;
+  transition: width 0.2s ease;
+}
+
+.ghloc-progress.ghloc-indeterminate .ghloc-progress-bar {
+  width: 35%;
+  animation: ghloc-slide 1.2s ease-in-out infinite;
+}
+
+@keyframes ghloc-slide {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(320%);
+  }
+}
+
+.ghloc-progress-text {
+  font-variant-numeric: tabular-nums;
+}
+
+.ghloc-error {
+  color: var(--fgColor-danger, #d1242f);
+}
+
+.ghloc-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.ghloc-details-head,
+.ghloc-details-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.ghloc-details-head {
+  font-weight: 600;
+  color: var(--fgColor-muted, #59636e);
+  border-bottom: 1px solid var(--borderColor-muted, rgba(31, 35, 40, 0.15));
+  padding-bottom: 2px;
+}
+
+.ghloc-details-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--fgColor-default, #1f2328);
+}
+
+.ghloc-details-lines,
+.ghloc-details-files {
+  text-align: right;
+  color: var(--fgColor-muted, #59636e);
+}
+
+.ghloc-details-skipped {
+  margin-top: 4px;
+  color: var(--fgColor-muted, #59636e);
+}
+
+.ghloc-lang-lines {
+  margin-left: 4px;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--fgColor-muted, #59636e);
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ghloc-progress.ghloc-indeterminate .ghloc-progress-bar {
+    animation: none;
+    width: 100%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .ghloc-btn {
+    color: var(--fgColor-default, #e6edf3);
+    background-color: var(--button-default-bgColor-rest, #21262d);
+    border-color: var(--button-default-borderColor-rest, #30363d);
+  }
+
+  .ghloc-btn:hover:not(:disabled) {
+    background-color: var(--button-default-bgColor-hover, #30363d);
+  }
+
+  .ghloc-panel {
+    color: var(--fgColor-muted, #9198a1);
+  }
+
+  .ghloc-total,
+  .ghloc-details-name {
+    color: var(--fgColor-default, #e6edf3);
+  }
+}
